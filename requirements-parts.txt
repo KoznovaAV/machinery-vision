@@ -1,0 +1,3 @@
+# Optional local tractor-parts experiment, in addition to requirements.txt.
+rapidocr-onnxruntime==1.4.4
+onnxruntime==1.23.2

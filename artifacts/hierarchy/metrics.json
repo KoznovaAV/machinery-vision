@@ -1,0 +1,39 @@
+{
+  "split_counts": {
+    "train": 431,
+    "family_only_train": 5,
+    "test": 158
+  },
+  "test_label_counts": {
+    "acros_550": 4,
+    "claas_arion": 2,
+    "claas_axion_800": 14,
+    "dt_75": 7,
+    "mtz_1220": 1,
+    "mtz_1221": 12,
+    "mtz_1523": 4,
+    "mtz_80": 28,
+    "mtz_82": 19,
+    "mtz_820": 21,
+    "nh_t5000": 26,
+    "nh_td5050": 4,
+    "other": 2,
+    "outside_arion": 4,
+    "outside_nh_td": 4,
+    "t_150k": 6
+  },
+  "hierarchy_metrics": {
+    "type_correct": 158,
+    "family_correct": 141,
+    "total": 158,
+    "family_answers": 107,
+    "wrong_family_answers": 4,
+    "exact_answers": 0,
+    "mtz_specialist_conditional": {
+      "correct": 37,
+      "total": 68
+    },
+    "warning": "Conditional specialist score assumes correct family routing; not end-to-end accuracy."
+  },
+  "bundle_sha256": "09959dd868f763e3d456d6f80acb4955c97e3b459fccc2b33386ded0be5bbb24"
+}

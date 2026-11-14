@@ -1,0 +1,247 @@
+{
+  "version": "machinery-hierarchy-v1",
+  "types": {
+    "tractor": "Трактор",
+    "combine_harvester": "Зерноуборочный комбайн",
+    "bulldozer": "Бульдозер"
+  },
+  "families": {
+    "mtz_80_family": {
+      "name": "Семейство МТЗ-80/82/820",
+      "type": "tractor"
+    },
+    "mtz_1221_family": {
+      "name": "Семейство МТЗ-1221",
+      "type": "tractor"
+    },
+    "mtz_1523_family": {
+      "name": "Семейство МТЗ-1523",
+      "type": "tractor"
+    },
+    "nh_t5000_family": {
+      "name": "New Holland T5000",
+      "type": "tractor"
+    },
+    "claas_axion_800_family": {
+      "name": "CLAAS AXION 800",
+      "type": "tractor"
+    },
+    "dt_75_family": {
+      "name": "Семейство ДТ-75",
+      "type": "tractor"
+    },
+    "t_150k_family": {
+      "name": "Колёсное семейство Т-150К",
+      "type": "tractor"
+    },
+    "acros_family": {
+      "name": "ACROS",
+      "type": "combine_harvester"
+    }
+  },
+  "labels": {
+    "mtz_80": {
+      "type": "tractor",
+      "family": "mtz_80_family",
+      "resolution": "model_group",
+      "name": "МТЗ-80 / 80.1",
+      "registered_model_members": [
+        "mtz_80_base",
+        "mtz_80_1"
+      ]
+    },
+    "mtz_82": {
+      "type": "tractor",
+      "family": "mtz_80_family",
+      "resolution": "model_group",
+      "name": "МТЗ-82 / 82.1",
+      "registered_model_members": [
+        "mtz_82_base",
+        "mtz_82_1"
+      ]
+    },
+    "mtz_820": {
+      "type": "tractor",
+      "family": "mtz_80_family",
+      "resolution": "model_group",
+      "name": "МТЗ-820 / 820.1",
+      "registered_model_members": [
+        "mtz_820_base",
+        "mtz_820_1"
+      ]
+    },
+    "mtz_1221": {
+      "type": "tractor",
+      "family": "mtz_1221_family",
+      "resolution": "series",
+      "name": "МТЗ-1221, серия",
+      "registered_model_members": []
+    },
+    "mtz_1523": {
+      "type": "tractor",
+      "family": "mtz_1523_family",
+      "resolution": "series",
+      "name": "МТЗ-1523, серия",
+      "registered_model_members": []
+    },
+    "nh_t5000": {
+      "type": "tractor",
+      "family": "nh_t5000_family",
+      "resolution": "series",
+      "name": "New Holland T5000",
+      "registered_model_members": [
+        "nh_t5030",
+        "nh_t5040",
+        "nh_t5050",
+        "nh_t5060",
+        "nh_t5070"
+      ]
+    },
+    "claas_axion_800": {
+      "type": "tractor",
+      "family": "claas_axion_800_family",
+      "resolution": "series",
+      "name": "CLAAS AXION 800",
+      "registered_model_members": []
+    },
+    "dt_75": {
+      "type": "tractor",
+      "family": "dt_75_family",
+      "resolution": "family",
+      "name": "ДТ-75, семейство",
+      "registered_model_members": []
+    },
+    "t_150k": {
+      "type": "tractor",
+      "family": "t_150k_family",
+      "resolution": "family",
+      "name": "Т-150К, колёсное семейство",
+      "registered_model_members": []
+    },
+    "acros_550": {
+      "type": "combine_harvester",
+      "family": "acros_family",
+      "resolution": "model",
+      "name": "ACROS 550",
+      "registered_model_members": [
+        "acros_550"
+      ]
+    }
+  },
+  "specialists": {
+    "mtz_80_family": [
+      "mtz_80",
+      "mtz_82",
+      "mtz_820"
+    ]
+  },
+  "exact_identity_policy": "No automatic exact identity from a series or model-group classifier. Visible markings are evidence candidates, not certification.",
+  "conditions_are_classes": false,
+  "models": {
+    "mtz_80_base": {
+      "name": "МТЗ-80",
+      "legacy_label": "mtz_80",
+      "family": "mtz_80_family",
+      "type": "tractor",
+      "evidence_token": "80",
+      "dedicated_fine_head_trained": false
+    },
+    "mtz_80_1": {
+      "name": "МТЗ-80.1",
+      "legacy_label": "mtz_80",
+      "family": "mtz_80_family",
+      "type": "tractor",
+      "evidence_token": "80.1",
+      "dedicated_fine_head_trained": false
+    },
+    "mtz_82_base": {
+      "name": "МТЗ-82",
+      "legacy_label": "mtz_82",
+      "family": "mtz_80_family",
+      "type": "tractor",
+      "evidence_token": "82",
+      "dedicated_fine_head_trained": false
+    },
+    "mtz_82_1": {
+      "name": "МТЗ-82.1",
+      "legacy_label": "mtz_82",
+      "family": "mtz_80_family",
+      "type": "tractor",
+      "evidence_token": "82.1",
+      "dedicated_fine_head_trained": false
+    },
+    "mtz_820_base": {
+      "name": "МТЗ-820",
+      "legacy_label": "mtz_820",
+      "family": "mtz_80_family",
+      "type": "tractor",
+      "evidence_token": "820",
+      "dedicated_fine_head_trained": false
+    },
+    "mtz_820_1": {
+      "name": "МТЗ-820.1",
+      "legacy_label": "mtz_820",
+      "family": "mtz_80_family",
+      "type": "tractor",
+      "evidence_token": "820.1",
+      "dedicated_fine_head_trained": false
+    },
+    "nh_t5030": {
+      "name": "New Holland T5030",
+      "legacy_label": "nh_t5000",
+      "family": "nh_t5000_family",
+      "type": "tractor",
+      "evidence_token": "T5030",
+      "dedicated_fine_head_trained": false
+    },
+    "nh_t5040": {
+      "name": "New Holland T5040",
+      "legacy_label": "nh_t5000",
+      "family": "nh_t5000_family",
+      "type": "tractor",
+      "evidence_token": "T5040",
+      "dedicated_fine_head_trained": false
+    },
+    "nh_t5050": {
+      "name": "New Holland T5050",
+      "legacy_label": "nh_t5000",
+      "family": "nh_t5000_family",
+      "type": "tractor",
+      "evidence_token": "T5050",
+      "dedicated_fine_head_trained": false
+    },
+    "nh_t5060": {
+      "name": "New Holland T5060",
+      "legacy_label": "nh_t5000",
+      "family": "nh_t5000_family",
+      "type": "tractor",
+      "evidence_token": "T5060",
+      "dedicated_fine_head_trained": false
+    },
+    "nh_t5070": {
+      "name": "New Holland T5070",
+      "legacy_label": "nh_t5000",
+      "family": "nh_t5000_family",
+      "type": "tractor",
+      "evidence_token": "T5070",
+      "dedicated_fine_head_trained": false
+    },
+    "acros_550": {
+      "name": "ACROS 550",
+      "legacy_label": "acros_550",
+      "family": "acros_family",
+      "type": "combine_harvester",
+      "evidence_token": "ACROS 550",
+      "dedicated_fine_head_trained": false
+    }
+  },
+  "environment_attributes": [
+    "mud",
+    "wet_surface",
+    "rain_visible",
+    "snow",
+    "occlusion",
+    "lighting"
+  ],
+  "response_schema": "hierarchical-response-v1"
+}

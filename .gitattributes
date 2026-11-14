@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ckpt binary
+
+# Preserve the exact bytes expected by the hierarchy checksums.
+/configs/machinery_taxonomy.json -text whitespace=cr-at-eol
+/artifacts/hierarchy/hierarchy_bundle.json -text whitespace=cr-at-eol
