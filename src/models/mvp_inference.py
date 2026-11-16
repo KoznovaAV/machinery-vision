@@ -27,18 +27,21 @@ def verify_machine(vector, *, box=None, image_size=None):
     label, score, _ = vote(bundle["head"], vector)
     minimum = bundle.get("minimum_machine_score", 0.80)
     accepted = label == "machine" and score >= minimum
-    evidence = dict(label=label, score=score, minimum_machine_score=minimum,
-                    partial_rescue=False)
+    evidence = dict(label=label, score=score, minimum_machine_score=minimum, partial_rescue=False)
     if not accepted and box is not None and image_size is not None and bundle.get("partial_head"):
         width, height = image_size
         touches_edge = box[0] <= 1 or box[1] <= 1 or box[2] >= width - 1 or box[3] >= height - 1
         if touches_edge:
             fragment, fragment_score, _ = vote(bundle["partial_head"], vector)
             minimum_partial = bundle.get("partial_minimum_score", 0.95)
-            accepted = (fragment == "machine" and fragment_score >= minimum_partial
-                        and qualified(bundle.get("partial_calibration", {}), fragment, fragment_score))
-            evidence.update(partial_label=fragment, partial_score=fragment_score,
-                            partial_rescue=bool(accepted))
+            accepted = (
+                fragment == "machine"
+                and fragment_score >= minimum_partial
+                and qualified(bundle.get("partial_calibration", {}), fragment, fragment_score)
+            )
+            evidence.update(
+                partial_label=fragment, partial_score=fragment_score, partial_rescue=bool(accepted)
+            )
     return accepted, evidence
 
 
@@ -85,21 +88,37 @@ def verify_trailer(vector, *, bundle=None):
         minimum = config["threshold"]
         accepted = margin >= minimum
         evidence = dict(
-            status="assessed", score_kind="cosine_margin", margin=margin,
-            threshold=minimum, attachment_reference=str(keys[negative]),
-            machine_reference=str(keys[positive]), uncertain_role=False,
+            status="assessed",
+            score_kind="cosine_margin",
+            margin=margin,
+            threshold=minimum,
+            attachment_reference=str(keys[negative]),
+            machine_reference=str(keys[positive]),
+            uncertain_role=False,
         )
         if config.get("supplement_head"):
-            label, score, _ = vote(config["supplement_head"], value / norm * config.get("supplement_scale", 20))
+            label, score, _ = vote(
+                config["supplement_head"], value / norm * config.get("supplement_scale", 20)
+            )
             calibration = config.get("supplement_calibration", {})
             attachment = label == "attachment" and qualified(calibration, label, score)
             machine = label == "machine" and qualified(calibration, label, score)
-            accepted = accepted or (margin >= config.get("supplement_minimum_margin", 0) and attachment)
-            calibrated = all(calibration.get(k, {}).get("threshold") is not None for k in ("attachment", "machine"))
-            uncertain = (calibrated and not accepted and not machine
-                         and abs(margin) < config.get("minimum_margin", .03))
-            evidence.update(supplement_label=label, supplement_score=score,
-                            uncertain_role=bool(uncertain))
+            accepted = accepted or (
+                margin >= config.get("supplement_minimum_margin", 0) and attachment
+            )
+            calibrated = all(
+                calibration.get(k, {}).get("threshold") is not None
+                for k in ("attachment", "machine")
+            )
+            uncertain = (
+                calibrated
+                and not accepted
+                and not machine
+                and abs(margin) < config.get("minimum_margin", 0.03)
+            )
+            evidence.update(
+                supplement_label=label, supplement_score=score, uncertain_role=bool(uncertain)
+            )
         return bool(accepted), evidence
     except (OSError, ValueError, KeyError, IndexError):
         return False, dict(status="unavailable")
@@ -136,25 +155,17 @@ def assess_conditions(full_vector, crop_vector, image=None, *, bundle=None):
         vector = full_vector if source == "scene" or attribute == "rain" else crop_vector
         measurements = None
         if source == "state":
-            from src.models.predict import predict_image
-            from src.models.visible_condition import _load_estimator
-
-            try:
-                if image is None:
-                    raise ValueError("Missing source photo")
-                model, transform = _load_estimator()
-                _, _, state, confidence = predict_image(model, image, transform)
-                probability = confidence if state == 1 else 1.0 - confidence
-                probability = np.clip(probability, 1e-5, 1 - 1e-5)
-                vector = np.array([np.log(probability / (1 - probability))])
-            except (OSError, RuntimeError, ValueError):
-                result[attribute] = dict(status="not_assessed", value=None,
-                                         text="Модуль оценки загрязнения недоступен.")
-                continue
+            result[attribute] = dict(
+                status="not_assessed",
+                value=None,
+                text="Неподдерживаемый источник признаков состояния.",
+            )
+            continue
         if source in {"weather_pixels", "scene_weather"}:
             if image is None:
-                result[attribute] = dict(status="not_assessed", value=None,
-                                         text="Для оценки нужен исходный кадр.")
+                result[attribute] = dict(
+                    status="not_assessed", value=None, text="Для оценки нужен исходный кадр."
+                )
                 continue
             measurements = weather_measurements(image)
             vector = measurements * 5
@@ -164,8 +175,9 @@ def assess_conditions(full_vector, crop_vector, image=None, *, bundle=None):
         floor = bundle.get("minimum_scores", {}).get(attribute, {}).get(label, 0.0)
         accepted = qualified(bundle["calibration"][attribute], label, score) and score >= floor
         if attribute == "snow" and bundle.get("snow_support_required"):
-            visible_support = (measurements is not None and measurements[5] >= 0.15
-                               and measurements[6] >= 0.50)
+            visible_support = (
+                measurements is not None and measurements[5] >= 0.15 and measurements[6] >= 0.50
+            )
             accepted = accepted and label == "1" and visible_support
         result[attribute] = dict(
             status="assessed" if accepted else "not_assessed",
@@ -173,10 +185,14 @@ def assess_conditions(full_vector, crop_vector, image=None, *, bundle=None):
             text=names[attribute][int(label)] if accepted else "Недостаточно уверенных признаков.",
             score=score,
         )
-    if (result["snow"].get("value") is True
-            and bundle is not None and bundle.get("withhold_dirt_in_snow")):
+    if (
+        result["snow"].get("value") is True
+        and bundle is not None
+        and bundle.get("withhold_dirt_in_snow")
+    ):
         result["dirty"] = dict(
-            status="not_assessed", value=None,
+            status="not_assessed",
+            value=None,
             text="Снег может скрывать загрязнение; нужен более крупный план поверхности.",
         )
     return result

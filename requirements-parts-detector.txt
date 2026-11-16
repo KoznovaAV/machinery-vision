@@ -1,3 +1,0 @@
-# Optional supervised tractor-parts experiment.
--r requirements-parts.txt
-ultralytics==8.4.14

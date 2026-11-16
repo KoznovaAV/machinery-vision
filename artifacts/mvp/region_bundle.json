@@ -9796,7 +9796,7 @@
   "partial_policy": "edge_only_manual_review",
   "partial_minimum_score": 0.95,
   "trailer_reference": {
-    "path": "artifacts/mvp/trailer_references_round6.npz",
+    "path": "artifacts/mvp/region_references.npz",
     "sha256": "722225ddf2e30662119b435fd86b3052ddc3f188b96a50cba3c3fe5580f68a66",
     "threshold": 0.06099987030029297,
     "score": "nearest_attachment_cosine_minus_nearest_machine_cosine",

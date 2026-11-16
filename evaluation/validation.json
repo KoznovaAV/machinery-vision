@@ -1,0 +1,239 @@
+{
+  "release": "maintenance6-clean-layout",
+  "model_training": "maintenance_round6",
+  "runtime_weights_preserved": true,
+  "artifact_path_only_change": true,
+  "tests_passed": 105,
+  "full_scene_comparison": {
+    "passed": true,
+    "cases": 20,
+    "rows": [
+      {
+        "name": "model_wave2/tractorbg-293982",
+        "passed": true,
+        "checks": {
+          "object_count": true,
+          "uncertain_count": true,
+          "ignored_reasons": true,
+          "prediction_0": true,
+          "prediction_1": true
+        }
+      },
+      {
+        "name": "model_wave2/tractorbg-293984",
+        "passed": true,
+        "checks": {
+          "object_count": true,
+          "uncertain_count": true,
+          "ignored_reasons": true,
+          "prediction_0": true,
+          "prediction_1": true,
+          "prediction_2": true
+        }
+      },
+      {
+        "name": "weather_expansion/resumable-photo-627531",
+        "passed": true,
+        "checks": {
+          "object_count": true,
+          "uncertain_count": true,
+          "ignored_reasons": true,
+          "prediction_0": true
+        }
+      },
+      {
+        "name": "weather_expansion/resumable-photo-78132",
+        "passed": true,
+        "checks": {
+          "object_count": true,
+          "uncertain_count": true,
+          "ignored_reasons": true,
+          "prediction_0": true,
+          "prediction_1": true,
+          "prediction_2": true
+        }
+      },
+      {
+        "name": "axle_round2/axle2-extra-7",
+        "passed": true,
+        "checks": {
+          "object_count": true,
+          "uncertain_count": true,
+          "ignored_reasons": true,
+          "prediction_0": true
+        }
+      },
+      {
+        "name": "round5/r5-143",
+        "passed": true,
+        "checks": {
+          "object_count": true,
+          "uncertain_count": true,
+          "ignored_reasons": true,
+          "prediction_0": true,
+          "prediction_1": true
+        }
+      },
+      {
+        "name": "round5/r5-54",
+        "passed": true,
+        "checks": {
+          "object_count": true,
+          "uncertain_count": true,
+          "ignored_reasons": true,
+          "prediction_0": true
+        }
+      },
+      {
+        "name": "round5/r5b-103",
+        "passed": true,
+        "checks": {
+          "object_count": true,
+          "uncertain_count": true,
+          "ignored_reasons": true,
+          "prediction_0": true
+        }
+      },
+      {
+        "name": "weather4/w4_021",
+        "passed": true,
+        "checks": {
+          "object_count": true,
+          "uncertain_count": true,
+          "ignored_reasons": true,
+          "prediction_0": true
+        }
+      },
+      {
+        "name": "trailer5/t5_c3",
+        "passed": true,
+        "checks": {
+          "object_count": true,
+          "uncertain_count": true,
+          "ignored_reasons": true,
+          "prediction_0": true
+        }
+      },
+      {
+        "name": "trailer5/neg_01",
+        "passed": true,
+        "checks": {
+          "object_count": true,
+          "uncertain_count": true,
+          "ignored_reasons": true
+        }
+      },
+      {
+        "name": "trailer5/neg_05",
+        "passed": true,
+        "checks": {
+          "object_count": true,
+          "uncertain_count": true,
+          "ignored_reasons": true
+        }
+      },
+      {
+        "name": "mud",
+        "passed": true,
+        "checks": {
+          "object_count": true,
+          "uncertain_count": true,
+          "ignored_reasons": true,
+          "prediction_0": true
+        }
+      },
+      {
+        "name": "attachment",
+        "passed": true,
+        "checks": {
+          "object_count": true,
+          "uncertain_count": true,
+          "ignored_reasons": true,
+          "prediction_0": true
+        }
+      },
+      {
+        "name": "multiple",
+        "passed": true,
+        "checks": {
+          "object_count": true,
+          "uncertain_count": true,
+          "ignored_reasons": true,
+          "prediction_0": true,
+          "prediction_1": true,
+          "prediction_2": true
+        }
+      },
+      {
+        "name": "mvp/m004",
+        "passed": true,
+        "checks": {
+          "object_count": true,
+          "uncertain_count": true,
+          "ignored_reasons": true,
+          "prediction_0": true
+        }
+      },
+      {
+        "name": "mvp/m011",
+        "passed": true,
+        "checks": {
+          "object_count": true,
+          "uncertain_count": true,
+          "ignored_reasons": true,
+          "prediction_0": true
+        }
+      },
+      {
+        "name": "mvp/m028",
+        "passed": true,
+        "checks": {
+          "object_count": true,
+          "uncertain_count": true,
+          "ignored_reasons": true,
+          "prediction_0": true
+        }
+      },
+      {
+        "name": "mvp/m000",
+        "passed": true,
+        "checks": {
+          "object_count": true,
+          "uncertain_count": true,
+          "ignored_reasons": true,
+          "prediction_0": true
+        }
+      },
+      {
+        "name": "new_fliegl",
+        "passed": true,
+        "checks": {
+          "object_count": true,
+          "uncertain_count": true,
+          "ignored_reasons": true,
+          "prediction_0": true
+        }
+      }
+    ],
+    "note": "Repeated diagnostic control, not a blinded accuracy estimate."
+  },
+  "training_checks": {
+    "families": {
+      "task": "families",
+      "installed_artifacts_unchanged": true,
+      "automatic_deployment": false
+    },
+    "conditions": {
+      "task": "conditions",
+      "installed_artifacts_unchanged": true,
+      "automatic_deployment": false
+    },
+    "regions": {
+      "task": "regions",
+      "installed_artifacts_unchanged": true,
+      "automatic_deployment": false
+    }
+  },
+  "project_markdown_files": 5,
+  "source_provenance": "Refactored from the published model without retraining installed heads"
+}

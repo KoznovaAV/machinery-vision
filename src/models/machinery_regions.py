@@ -22,7 +22,8 @@ def centered_duplicate(a, b):
     if min(widths + heights) <= 0:
         return False
     intersection = max(0, min(a[2], b[2]) - max(a[0], b[0])) * max(
-        0, min(a[3], b[3]) - max(a[1], b[1]))
+        0, min(a[3], b[3]) - max(a[1], b[1])
+    )
     containment = intersection / min(widths[0] * heights[0], widths[1] * heights[1])
     dx = abs((a[0] + a[2] - b[0] - b[2]) / 2) / min(widths)
     dy = abs((a[1] + a[3] - b[1] - b[3]) / 2) / min(heights)
@@ -40,8 +41,7 @@ def select_regions(raw, width, height, max_objects=5):
             or (box[2] - box[0]) * (box[3] - box[1]) < 0.025 * width * height
         ):
             continue
-        if any(iou(box, r["box"]) > 0.6 or centered_duplicate(box, r["box"])
-               for r in result):
+        if any(iou(box, r["box"]) > 0.6 or centered_duplicate(box, r["box"]) for r in result):
             continue
         label = record["label"].lower()
         kinds = []

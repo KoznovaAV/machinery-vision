@@ -1,74 +1,14 @@
-# Python cache
+.venv/
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-*.pyo
-.Python
-
-# Virtual environments and secrets
-venv/
-env/
-ENV/
-.venv/
+.pytest_cache/
+.cache/
+runs/
+datasets/
+weights/
 .env
 .env.*
 !.env.example
-*.pem
-*.key
-
-# Testing
-.pytest_cache/
-htmlcov/
-.coverage
-coverage.xml
-.mypy_cache/
-
-# IDE and local tooling
-.vscode/
-.idea/
-.claude/
-*.swp
-*.swo
-.ipynb_checkpoints
-*.ipynb
-
-# Build
-build/
-dist/
-*.egg-info/
-
-# Локальные логи
 *.log
-
-# OS files
-Thumbs.db
-.DS_Store
-
-# Веса моделей
-/weights/
-*.ckpt
-*.pt
-*.pth
-*.onnx
-*.safetensors
-
-# Данные: в git только заглушка probe и демо-таблица VIN
-/data/*
-!/data/real_clean_probe/
-/data/real_clean_probe/*
-!/data/real_clean_probe/.gitkeep
-!/data/vin_lookup.json
-
-# Артефакты запусков
-/output/
-/Ultralytics/
-lightning_logs/
-wandb/
-
-# Локальные архивы и демо-фото
-/Archives/
-/demo_photos/
 *.zip
-*.7z
-*.tar.gz
+*.sha256

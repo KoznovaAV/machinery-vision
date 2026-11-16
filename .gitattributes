@@ -1,32 +1,5 @@
 * text=auto eol=lf
-*.png binary
-*.jpg binary
-*.jpeg binary
-*.ckpt binary
-
-# Preserve the exact bytes expected by the hierarchy checksums.
+*.py -text whitespace=cr-at-eol
 /configs/machinery_taxonomy.json -text whitespace=cr-at-eol
-/artifacts/hierarchy/hierarchy_bundle.json -text whitespace=cr-at-eol
-
-# Release fingerprints require byte-identical checkout on all platforms.
-/scripts/predict_machinery_hierarchy.py -text whitespace=cr-at-eol
-/scripts/render_hierarchy_review.py -text whitespace=cr-at-eol
-/scripts/serve_hierarchy_review.py -text whitespace=cr-at-eol
-/scripts/check_mvp_release.py -text whitespace=cr-at-eol
-/src/models/mvp_inference.py -text whitespace=cr-at-eol
-/src/models/hierarchy.py -text whitespace=cr-at-eol
-/src/models/trailer_filter.py -text whitespace=cr-at-eol
-/src/models/image_visibility.py -text whitespace=cr-at-eol
-/src/models/condition_features.py -text whitespace=cr-at-eol
-/src/models/visible_condition.py -text whitespace=cr-at-eol
-/src/config/machinery_taxonomy.py -text whitespace=cr-at-eol
-/src/config/hierarchy_artifacts.py -text whitespace=cr-at-eol
-/configs/machinery_taxonomy.json -text whitespace=cr-at-eol
-/scripts/benchmark_tractor_localization.py -text whitespace=cr-at-eol
-/scripts/benchmark_grouped_recognition.py -text whitespace=cr-at-eol
-/scripts/benchmark_front_axle.py -text whitespace=cr-at-eol
-/scripts/analyze_model_marking.py -text whitespace=cr-at-eol
-/scripts/predict_tractor_conditions.py -text whitespace=cr-at-eol
-/requirements-hierarchy.txt -text whitespace=cr-at-eol
 /artifacts/mvp/*.json -text whitespace=cr-at-eol
 *.npz binary

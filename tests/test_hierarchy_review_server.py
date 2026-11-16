@@ -3,7 +3,7 @@ from io import BytesIO
 from fastapi.testclient import TestClient
 from PIL import Image
 
-from scripts.serve_hierarchy_review import create_app
+from scripts.web import create_app
 
 
 def photo():
@@ -66,13 +66,15 @@ def test_inference_failure_does_not_leak_internal_error_to_web_page(tmp_path):
 
 
 def test_standalone_trailer_is_explained_without_machine_card():
-    from scripts.render_hierarchy_review import render
-    page=render({'objects':[],'ignored_regions':[{'reason':'semantic_trailer'}]})
-    assert 'Обнаружен прицеп' in page
-    assert 'Машина 1' not in page
+    from scripts.render_review import render
+
+    page = render({"objects": [], "ignored_regions": [{"reason": "semantic_trailer"}]})
+    assert "Обнаружен прицеп" in page
+    assert "Машина 1" not in page
 
 
 def test_uncertain_region_is_visible_without_machine_identity():
-    from scripts.render_hierarchy_review import render
-    page=render({'objects':[],'uncertain_regions':[{'bbox':[0,0,10,10]}]})
-    assert 'Неподтверждённая область' in page and 'Машина 1' not in page
+    from scripts.render_review import render
+
+    page = render({"objects": [], "uncertain_regions": [{"bbox": [0, 0, 10, 10]}]})
+    assert "Неподтверждённая область" in page and "Машина 1" not in page

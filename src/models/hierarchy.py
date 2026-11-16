@@ -98,14 +98,16 @@ def branded_marking_family(marking):
         if not 0.20 <= y / height <= 0.75:
             continue
         for line in lines:
-            if line.get("confidence", 0) < 0.95 or not re.search(pattern, line.get("text", "").upper()):
+            if line.get("confidence", 0) < 0.95 or not re.search(
+                pattern, line.get("text", "").upper()
+            ):
                 continue
             brand = line.get("box", [])
             if len(brand) != 4:
                 continue
             dx = ((brand[0] + brand[2]) / 2 - x) / width
             dy = ((brand[1] + brand[3]) / 2 - y) / height
-            if dx * dx + dy * dy <= 0.20 ** 2:
+            if dx * dx + dy * dy <= 0.20**2:
                 return family
     return None
 
@@ -129,17 +131,23 @@ def unsupported_nh_marking(marking):
     def overlaps(a, b):
         if len(a) != 4 or len(b) != 4:
             return False
-        intersection = max(0, min(a[2], b[2]) - max(a[0], b[0])) * max(0, min(a[3], b[3]) - max(a[1], b[1]))
-        union = (a[2]-a[0])*(a[3]-a[1]) + (b[2]-b[0])*(b[3]-b[1]) - intersection
+        intersection = max(0, min(a[2], b[2]) - max(a[0], b[0])) * max(
+            0, min(a[3], b[3]) - max(a[1], b[1])
+        )
+        union = (a[2] - a[0]) * (a[3] - a[1]) + (b[2] - b[0]) * (b[3] - b[1]) - intersection
         return union > 0 and intersection / union >= 0.05
 
     full, body = marking.get("full", []), marking.get("body", [])
     brands = []
     for a in full:
         for b in body:
-            if (min(a.get("confidence", 0), b.get("confidence", 0)) >= 0.95
-                    and all(re.search(r"NEW\s*HOLLAND", line.get("text", "").upper()) for line in (a, b))
-                    and overlaps(a.get("box", []), b.get("box", []))):
+            if (
+                min(a.get("confidence", 0), b.get("confidence", 0)) >= 0.95
+                and all(
+                    re.search(r"NEW\s*HOLLAND", line.get("text", "").upper()) for line in (a, b)
+                )
+                and overlaps(a.get("box", []), b.get("box", []))
+            ):
                 brands.append(a["box"])
     candidates = set()
     for a in full:
@@ -148,13 +156,13 @@ def unsupported_nh_marking(marking):
             if not common or not overlaps(a.get("box", []), b.get("box", [])):
                 continue
             box = a["box"]
-            x, y = (box[0]+box[2])/2, (box[1]+box[3])/2
+            x, y = (box[0] + box[2]) / 2, (box[1] + box[3]) / 2
             if not 0.20 <= y / height <= 0.75:
                 continue
             for brand in brands:
-                dx = ((brand[0]+brand[2])/2-x)/width
-                dy = ((brand[1]+brand[3])/2-y)/height
-                if dx*dx+dy*dy <= 0.20**2:
+                dx = ((brand[0] + brand[2]) / 2 - x) / width
+                dy = ((brand[1] + brand[3]) / 2 - y) / height
+                if dx * dx + dy * dy <= 0.20**2:
                     candidates.update(common)
     trained = {item.get("evidence_token") for item in CATALOG["models"].values()}
     candidates -= trained
@@ -250,7 +258,11 @@ def predict_hierarchy(bundle, vector, marking=None, detected_type=None):
         family=family if known else None,
         family_candidate=family,
         classifier_family_candidate=classifier_family,
-        candidate_source="unsupported_marking" if unsupported_marking else "branded_marking" if marking_hint else "visual_classifiers",
+        candidate_source=(
+            "unsupported_marking"
+            if unsupported_marking
+            else "branded_marking" if marking_hint else "visual_classifiers"
+        ),
         unsupported_model_marking=unsupported_marking,
         family_name=FAMILY_NAMES.get(family) if known else None,
         family_candidate_name=FAMILY_NAMES.get(family),
@@ -267,10 +279,16 @@ def predict_hierarchy(bundle, vector, marking=None, detected_type=None):
         type_conflict=type_conflict,
         reason=(
             f"Видна маркировка New Holland {unsupported_marking}; эта серия отсутствует в обученном справочнике."
-            if unsupported_marking else "Семейство определено; точная модель не подтверждена."
-            if known
-            else "Маркировка и классификатор расходятся; кандидат указан по маркировке, нужна проверка человеком."
-            if marking_hint else "Недостаточно согласованных подтверждений семейства и точной модели."
+            if unsupported_marking
+            else (
+                "Семейство определено; точная модель не подтверждена."
+                if known
+                else (
+                    "Маркировка и классификатор расходятся; кандидат указан по маркировке, нужна проверка человеком."
+                    if marking_hint
+                    else "Недостаточно согласованных подтверждений семейства и точной модели."
+                )
+            )
         ),
         requested_photos=required_details(family),
         details=dict(

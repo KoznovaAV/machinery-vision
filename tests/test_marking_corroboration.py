@@ -1,6 +1,6 @@
 """Checks of spatial corroboration and non-exact marking hints."""
 
-from scripts.analyze_model_marking import corroborate, labels_in_text, revised_suggestion
+from src.models.markings import corroborate, labels_in_text, revised_suggestion
 
 
 def line(text, box=(0, 0, 100, 20), confidence=0.99):
@@ -36,7 +36,7 @@ def test_unknown_marking_can_only_flag_outside_supported_list():
 
 
 def test_marking_hint_never_promotes_family_only():
-    from scripts.analyze_model_marking import guard_decision
+    from src.models.markings import guard_decision
 
     evidence = corroborate([line("820")], [line("820")])
     base = dict(status="family_only", suggestion="mtz_820", model=None, family="mtz_belarus")
@@ -46,7 +46,7 @@ def test_marking_hint_never_promotes_family_only():
 
 
 def test_future_marking_vetoes_wrong_exact_answer():
-    from scripts.analyze_model_marking import guard_decision
+    from src.models.markings import guard_decision
 
     evidence = corroborate([line("1523")], [line("1523")])
     base = dict(status="experimental_match", suggestion="mtz_1221", model="mtz_1221")
