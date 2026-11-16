@@ -43,7 +43,8 @@
     "scripts/web.py": "13329913ec2ae5a39ed29f15ce1f41f2e51435b6659ce7a07b3de743d38da5e5",
     "scripts/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
     "requirements.txt": "be5542b10657774ed435df8109a986194896b56f4b7ba5c8829b3b2a3d351110",
-    "configs/machinery_taxonomy.json": "2f83739b3dfdf90e8c6b7c9cc568972072cd72cd1ba77270c6bffa80d9632687"
+    "configs/machinery_taxonomy.json": "2f83739b3dfdf90e8c6b7c9cc568972072cd72cd1ba77270c6bffa80d9632687",
+    "scripts/benchmark.py": "efb57dc11ba1d8d589b7be9d7af5122ad014660922f2dafdf7ddbbc58e2d6c94"
   },
   "validation": "evaluation/validation.json",
   "model_card": "docs/MODEL_CARD.md",

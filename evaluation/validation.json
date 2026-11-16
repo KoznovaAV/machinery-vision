@@ -1,9 +1,8 @@
 {
-  "release": "maintenance6-clean-layout",
+  "release": "maintenance6-web-demo",
   "model_training": "maintenance_round6",
   "runtime_weights_preserved": true,
-  "artifact_path_only_change": true,
-  "tests_passed": 105,
+  "tests_passed": 113,
   "full_scene_comparison": {
     "passed": true,
     "cases": 20,
@@ -215,7 +214,7 @@
         }
       }
     ],
-    "note": "Repeated diagnostic control, not a blinded accuracy estimate."
+    "note": "Repeated diagnostic control; not an independent accuracy estimate."
   },
   "training_checks": {
     "families": {
@@ -234,5 +233,1504 @@
       "automatic_deployment": false
     }
   },
-  "project_markdown_files": 5
+  "project_markdown_files": 5,
+  "verified_on": "2026-11-16",
+  "inference_source_commit": "f9713bcd6178a2b4c7339e39977818a47bfed5cc",
+  "dataset_audit": {
+    "passed": true,
+    "errors": [],
+    "hashed_images": 814,
+    "train_rows": 515,
+    "core_control_rows": 158,
+    "region_rows": 597,
+    "condition_overlap_note": [
+      "source-395e2eeac82bfcc0",
+      "source-3a220c1d72f52eeb",
+      "source-47ebca126c2d4061",
+      "source-55311d722943e163",
+      "source-aac12c4bca751bcf",
+      "source-b8417c0507abb68b"
+    ]
+  },
+  "benchmark_protocol": {
+    "classification": "Cached full/crop embeddings; no OCR, detector or scene refusals.",
+    "state": "Cached embeddings and source pixels; no scene visibility refusals.",
+    "independent_accuracy_estimate": false,
+    "input_sha256": {
+      "datasets/manifest.json": "3301d1e76d3d924ebe7315c3a2c0141702815d05cd2f77ca8d2b261015cb8d33",
+      "datasets/features/recognition.npz": "ad41ffce8058ecb7f5fa2b012b2afb5975ee94dedaee464b3089a7fa8c7ee732",
+      "datasets/features/index.json": "5d1190f4ea7e109ca38f21a2397c25e22f28c9bc6f97058807c58cb4eb8da0c0",
+      "artifacts/mvp/hierarchy_bundle.json": "44316a1df46476ec086f8ebdd92c7b63ea491dc20fb1adcab04197f0c93a6fa5",
+      "artifacts/mvp/condition_bundle.json": "0f89766d2e985f0ace7c108486506702c9a5487a02cb9b8393a25cd22a9220cc",
+      "configs/machinery_taxonomy.json": "2f83739b3dfdf90e8c6b7c9cc568972072cd72cd1ba77270c6bffa80d9632687"
+    }
+  },
+  "historical_ocr_report": {
+    "test": {
+      "total": 158,
+      "correct_answers": 103,
+      "wrong_answers": 2,
+      "answers": 105
+    },
+    "freshly_reproduced": false,
+    "limitation": "The complete historical OCR cache is not shipped; current published classification metrics use saved features without OCR."
+  },
+  "demo_photo_check": {
+    "photos": 30,
+    "independent_accuracy_estimate": false,
+    "by_family": {
+      "mtz_80_family": {
+        "photos": 6,
+        "correct_confirmed": 4
+      },
+      "mtz_1221_family": {
+        "photos": 2,
+        "correct_confirmed": 1
+      },
+      "mtz_1523_family": {
+        "photos": 2,
+        "correct_confirmed": 0
+      },
+      "nh_t5000_family": {
+        "photos": 2,
+        "correct_confirmed": 1
+      },
+      "claas_axion_800_family": {
+        "photos": 2,
+        "correct_confirmed": 1
+      },
+      "dt_75_family": {
+        "photos": 2,
+        "correct_confirmed": 1
+      },
+      "t_150k_family": {
+        "photos": 2,
+        "correct_confirmed": 0
+      },
+      "acros_family": {
+        "photos": 2,
+        "correct_confirmed": 0
+      }
+    },
+    "rows": [
+      {
+        "id": "01",
+        "dataset_key": "axle_round2/axle2-2-0",
+        "reference_label": "mtz_80",
+        "condition_reference": {},
+        "sha256": "56957d379dcf25a3d63c4a6b91d555d23d9c6cfe99ecf5983752a21a49a893cb",
+        "observed": {
+          "objects": [
+            {
+              "family": "mtz_80_family",
+              "family_candidate": "mtz_80_family",
+              "label_candidate": "mtz_82",
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "02",
+        "dataset_key": "axle_round2/axle2-3-0",
+        "reference_label": "mtz_80",
+        "condition_reference": {},
+        "sha256": "dee79758617e5a55660fb5752b69e84a01cce6014ade94cc72798f564fe38832",
+        "observed": {
+          "objects": [
+            {
+              "family": "mtz_80_family",
+              "family_candidate": "mtz_80_family",
+              "label_candidate": "mtz_80",
+              "condition": "dirty",
+              "state": {
+                "dirty": {
+                  "status": "assessed",
+                  "value": true,
+                  "text": "Есть признаки загрязнения"
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "03",
+        "dataset_key": "expansion/bazar-3-01",
+        "reference_label": "mtz_82",
+        "condition_reference": {},
+        "sha256": "17f525563dc95b724daa84d0bb671670e76b3ea8cf5d76df98b02409703801aa",
+        "observed": {
+          "objects": [
+            {
+              "family": "mtz_80_family",
+              "family_candidate": "mtz_80_family",
+              "label_candidate": "mtz_82",
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "04",
+        "dataset_key": "expansion/tractorbg-183818",
+        "reference_label": "mtz_82",
+        "condition_reference": {},
+        "sha256": "4f708683511407d0addfffacb72a80ed4f04e81dc92491201e672e6be95b299d",
+        "observed": {
+          "objects": [
+            {
+              "family": null,
+              "family_candidate": "mtz_80_family",
+              "label_candidate": "mtz_82",
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Снег может скрывать загрязнение; нужен более крупный план поверхности."
+                },
+                "snow": {
+                  "status": "assessed",
+                  "value": true,
+                  "text": "В зоне машины виден снег"
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "05",
+        "dataset_key": "axle_round2/axle2-1-0",
+        "reference_label": "mtz_820",
+        "condition_reference": {},
+        "sha256": "d00d02e0d8919b3d3f9acb6ca1f1b6b43fcde82ab8cfb8ac6ca7fa0856ba6f84",
+        "observed": {
+          "objects": [
+            {
+              "family": "mtz_80_family",
+              "family_candidate": "mtz_80_family",
+              "label_candidate": "mtz_820",
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "06",
+        "dataset_key": "axle_round2/axle2-extra-0",
+        "reference_label": "mtz_820",
+        "condition_reference": {},
+        "sha256": "729999e598be92fd577f4d4f99e61cadd0c6c6bdc793b5868bc462913dec09da",
+        "observed": {
+          "objects": [
+            {
+              "family": null,
+              "family_candidate": "mtz_80_family",
+              "label_candidate": "mtz_820",
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            },
+            {
+              "family": null,
+              "family_candidate": "acros_family",
+              "label_candidate": null,
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "07",
+        "dataset_key": "expansion/bazar-1-01",
+        "reference_label": "mtz_1221",
+        "condition_reference": {},
+        "sha256": "1ba2158c0d1dcf3bdadb288791d58ec3a086ac3774a3ee02064e3af4779656a0",
+        "observed": {
+          "objects": [
+            {
+              "family": "mtz_1221_family",
+              "family_candidate": "mtz_1221_family",
+              "label_candidate": "mtz_1221",
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "08",
+        "dataset_key": "expansion/tractorbg-1111706",
+        "reference_label": "mtz_1221",
+        "condition_reference": {},
+        "sha256": "b43398a42fafe8d917122e3a13e101d8f873af00114d2f7bce9dd0a9a51d14cf",
+        "observed": {
+          "objects": [
+            {
+              "family": null,
+              "family_candidate": "mtz_1221_family",
+              "label_candidate": "mtz_1221",
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            },
+            {
+              "family": null,
+              "family_candidate": "mtz_1523_family",
+              "label_candidate": "mtz_1523",
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "09",
+        "dataset_key": "field_registry/field1-11",
+        "reference_label": "mtz_1523",
+        "condition_reference": {},
+        "sha256": "71fbe709750df1d847eae2385741ba55c2412b325a08e09f630958622ddc5684",
+        "observed": {
+          "objects": [
+            {
+              "family": null,
+              "family_candidate": "mtz_1523_family",
+              "label_candidate": "mtz_1523",
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            },
+            {
+              "family": null,
+              "family_candidate": null,
+              "label_candidate": null,
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Машина видна частично: для определения семейства и состояния нужен полный кадр."
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Машина видна частично: для определения семейства и состояния нужен полный кадр."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Машина видна частично: для определения семейства и состояния нужен полный кадр."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Машина видна частично: для определения семейства и состояния нужен полный кадр."
+                }
+              }
+            }
+          ],
+          "ignored": [],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "10",
+        "dataset_key": "field_registry/round4-mtz1523-8",
+        "reference_label": "mtz_1523",
+        "condition_reference": {},
+        "sha256": "eeebd43d1a9c5e6c270725ce7125d20b0b8137239659870c7fb81906a5aa74a2",
+        "observed": {
+          "objects": [
+            {
+              "family": null,
+              "family_candidate": "mtz_1523_family",
+              "label_candidate": "mtz_1523",
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "11",
+        "dataset_key": "model_wave2/tractorbg-191734",
+        "reference_label": "nh_t5000",
+        "condition_reference": {},
+        "sha256": "039a5038ceaf2a991975b5e7b1b7a2cb55c63eed30e2a7ef7d1bd76183399c88",
+        "observed": {
+          "objects": [
+            {
+              "family": null,
+              "family_candidate": "nh_t5000_family",
+              "label_candidate": "nh_t5000",
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "12",
+        "dataset_key": "model_wave2/tractorbg-614862",
+        "reference_label": "nh_t5000",
+        "condition_reference": {},
+        "sha256": "bf99a8a324b011c1befb5aa79c103b043b3ec20ae8153ca5851cdf30744cafc9",
+        "observed": {
+          "objects": [
+            {
+              "family": "nh_t5000_family",
+              "family_candidate": "nh_t5000_family",
+              "label_candidate": "nh_t5000",
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "13",
+        "dataset_key": "model_wave2/tractorbg-293981",
+        "reference_label": "claas_axion_800",
+        "condition_reference": {},
+        "sha256": "1ce8ef497229a7726422592dd3c025743c32eb52cba4c8a0573d4aded2b7bf6d",
+        "observed": {
+          "objects": [
+            {
+              "family": null,
+              "family_candidate": "claas_axion_800_family",
+              "label_candidate": "claas_axion_800",
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "14",
+        "dataset_key": "model_wave2/tractorbg-965693",
+        "reference_label": "claas_axion_800",
+        "condition_reference": {},
+        "sha256": "c4f614f72c01cd6a4a5b2e15ca7ce2e7139df72948a8810b213dabcaa85d96be",
+        "observed": {
+          "objects": [
+            {
+              "family": "claas_axion_800_family",
+              "family_candidate": "claas_axion_800_family",
+              "label_candidate": "claas_axion_800",
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "15",
+        "dataset_key": "field_registry/round4-29",
+        "reference_label": "dt_75",
+        "condition_reference": {},
+        "sha256": "fbb607edaffeea027b4e7db69ad55b6f19d52c475bd3aa5f4377390fba307573",
+        "observed": {
+          "objects": [
+            {
+              "family": "dt_75_family",
+              "family_candidate": "dt_75_family",
+              "label_candidate": "dt_75",
+              "condition": "dirty",
+              "state": {
+                "dirty": {
+                  "status": "assessed",
+                  "value": true,
+                  "text": "Есть признаки загрязнения"
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "16",
+        "dataset_key": "old_heldout/tractorbg-887586",
+        "reference_label": "dt_75",
+        "condition_reference": {},
+        "sha256": "271509a0de1e2fb2e69aa87edd423accd6c8347c327bdac9a383bef9241b3594",
+        "observed": {
+          "objects": [
+            {
+              "family": null,
+              "family_candidate": "dt_75_family",
+              "label_candidate": "dt_75",
+              "condition": "dirty",
+              "state": {
+                "dirty": {
+                  "status": "assessed",
+                  "value": true,
+                  "text": "Есть признаки загрязнения"
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            },
+            {
+              "family": null,
+              "family_candidate": "mtz_80_family",
+              "label_candidate": "mtz_82",
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            },
+            {
+              "family": null,
+              "family_candidate": "dt_75_family",
+              "label_candidate": null,
+              "condition": "dirty",
+              "state": {
+                "dirty": {
+                  "status": "assessed",
+                  "value": true,
+                  "text": "Есть признаки загрязнения"
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "17",
+        "dataset_key": "field_registry/field1-7",
+        "reference_label": "t_150k",
+        "condition_reference": {},
+        "sha256": "fec07de0098d438281937aa6e91e3dba16734386af185be34f5cfb70ddfcea3d",
+        "observed": {
+          "objects": [
+            {
+              "family": null,
+              "family_candidate": "t_150k_family",
+              "label_candidate": "t_150k",
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "18",
+        "dataset_key": "old_heldout/tractorbg-949130",
+        "reference_label": "t_150k",
+        "condition_reference": {},
+        "sha256": "226ce2fb2393fdb30c706d886b8da472c227a4015e74b9bfbed9f8df6b6a5741",
+        "observed": {
+          "objects": [
+            {
+              "family": null,
+              "family_candidate": "t_150k_family",
+              "label_candidate": "t_150k",
+              "condition": "dirty",
+              "state": {
+                "dirty": {
+                  "status": "assessed",
+                  "value": true,
+                  "text": "Есть признаки загрязнения"
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            },
+            {
+              "family": null,
+              "family_candidate": null,
+              "label_candidate": null,
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Машина видна частично: для определения семейства и состояния нужен полный кадр."
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Машина видна частично: для определения семейства и состояния нужен полный кадр."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Машина видна частично: для определения семейства и состояния нужен полный кадр."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Машина видна частично: для определения семейства и состояния нужен полный кадр."
+                }
+              }
+            },
+            {
+              "family": null,
+              "family_candidate": "t_150k_family",
+              "label_candidate": "t_150k",
+              "condition": "dirty",
+              "state": {
+                "dirty": {
+                  "status": "assessed",
+                  "value": true,
+                  "text": "Есть признаки загрязнения"
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "19",
+        "dataset_key": "field_registry/field1-14",
+        "reference_label": "acros_550",
+        "condition_reference": {},
+        "sha256": "710438f60fe5629448ea14b16134f87d86f5cd3da17aabf8022b39f31d8f3aab",
+        "observed": {
+          "objects": [
+            {
+              "family": null,
+              "family_candidate": "acros_family",
+              "label_candidate": "acros_550",
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "20",
+        "dataset_key": "round5/r5-141",
+        "reference_label": "acros_550",
+        "condition_reference": {},
+        "sha256": "1d3a57740c1834eddae9cd98c96eff4e843d0e1567741690fa07fe60e7e15dd4",
+        "observed": {
+          "objects": [
+            {
+              "family": null,
+              "family_candidate": "acros_family",
+              "label_candidate": "acros_550",
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "21",
+        "dataset_key": "mvp/m027",
+        "reference_label": null,
+        "condition_reference": {
+          "dirty": 1,
+          "snow": 0,
+          "rain": 0,
+          "wet": null
+        },
+        "sha256": "e6a989a35e82349827b9f0a8cf410eff52675b1fb8678daf958c12d29df37dc5",
+        "observed": {
+          "objects": [
+            {
+              "family": null,
+              "family_candidate": "dt_75_family",
+              "label_candidate": "dt_75",
+              "condition": "dirty",
+              "state": {
+                "dirty": {
+                  "status": "assessed",
+                  "value": true,
+                  "text": "Есть признаки загрязнения"
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "22",
+        "dataset_key": "prior_weather/0",
+        "reference_label": null,
+        "condition_reference": {
+          "dirty": 1,
+          "snow": 0,
+          "rain": 0,
+          "wet": null
+        },
+        "sha256": "f21ef9824eec736b32a3a99ed6c0539a6f9f36b6a629867a109b7c8f280c580d",
+        "observed": {
+          "objects": [
+            {
+              "family": "mtz_80_family",
+              "family_candidate": "mtz_80_family",
+              "label_candidate": "mtz_80",
+              "condition": "dirty",
+              "state": {
+                "dirty": {
+                  "status": "assessed",
+                  "value": true,
+                  "text": "Есть признаки загрязнения"
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "23",
+        "dataset_key": "mvp/n003",
+        "reference_label": null,
+        "condition_reference": {
+          "dirty": null,
+          "snow": 1,
+          "rain": 0,
+          "wet": null
+        },
+        "sha256": "357a773a799dc029afef355a43b16b30f30accae3e0f864489c20eb3f5f42922",
+        "observed": {
+          "objects": [
+            {
+              "family": null,
+              "family_candidate": "mtz_80_family",
+              "label_candidate": "mtz_80",
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Снег может скрывать загрязнение; нужен более крупный план поверхности."
+                },
+                "snow": {
+                  "status": "assessed",
+                  "value": true,
+                  "text": "В зоне машины виден снег"
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "24",
+        "dataset_key": "mvp/n004",
+        "reference_label": null,
+        "condition_reference": {
+          "dirty": null,
+          "snow": 1,
+          "rain": 0,
+          "wet": null
+        },
+        "sha256": "6d57a1f05b3050a450d0733feef62fe27caa151dd60cea492924033d1748c16a",
+        "observed": {
+          "objects": [
+            {
+              "family": null,
+              "family_candidate": "mtz_80_family",
+              "label_candidate": "mtz_80",
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Снег может скрывать загрязнение; нужен более крупный план поверхности."
+                },
+                "snow": {
+                  "status": "assessed",
+                  "value": true,
+                  "text": "В зоне машины виден снег"
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "25",
+        "dataset_key": "winter2/b003",
+        "reference_label": "other",
+        "condition_reference": {
+          "dirty": 0,
+          "snow": 0,
+          "rain": 1,
+          "wet": 1
+        },
+        "sha256": "392ab5ad97ed0afa73a8fda01a4f7b8cbb776698d64f020994ce7baf1adcb6de",
+        "observed": {
+          "objects": [
+            {
+              "family": null,
+              "family_candidate": "mtz_1523_family",
+              "label_candidate": "mtz_1523",
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            },
+            {
+              "family": null,
+              "family_candidate": "claas_axion_800_family",
+              "label_candidate": "claas_axion_800",
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            },
+            {
+              "family": null,
+              "family_candidate": "mtz_1523_family",
+              "label_candidate": "mtz_1523",
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "26",
+        "dataset_key": "attachment",
+        "reference_label": null,
+        "condition_reference": {},
+        "sha256": "d19c42e44c57dd212c1c8ed7101c2bdf79250975866a429fc02a531368307174",
+        "observed": {
+          "objects": [
+            {
+              "family": null,
+              "family_candidate": "mtz_1523_family",
+              "label_candidate": "mtz_1523",
+              "condition": "dirty",
+              "state": {
+                "dirty": {
+                  "status": "assessed",
+                  "value": true,
+                  "text": "Есть признаки загрязнения"
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [
+            "unconfirmed_region"
+          ],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "27",
+        "dataset_key": "round5/r5b-103",
+        "reference_label": null,
+        "condition_reference": {},
+        "sha256": "6dcdcb7c2b50ac06a7826818364b69026370bd6a19d6152898d05399f9ebb74b",
+        "observed": {
+          "objects": [
+            {
+              "family": null,
+              "family_candidate": "claas_axion_800_family",
+              "label_candidate": "claas_axion_800",
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [
+            "semantic_trailer",
+            "composite_duplicate"
+          ],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "28",
+        "dataset_key": "trailer5/neg_01",
+        "reference_label": null,
+        "condition_reference": {},
+        "sha256": "400289de2b1825bc8f8ef3ec1603d2f5aead4adc76e6dd596db4998f121e633c",
+        "observed": {
+          "objects": [],
+          "ignored": [
+            "attachment"
+          ],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "29",
+        "dataset_key": "new_fliegl",
+        "reference_label": null,
+        "condition_reference": {},
+        "sha256": "f35643924eb33d45a9e5cecceb6418133b9567408a1d32cdf01a3fa4c1a865a8",
+        "observed": {
+          "objects": [
+            {
+              "family": null,
+              "family_candidate": "acros_family",
+              "label_candidate": "acros_550",
+              "condition": "not_assessed",
+              "state": {
+                "dirty": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [
+            "unconfirmed_region"
+          ],
+          "uncertain": 0
+        }
+      },
+      {
+        "id": "30",
+        "dataset_key": "mud",
+        "reference_label": null,
+        "condition_reference": {
+          "dirty": 1
+        },
+        "sha256": "a88bd71eb69e8d76e1622bab9f9486cd20aca2bcabe1aff0bac8db7600831967",
+        "observed": {
+          "objects": [
+            {
+              "family": "mtz_80_family",
+              "family_candidate": "mtz_80_family",
+              "label_candidate": "mtz_80",
+              "condition": "dirty",
+              "state": {
+                "dirty": {
+                  "status": "assessed",
+                  "value": true,
+                  "text": "Есть признаки загрязнения"
+                },
+                "snow": {
+                  "status": "not_assessed",
+                  "value": null,
+                  "text": "Недостаточно уверенных признаков."
+                },
+                "rain": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                },
+                "wet": {
+                  "status": "not_assessed",
+                  "text": "Недостаточно проверенных данных для оценки."
+                }
+              }
+            }
+          ],
+          "ignored": [],
+          "uncertain": 0
+        }
+      }
+    ]
+  },
+  "training_checks_scope": "Recorded candidate-training checks; not rerun during this documentation audit."
 }

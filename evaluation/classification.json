@@ -2,10 +2,10 @@
   "test": {
     "total": 158,
     "family_correct": 142,
-    "answers": 105,
-    "wrong_answers": 2,
+    "answers": 106,
+    "wrong_answers": 3,
     "correct_answers": 103,
-    "label_correct": 111,
+    "label_correct": 106,
     "by_class": {
       "acros_550": {
         "total": 4,
@@ -18,8 +18,8 @@
       "claas_arion": {
         "total": 2,
         "family_correct": 0,
-        "answers": 0,
-        "wrong_answers": 0,
+        "answers": 1,
+        "wrong_answers": 1,
         "correct_answers": 0,
         "label_correct": 0
       },
@@ -69,7 +69,7 @@
         "answers": 25,
         "wrong_answers": 0,
         "correct_answers": 25,
-        "label_correct": 13
+        "label_correct": 12
       },
       "mtz_82": {
         "total": 19,
@@ -77,7 +77,7 @@
         "answers": 16,
         "wrong_answers": 0,
         "correct_answers": 16,
-        "label_correct": 11
+        "label_correct": 10
       },
       "mtz_820": {
         "total": 21,
@@ -85,7 +85,7 @@
         "answers": 17,
         "wrong_answers": 0,
         "correct_answers": 17,
-        "label_correct": 15
+        "label_correct": 12
       },
       "nh_t5000": {
         "total": 26,
@@ -311,7 +311,7 @@
         "expected_family": "mtz_80_family",
         "candidate": "mtz_80_family",
         "family": "mtz_80_family",
-        "label": "mtz_82"
+        "label": "mtz_80"
       },
       {
         "key": "expansion/tractorbg-183821",
@@ -399,7 +399,7 @@
         "expected_family": "mtz_80_family",
         "candidate": "mtz_80_family",
         "family": "mtz_80_family",
-        "label": "mtz_820"
+        "label": "mtz_82"
       },
       {
         "key": "mtz_model_pilot/commons-159869516",
@@ -478,7 +478,7 @@
         "expected": "claas_arion",
         "expected_family": "unknown",
         "candidate": "claas_axion_800_family",
-        "family": null,
+        "family": "claas_axion_800_family",
         "label": "claas_axion_800"
       },
       {
@@ -1063,7 +1063,7 @@
         "expected_family": "mtz_80_family",
         "candidate": "mtz_80_family",
         "family": "mtz_80_family",
-        "label": "mtz_80"
+        "label": "mtz_82"
       },
       {
         "key": "round4/round4-14",
@@ -1103,7 +1103,7 @@
         "expected_family": "mtz_80_family",
         "candidate": "mtz_80_family",
         "family": "mtz_80_family",
-        "label": "mtz_820"
+        "label": "mtz_82"
       },
       {
         "key": "field_registry/field1-7",
@@ -1335,7 +1335,7 @@
         "expected_family": "mtz_80_family",
         "candidate": "mtz_80_family",
         "family": "mtz_80_family",
-        "label": "mtz_820"
+        "label": "mtz_82"
       },
       {
         "key": "round5/r5b-41",
@@ -1401,11 +1401,12 @@
         "family": "nh_t5000_family",
         "label": "nh_t5000"
       }
-    ]
+    ],
+    "protocol": "saved_features_without_ocr_without_detector_or_scene_refusal"
   },
   "winter_test": {
     "total": 12,
-    "family_correct": 7,
+    "family_correct": 5,
     "answers": 7,
     "wrong_answers": 3,
     "correct_answers": 4,
@@ -1413,7 +1414,7 @@
     "by_class": {
       "None": {
         "total": 12,
-        "family_correct": 7,
+        "family_correct": 5,
         "answers": 7,
         "wrong_answers": 3,
         "correct_answers": 4,
@@ -1457,9 +1458,9 @@
         "key": "mvp/m011",
         "expected": null,
         "expected_family": "mtz_80_family",
-        "candidate": "mtz_80_family",
+        "candidate": "mtz_1221_family",
         "family": null,
-        "label": "mtz_82"
+        "label": "mtz_1221"
       },
       {
         "key": "mvp/m016",
@@ -1473,9 +1474,9 @@
         "key": "mvp/m028",
         "expected": null,
         "expected_family": "unknown",
-        "candidate": "unknown",
+        "candidate": "mtz_1221_family",
         "family": null,
-        "label": null
+        "label": "mtz_1221"
       },
       {
         "key": "mvp/n002",
@@ -1517,7 +1518,8 @@
         "family": null,
         "label": "claas_axion_800"
       }
-    ]
+    ],
+    "protocol": "saved_features_without_ocr_without_detector_or_scene_refusal"
   },
   "fresh_test": {
     "total": 9,
@@ -1617,7 +1619,8 @@
         "family": "mtz_80_family",
         "label": "mtz_80"
       }
-    ]
+    ],
+    "protocol": "saved_features_without_ocr_without_detector_or_scene_refusal"
   },
   "new_photos_test": {
     "total": 3,
@@ -1661,6 +1664,36 @@
         "family": null,
         "label": "nh_t5000"
       }
-    ]
+    ],
+    "protocol": "saved_features_without_ocr_without_detector_or_scene_refusal"
+  },
+  "additional_test": {
+    "total": 1,
+    "family_correct": 1,
+    "answers": 1,
+    "wrong_answers": 0,
+    "correct_answers": 1,
+    "label_correct": 1,
+    "by_class": {
+      "nh_t5000": {
+        "total": 1,
+        "family_correct": 1,
+        "answers": 1,
+        "wrong_answers": 0,
+        "correct_answers": 1,
+        "label_correct": 1
+      }
+    },
+    "rows": [
+      {
+        "key": "trailer5/t5_c3",
+        "expected": "nh_t5000",
+        "expected_family": "nh_t5000_family",
+        "candidate": "nh_t5000_family",
+        "family": "nh_t5000_family",
+        "label": "nh_t5000"
+      }
+    ],
+    "protocol": "saved_features_without_ocr_without_detector_or_scene_refusal"
   }
 }
