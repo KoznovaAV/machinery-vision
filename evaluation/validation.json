@@ -234,6 +234,5 @@
       "automatic_deployment": false
     }
   },
-  "project_markdown_files": 5,
-  "source_provenance": "Refactored from the published model without retraining installed heads"
+  "project_markdown_files": 5
 }

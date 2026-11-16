@@ -8,7 +8,7 @@ from urllib.parse import quote
 from src.config.machinery_taxonomy import CATALOG, LABELS, TYPE_NAMES
 
 
-def render(data, asset_root=None):
+def render(data, asset_root=None, *, public_demo=False):
     def esc(value):
         return html.escape(str(value or ""))
 
@@ -100,8 +100,13 @@ def render(data, asset_root=None):
             '<aside class="notice"><h2>Неподтверждённая область</h2>'
             + picture
             + "<p>Возможно, это прицеп, орудие или фрагмент машины. "
-            "Не считаем отдельной самоходной машиной без проверки человеком.</p></aside>"
+            "Самоходная машина не подтверждена.</p></aside>"
         )
+    privacy = (
+        '<p class="notice">Временное демо. Доступ к файлам результата — 20 минут. Временные файлы удаляются автоматически. Фотографии не используются для обучения.</p>'
+        if public_demo
+        else ""
+    )
     return (
         """<!doctype html><html lang="ru">
 <meta charset="utf-8">
@@ -125,6 +130,7 @@ dd small{display:block;font-weight:400;color:#566476}
 <input name="file" type="file" accept="image/jpeg,image/png,image/webp" required></label>
 <button>Проверить фото</button></form>
 <section class="grid">"""
+        + privacy
         + content
         + "</section></main></html>"
     )

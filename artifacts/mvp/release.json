@@ -1,5 +1,5 @@
 {
-  "round": "maintenance6-clean-layout",
+  "round": "maintenance6-web-demo",
   "model_training": "maintenance_round6",
   "artifacts": {
     "condition_bundle.json": "0f89766d2e985f0ace7c108486506702c9a5487a02cb9b8393a25cd22a9220cc",
@@ -30,15 +30,17 @@
     "src/training/candidates.py": "b93675b1522cb2a5a625429fd9d5651c96af2b48081ae42f27deea877e137875",
     "src/training/grouped.py": "7fab79e2575d8a27694af431230757bc5ec9dcc241ba58a64a63909cd76701a5",
     "src/training/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "src/web/public.py": "a725075ca6c961befe856c743826fc5d71dceb28c5eb607fe1e626122a35ed37",
+    "src/web/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
     "scripts/audit_data.py": "49b00f7d3699ff17d0feaa92c7db13f6e8f814a42f42bf5f5703f5086872a6a0",
     "scripts/build_features.py": "7babcc6cbededd7a989a2d1f16d4299eed63792e97a8fbb3604366f169d2a3b9",
     "scripts/check_release.py": "22c21c5f2bd5e85fa792647678d0475dbfe60a21555ccdf79105ca8fadd45474",
     "scripts/evaluate.py": "d696be78f5573aaa2576140a72827a26c382684e82b982cf31f287664285d434",
     "scripts/predict.py": "e097d558d016c269a52acf3281b76aeeeaaced6c974eb2584a96fa5555871a60",
-    "scripts/render_review.py": "24b4ffb737f42f24e9e8d396c6d615a5aaddf5178e3a2d5d9d934daf444e7968",
+    "scripts/render_review.py": "465b40547e886d0832170036c352972b55cd5cab1ce8463fd7d8f1de9e227909",
     "scripts/setup_weights.py": "87f8683868c5b5fef1ea4d933a2a4c60303dd2ae4651c7cd72f2a964c08701ee",
     "scripts/train.py": "6db67a980b6e1675446e920453020a07425f7a7b49212b5131d538444c264673",
-    "scripts/web.py": "df2ccfcf52c68f84d13137ac0875d6a69ef8143f9b667a71386a080f51dba4ec",
+    "scripts/web.py": "13329913ec2ae5a39ed29f15ce1f41f2e51435b6659ce7a07b3de743d38da5e5",
     "scripts/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
     "requirements.txt": "be5542b10657774ed435df8109a986194896b56f4b7ba5c8829b3b2a3d351110",
     "configs/machinery_taxonomy.json": "2f83739b3dfdf90e8c6b7c9cc568972072cd72cd1ba77270c6bffa80d9632687"
@@ -47,5 +49,6 @@
   "model_card": "docs/MODEL_CARD.md",
   "datasets": "datasets/manifest.json",
   "automatic_training": false,
-  "automatic_deployment": false
+  "automatic_deployment": false,
+  "interface_version": "public-demo-v1"
 }
