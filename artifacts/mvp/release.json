@@ -44,7 +44,8 @@
     "scripts/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
     "requirements.txt": "be5542b10657774ed435df8109a986194896b56f4b7ba5c8829b3b2a3d351110",
     "configs/machinery_taxonomy.json": "f60f89c1507072b83567b36439e20b5cf301321686b2c8932571dfde0827396b",
-    "scripts/benchmark.py": "efb57dc11ba1d8d589b7be9d7af5122ad014660922f2dafdf7ddbbc58e2d6c94"
+    "scripts/benchmark.py": "efb57dc11ba1d8d589b7be9d7af5122ad014660922f2dafdf7ddbbc58e2d6c94",
+    "scripts/verify_resources.py": "29f2ed24aaeb9bc2ba216caa0fa93ea94102ec38689bed0f55fae68e46f620a7"
   },
   "validation": "evaluation/validation.json",
   "model_card": "docs/MODEL_CARD.md",

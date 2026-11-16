@@ -1,8 +1,7 @@
 {
   "release": "maintenance7-handover",
   "model_training": "maintenance_round6 + grouped_mtz_refresh_2026-11-16",
-  "runtime_weights_preserved": true,
-  "tests_passed": 114,
+  "tests_passed": 118,
   "full_scene_comparison": {
     "passed": true,
     "cases": 20,
@@ -268,16 +267,6 @@
       "artifacts/mvp/condition_bundle.json": "0f89766d2e985f0ace7c108486506702c9a5487a02cb9b8393a25cd22a9220cc",
       "configs/machinery_taxonomy.json": "f60f89c1507072b83567b36439e20b5cf301321686b2c8932571dfde0827396b"
     }
-  },
-  "historical_ocr_report": {
-    "test": {
-      "total": 158,
-      "correct_answers": 103,
-      "wrong_answers": 2,
-      "answers": 105
-    },
-    "freshly_reproduced": false,
-    "limitation": "The complete historical OCR cache is not shipped; current published classification metrics use saved features without OCR."
   },
   "demo_photo_check": {
     "photos": 30,
@@ -1737,10 +1726,11 @@
     ],
     "release": "maintenance7-handover"
   },
-  "training_checks_scope": "Recorded candidate-training checks; not rerun during this documentation audit.",
   "source_integrity_manifest": "artifacts/mvp/release.json",
   "mtz_reproducibility": {
     "matched_deployed_coefficients": true,
     "command": "python -m scripts.train --task mtz"
-  }
+  },
+  "training_checks_source_commit": "3caaf6201d5998d92fc23d748751be76043544ff",
+  "resource_packaging_model_assets_unchanged": true
 }

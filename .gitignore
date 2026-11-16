@@ -12,3 +12,8 @@ weights/
 *.log
 *.zip
 *.sha256
+
+offline/
+test-photos/
+RESOURCES_MANIFEST.json
+RESOURCES.txt
