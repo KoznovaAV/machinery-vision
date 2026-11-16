@@ -1,8 +1,8 @@
 {
-  "release": "maintenance6-web-demo",
-  "model_training": "maintenance_round6",
+  "release": "maintenance7-handover",
+  "model_training": "maintenance_round6 + grouped_mtz_refresh_2026-11-16",
   "runtime_weights_preserved": true,
-  "tests_passed": 113,
+  "tests_passed": 114,
   "full_scene_comparison": {
     "passed": true,
     "cases": 20,
@@ -214,7 +214,7 @@
         }
       }
     ],
-    "note": "Repeated diagnostic control; not an independent accuracy estimate."
+    "note": "Repeated diagnostic control, not a blinded accuracy estimate."
   },
   "training_checks": {
     "families": {
@@ -231,11 +231,15 @@
       "task": "regions",
       "installed_artifacts_unchanged": true,
       "automatic_deployment": false
+    },
+    "mtz": {
+      "task": "mtz",
+      "installed_artifacts_unchanged": true,
+      "automatic_deployment": false
     }
   },
   "project_markdown_files": 5,
   "verified_on": "2026-11-16",
-  "inference_source_commit": "f9713bcd6178a2b4c7339e39977818a47bfed5cc",
   "dataset_audit": {
     "passed": true,
     "errors": [],
@@ -260,9 +264,9 @@
       "datasets/manifest.json": "3301d1e76d3d924ebe7315c3a2c0141702815d05cd2f77ca8d2b261015cb8d33",
       "datasets/features/recognition.npz": "ad41ffce8058ecb7f5fa2b012b2afb5975ee94dedaee464b3089a7fa8c7ee732",
       "datasets/features/index.json": "5d1190f4ea7e109ca38f21a2397c25e22f28c9bc6f97058807c58cb4eb8da0c0",
-      "artifacts/mvp/hierarchy_bundle.json": "44316a1df46476ec086f8ebdd92c7b63ea491dc20fb1adcab04197f0c93a6fa5",
+      "artifacts/mvp/hierarchy_bundle.json": "af91e7c5b9ddae1e698287445bb12b14f39cd5fa5b7cb56af7403002d986a181",
       "artifacts/mvp/condition_bundle.json": "0f89766d2e985f0ace7c108486506702c9a5487a02cb9b8393a25cd22a9220cc",
-      "configs/machinery_taxonomy.json": "2f83739b3dfdf90e8c6b7c9cc568972072cd72cd1ba77270c6bffa80d9632687"
+      "configs/machinery_taxonomy.json": "f60f89c1507072b83567b36439e20b5cf301321686b2c8932571dfde0827396b"
     }
   },
   "historical_ocr_report": {
@@ -1015,7 +1019,7 @@
             {
               "family": null,
               "family_candidate": "mtz_80_family",
-              "label_candidate": "mtz_82",
+              "label_candidate": "mtz_80",
               "condition": "not_assessed",
               "state": {
                 "dirty": {
@@ -1702,7 +1706,7 @@
             {
               "family": "mtz_80_family",
               "family_candidate": "mtz_80_family",
-              "label_candidate": "mtz_80",
+              "label_candidate": "mtz_82",
               "condition": "dirty",
               "state": {
                 "dirty": {
@@ -1730,7 +1734,13 @@
           "uncertain": 0
         }
       }
-    ]
+    ],
+    "release": "maintenance7-handover"
   },
-  "training_checks_scope": "Recorded candidate-training checks; not rerun during this documentation audit."
+  "training_checks_scope": "Recorded candidate-training checks; not rerun during this documentation audit.",
+  "source_integrity_manifest": "artifacts/mvp/release.json",
+  "mtz_reproducibility": {
+    "matched_deployed_coefficients": true,
+    "command": "python -m scripts.train --task mtz"
+  }
 }

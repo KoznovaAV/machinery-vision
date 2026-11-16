@@ -121,11 +121,9 @@
     "acros_550": {
       "type": "combine_harvester",
       "family": "acros_family",
-      "resolution": "model",
-      "name": "ACROS 550",
-      "registered_model_members": [
-        "acros_550"
-      ]
+      "resolution": "family",
+      "name": "ACROS, семейство (укрупнённая метка)",
+      "registered_model_members": []
     }
   },
   "specialists": {

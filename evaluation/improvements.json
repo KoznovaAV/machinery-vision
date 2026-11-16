@@ -1,0 +1,105 @@
+{
+  "release": "maintenance7-handover",
+  "baseline_commit": "96fece0bc3f902c81e4e41cb6886c11c09155eee",
+  "control_reused_for_diagnostics": true,
+  "new_independent_control_collected": false,
+  "promoted": [
+    "MTZ specialist refreshed with grouped C selection",
+    "ACROS training label downgraded to family resolution"
+  ],
+  "mtz": {
+    "by_split": {
+      "test": {
+        "baseline": {
+          "correct_answers": 103,
+          "wrong_answers": 3,
+          "label_correct": 106
+        },
+        "mtz_only": {
+          "correct_answers": 103,
+          "wrong_answers": 3,
+          "label_correct": 108
+        }
+      },
+      "winter_test": {
+        "baseline": {
+          "correct_answers": 4,
+          "wrong_answers": 3,
+          "label_correct": 0
+        },
+        "mtz_only": {
+          "correct_answers": 4,
+          "wrong_answers": 3,
+          "label_correct": 0
+        }
+      },
+      "fresh_test": {
+        "baseline": {
+          "correct_answers": 2,
+          "wrong_answers": 2,
+          "label_correct": 0
+        },
+        "mtz_only": {
+          "correct_answers": 2,
+          "wrong_answers": 2,
+          "label_correct": 0
+        }
+      },
+      "new_photos_test": {
+        "baseline": {
+          "correct_answers": 2,
+          "wrong_answers": 0,
+          "label_correct": 3
+        },
+        "mtz_only": {
+          "correct_answers": 2,
+          "wrong_answers": 0,
+          "label_correct": 3
+        }
+      },
+      "additional_test": {
+        "baseline": {
+          "correct_answers": 1,
+          "wrong_answers": 0,
+          "label_correct": 1
+        },
+        "mtz_only": {
+          "correct_answers": 1,
+          "wrong_answers": 0,
+          "label_correct": 1
+        }
+      }
+    },
+    "mtz_label_top1_before": 34,
+    "mtz_label_top1_after": 36,
+    "mtz_control_photos": 68,
+    "exact_identity_enabled": false
+  },
+  "rejected": {
+    "shared_family_retraining": "Fewer correct accepted AXION/MTZ-1221 answers despite fewer winter errors.",
+    "nh_specialist_retraining": "Lost one correct T5000 family answer.",
+    "dirty_retraining": {
+      "before_correct": 38,
+      "before_wrong": 1,
+      "after_correct": 25,
+      "after_wrong": 0,
+      "promoted": false
+    },
+    "snow_retraining": {
+      "before_correct": 8,
+      "after_correct": 7,
+      "promoted": false
+    },
+    "wet_training": "No accepted wet answers; no usable improvement.",
+    "region_retraining": "No new benefit demonstrated on full scenes; not promoted.",
+    "road_negative_prompt": {
+      "detector_images": 44,
+      "full_pipeline_screens": 2,
+      "result": "Truck remained a second candidate; expanded prompt not promoted."
+    },
+    "attachment_local_crop": {
+      "full_pipeline_screens": 3,
+      "result": "Same family/condition decisions on screened cases; not promoted."
+    }
+  }
+}

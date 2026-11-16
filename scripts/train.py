@@ -19,12 +19,16 @@ def fingerprints():
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--task", choices=("families", "conditions", "regions"), required=True)
+    p.add_argument(
+        "--task", choices=("families", "conditions", "regions", "mtz"), required=True
+    )
     p.add_argument("--output", type=Path)
     a = p.parse_args()
     out = (
         a.output
-        or ROOT / "runs/training" / (a.task + "-" + datetime.now().strftime("%Y%m%d-%H%M%S"))
+        or ROOT
+        / "runs/training"
+        / (a.task + "-" + datetime.now().strftime("%Y%m%d-%H%M%S"))
     ).resolve()
     if not out.is_relative_to(ROOT.resolve()) or out.exists():
         p.error("Use a new output directory inside the project")
@@ -46,7 +50,11 @@ def main():
             raise RuntimeError("Installed artifacts unexpectedly changed")
     (out / "run.json").write_text(
         json.dumps(
-            {"task": a.task, "installed_artifacts_unchanged": True, "automatic_deployment": False},
+            {
+                "task": a.task,
+                "installed_artifacts_unchanged": True,
+                "automatic_deployment": False,
+            },
             indent=2,
         )
         + "\n",

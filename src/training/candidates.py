@@ -19,7 +19,9 @@ OUT = ROOT / "runs/candidate"
 
 
 def save(name, value):
-    (OUT / name).write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
+    (OUT / name).write_text(
+        json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf8"
+    )
 
 
 def count(rr):
@@ -32,7 +34,9 @@ def count(rr):
         ),
         correct_answers=sum(r["family"] == r["expected_family"] for r in rr),
         label_correct=sum(
-            r["label"] == r["expected"] for r in rr if r["expected"] not in (None, "other")
+            r["label"] == r["expected"]
+            for r in rr
+            if r["expected"] not in (None, "other")
         ),
     )
 
@@ -68,7 +72,11 @@ def train_families():
     baseline = read(ROOT / "artifacts/mvp/hierarchy_bundle.json")
     old_keys = set(data["base_training_keys"])
     full, crop = load_features()
-    rr = data["train"] + data["family_only_train"] + [r for s in CONTROLS for r in data[s]]
+    rr = (
+        data["train"]
+        + data["family_only_train"]
+        + [r for s in CONTROLS for r in data[s]]
+    )
     vv = {r["key"]: np.concatenate((full[r["key"]], crop[r["key"]])) for r in rr}
     families = [dict(r, model=family_of(r["model"])) for r in data["train"]] + [
         dict(r, model=r["family"]) for r in data["family_only_train"]
@@ -76,12 +84,18 @@ def train_families():
     known = [r for r in families if r["key"] in old_keys or r["model"] != "unknown"]
     family_head, ft = train(known, vv, tune=False, min_groups=10)
     nh_rows = [
-        dict(r, model="nh_t5000_family" if r["model"] == "nh_t5000_family" else "not_nh")
+        dict(
+            r, model="nh_t5000_family" if r["model"] == "nh_t5000_family" else "not_nh"
+        )
         for r in families
     ]
     nh_head, nt = train(nh_rows, vv, min_groups=10)
-    fc = calibrate(ft["oof_records"], family_head["classes"], min_groups=10, target_precision=0.98)
-    nc = calibrate(nt["oof_records"], nh_head["classes"], min_groups=10, target_precision=0.98)
+    fc = calibrate(
+        ft["oof_records"], family_head["classes"], min_groups=10, target_precision=0.98
+    )
+    nc = calibrate(
+        nt["oof_records"], nh_head["classes"], min_groups=10, target_precision=0.98
+    )
     for c, floor in ((fc, 0.90), (nc, 0.95)):
         for value in c.values():
             if value["threshold"] is not None:
@@ -101,7 +115,8 @@ def train_families():
         variants[name] = b
         save(name + "_candidate.json", b)
     comparisons = {
-        name: {s: evaluate(b, data[s], vv) for s in CONTROLS} for name, b in variants.items()
+        name: {s: evaluate(b, data[s], vv) for s in CONTROLS}
+        for name, b in variants.items()
     }
     gates = {}
     for name in variants:
@@ -111,11 +126,13 @@ def train_families():
         old = comparisons["baseline"]["test"]
         class_gates = {
             label: dict(
-                family=value["family_correct"] >= old["by_class"][label]["family_correct"],
+                family=value["family_correct"]
+                >= old["by_class"][label]["family_correct"],
                 label=value["label_correct"] >= old["by_class"][label]["label_correct"],
                 correct_answers=value["correct_answers"]
                 >= old["by_class"][label]["correct_answers"],
-                wrong_answers=value["wrong_answers"] <= old["by_class"][label]["wrong_answers"],
+                wrong_answers=value["wrong_answers"]
+                <= old["by_class"][label]["wrong_answers"],
             )
             for label, value in current["by_class"].items()
         }
@@ -132,7 +149,8 @@ def train_families():
             classes=class_gates,
             controls=controls,
             eligible=all(
-                all(v.values()) for v in list(class_gates.values()) + list(controls.values())
+                all(v.values())
+                for v in list(class_gates.values()) + list(controls.values())
             ),
         )
     save("recognition_comparison.json", comparisons)
@@ -143,7 +161,12 @@ def train_families():
             name: {
                 s: {
                     k: r[k]
-                    for k in ("family_correct", "answers", "wrong_answers", "correct_answers")
+                    for k in (
+                        "family_correct",
+                        "answers",
+                        "wrong_answers",
+                        "correct_answers",
+                    )
                 }
                 for s, r in splits.items()
             }
@@ -171,24 +194,33 @@ def condition_benchmark(bundle, rows, full, crop):
     for r in rows:
         with Image.open(ROOT / r["path"]) as handle:
             image = ImageOps.exif_transpose(handle).convert("RGB")
-        predictions = assess_conditions(full[r["key"]], crop[r["key"]], image, bundle=bundle)
+        predictions = assess_conditions(
+            full[r["key"]], crop[r["key"]], image, bundle=bundle
+        )
         for a in reports:
             truth = r["condition"].get(a)
             if truth is None:
                 continue
             pred = predictions[a]
-            reports[a].append(dict(key=r["key"], group=r["group"], expected=truth, **pred))
+            reports[a].append(
+                dict(key=r["key"], group=r["group"], expected=truth, **pred)
+            )
     return {
         a: dict(
             total=len(rr),
             positive_groups=len({r["group"] for r in rr if r["expected"] == 1}),
             answers=sum(r["status"] == "assessed" for r in rr),
             wrong_answers=sum(
-                r["status"] == "assessed" and r["value"] != bool(r["expected"]) for r in rr
+                r["status"] == "assessed" and r["value"] != bool(r["expected"])
+                for r in rr
             ),
             positive_answers=sum(r.get("value") is True for r in rr),
             correct_positive_groups=len(
-                {r["group"] for r in rr if r.get("value") is True and r["expected"] == 1}
+                {
+                    r["group"]
+                    for r in rr
+                    if r.get("value") is True and r["expected"] == 1
+                }
             ),
             rows=rr,
         )
@@ -215,7 +247,8 @@ def train_conditions():
             if r["role"] == "train" and r["condition"].get(attribute) is not None
         ]
         groups = {
-            label: len({r["group"] for r in rows if r["model"] == label}) for label in ("0", "1")
+            label: len({r["group"] for r in rows if r["model"] == label})
+            for label in ("0", "1")
         }
         assert not {r["group"] for r in rows} & {r["group"] for r in held}
         if min(groups.values()) < 6:
@@ -224,14 +257,19 @@ def train_conditions():
         options = (
             {"crop": crop, "scene": full}
             if attribute == "dirty"
-            else {"scene_weather": pixel} if attribute == "snow" else {"scene": full, "crop": crop}
+            else (
+                {"scene_weather": pixel}
+                if attribute == "snow"
+                else {"scene": full, "crop": crop}
+            )
         )
         candidates = {
             name: train(rows, v, min_groups=10 if attribute == "dirty" else 6)
             for name, v in options.items()
         }
         source = max(
-            candidates, key=lambda name: candidates[name][1]["grouped_oof_balanced_accuracy"]
+            candidates,
+            key=lambda name: candidates[name][1]["grouped_oof_balanced_accuracy"],
         )
         head, summary = candidates[source]
         cal = calibrate(
@@ -248,10 +286,14 @@ def train_conditions():
         candidate["calibration"][attribute] = cal
         candidate.setdefault("feature_sources", {})[attribute] = source
         trials[attribute] = candidate
-        training[attribute] = dict(source=source, groups=groups, metrics=summary, calibration=cal)
+        training[attribute] = dict(
+            source=source, groups=groups, metrics=summary, calibration=cal
+        )
         save(attribute + "_condition_candidate.json", candidate)
         print(attribute, groups, "source", source, "cal", cal, flush=True)
-    results = {name: condition_benchmark(b, held, full, crop) for name, b in trials.items()}
+    results = {
+        name: condition_benchmark(b, held, full, crop) for name, b in trials.items()
+    }
     gates = {}
     for name in trials:
         if name == "baseline":
@@ -262,7 +304,8 @@ def train_conditions():
             no_more_errors=b["wrong_answers"] <= a["wrong_answers"],
             answers_preserved=b["answers"] - b["wrong_answers"]
             >= a["answers"] - a["wrong_answers"],
-            groups_preserved=b["correct_positive_groups"] >= a["correct_positive_groups"],
+            groups_preserved=b["correct_positive_groups"]
+            >= a["correct_positive_groups"],
         )
     save("condition_comparison.json", results)
     save("condition_training.json", training)
@@ -271,7 +314,10 @@ def train_conditions():
         "RESULTS",
         {
             n: {
-                a: {k: v[k] for k in ("total", "answers", "wrong_answers", "positive_answers")}
+                a: {
+                    k: v[k]
+                    for k in ("total", "answers", "wrong_answers", "positive_answers")
+                }
                 for a, v in rr.items()
             }
             for n, rr in results.items()
@@ -284,20 +330,29 @@ def train_conditions():
 def balance(value):
     parts = [value[..., :384], value[..., 384:]]
     result = np.concatenate(
-        [v / np.maximum(np.linalg.norm(v, axis=-1, keepdims=True), 1e-9) for v in parts], axis=-1
+        [
+            v / np.maximum(np.linalg.norm(v, axis=-1, keepdims=True), 1e-9)
+            for v in parts
+        ],
+        axis=-1,
     )
     return result / np.maximum(np.linalg.norm(result, axis=-1, keepdims=True), 1e-9)
 
 
 def choose(scores, labels, groups, floor, min_groups=5):
     choices = []
-    for t in sorted({floor} | {float(v) for v in scores if np.isfinite(v) and v >= floor}):
+    for t in sorted(
+        {floor} | {float(v) for v in scores if np.isfinite(v) and v >= floor}
+    ):
         selected = scores >= t
         gg = set(groups[selected])
         cc = {
             g
             for g in gg
-            if all(labels[i] == "attachment" for i in np.flatnonzero(selected & (groups == g)))
+            if all(
+                labels[i] == "attachment"
+                for i in np.flatnonzero(selected & (groups == g))
+            )
         }
         if len(gg) >= min_groups and len(cc) / len(gg) >= 0.98:
             choices.append(
@@ -332,7 +387,10 @@ def train_regions():
     margins = np.asarray(margins)
     reference_calibration = choose(margins, labels, groups, 0.03)
     head, metrics = train(
-        rows, {r["key"]: v * 20 for r, v in zip(rows, raw, strict=True)}, tune=False, min_groups=5
+        rows,
+        {r["key"]: v * 20 for r, v in zip(rows, raw, strict=True)},
+        tune=False,
+        min_groups=5,
     )
     probabilities = np.asarray([r["probabilities"] for r in metrics["oof_records"]])
     attachment_column = head["classes"].index("attachment")
@@ -344,7 +402,11 @@ def train_regions():
     supplement_calibration = choose(conditional, labels, groups, 0.95)
     path = OUT / "region_references.npz"
     np.savez_compressed(
-        path, vectors=reference.astype("float32"), labels=labels, groups=groups, keys=keys
+        path,
+        vectors=reference.astype("float32"),
+        labels=labels,
+        groups=groups,
+        keys=keys,
     )
     candidate = copy.deepcopy(read(ROOT / "artifacts/mvp/region_bundle.json"))
     config = candidate["trailer_reference"]
@@ -377,7 +439,9 @@ def train_regions():
     ]
     held = read(ROOT / "datasets/region_control.json")
     control = np.load(ROOT / "datasets/features/region_control.npz", allow_pickle=False)
-    vectors = {str(k): v for k, v in zip(control["keys"], control["values"], strict=True)}
+    vectors = {
+        str(k): v for k, v in zip(control["keys"], control["values"], strict=True)
+    }
     control_rows = [
         {
             "key": r["key"],
@@ -386,7 +450,9 @@ def train_regions():
         }
         for r in held
     ]
-    rejected_machines = [r["key"] for r in control_rows if r["expected"] == "machine" and r["veto"]]
+    rejected_machines = [
+        r["key"] for r in control_rows if r["expected"] == "machine" and r["veto"]
+    ]
     save("region_candidate.json", candidate)
     save(
         "region_training.json",
@@ -406,4 +472,54 @@ def train_regions():
             "automatic_deployment": False,
         },
     )
-    print("Region candidate saved; full-scene verification is still required.", flush=True)
+    print(
+        "Region candidate saved; full-scene verification is still required.", flush=True
+    )
+
+
+def train_mtz():
+    """Refresh only the MTZ label candidate head; family and identity rules stay fixed."""
+    data = load_dataset()
+    baseline = read(ROOT / "artifacts/mvp/hierarchy_bundle.json")
+    full, crop = load_features()
+    rows = [r for r in data["train"] if family_of(r["model"]) == "mtz_80_family"]
+    vectors = {
+        r["key"]: np.concatenate((full[r["key"]], crop[r["key"]]))
+        for r in rows + [r for s in CONTROLS for r in data[s]]
+    }
+    head, training = train(rows, vectors, min_groups=10)
+    candidate = copy.deepcopy(baseline)
+    candidate["heads"]["mtz_specialist"] = head
+    candidate["mtz_specialist_training"] = {
+        k: v for k, v in training.items() if k != "oof_records"
+    }
+    candidate["mtz_specialist_training"]["dataset_manifest_sha256"] = hashlib.sha256(
+        (ROOT / "datasets/manifest.json").read_bytes()
+    ).hexdigest()
+    reports = {
+        name: {split: evaluate(bundle, data[split], vectors) for split in CONTROLS}
+        for name, bundle in (("baseline", baseline), ("candidate", candidate))
+    }
+    gates = {}
+    for split in CONTROLS:
+        before, after = reports["baseline"][split], reports["candidate"][split]
+        gates[split] = {
+            label: all(
+                result[metric] >= before["by_class"][label][metric]
+                for metric in ("label_correct", "correct_answers")
+            )
+            and result["wrong_answers"] <= before["by_class"][label]["wrong_answers"]
+            for label, result in after["by_class"].items()
+        }
+    save("mtz_candidate.json", candidate)
+    save("mtz_training.json", training)
+    save("mtz_comparison.json", reports)
+    save(
+        "mtz_gates.json",
+        {
+            "by_split": gates,
+            "eligible": all(all(v.values()) for v in gates.values()),
+            "requires_full_scene_review": True,
+            "exact_identity_enabled": False,
+        },
+    )

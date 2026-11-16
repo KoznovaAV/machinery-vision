@@ -5,7 +5,7 @@
     "answers": 106,
     "wrong_answers": 3,
     "correct_answers": 103,
-    "label_correct": 106,
+    "label_correct": 108,
     "by_class": {
       "acros_550": {
         "total": 4,
@@ -69,7 +69,7 @@
         "answers": 25,
         "wrong_answers": 0,
         "correct_answers": 25,
-        "label_correct": 12
+        "label_correct": 14
       },
       "mtz_82": {
         "total": 19,
@@ -327,7 +327,7 @@
         "expected_family": "mtz_80_family",
         "candidate": "mtz_80_family",
         "family": "mtz_80_family",
-        "label": "mtz_82"
+        "label": "mtz_820"
       },
       {
         "key": "mtz_model_pilot/other-mtz-231749",
@@ -351,7 +351,7 @@
         "expected_family": "mtz_80_family",
         "candidate": "mtz_80_family",
         "family": "mtz_80_family",
-        "label": "mtz_82"
+        "label": "mtz_80"
       },
       {
         "key": "mtz_model_pilot/other-mtz-991142",
@@ -623,7 +623,7 @@
         "expected_family": "mtz_80_family",
         "candidate": "mtz_80_family",
         "family": "mtz_80_family",
-        "label": "mtz_820"
+        "label": "mtz_82"
       },
       {
         "key": "model_wave2/tractorbg-614862",
@@ -727,7 +727,7 @@
         "expected_family": "mtz_80_family",
         "candidate": "mtz_80_family",
         "family": "mtz_80_family",
-        "label": "mtz_820"
+        "label": "mtz_82"
       },
       {
         "key": "weather_expansion/russells-50209-1",
@@ -927,7 +927,7 @@
         "expected_family": "mtz_80_family",
         "candidate": "mtz_80_family",
         "family": "mtz_80_family",
-        "label": "mtz_80"
+        "label": "mtz_82"
       },
       {
         "key": "weather_expansion/engine-rain80-11",
@@ -1015,7 +1015,7 @@
         "expected_family": "mtz_80_family",
         "candidate": "mtz_80_family",
         "family": "mtz_80_family",
-        "label": "mtz_80"
+        "label": "mtz_82"
       },
       {
         "key": "axle_round2/axle2-4-3",
@@ -1023,7 +1023,7 @@
         "expected_family": "mtz_80_family",
         "candidate": "mtz_80_family",
         "family": "mtz_80_family",
-        "label": "mtz_82"
+        "label": "mtz_80"
       },
       {
         "key": "axle_round2/axle2-4-4",
@@ -1271,7 +1271,7 @@
         "expected_family": "mtz_80_family",
         "candidate": "mtz_80_family",
         "family": "mtz_80_family",
-        "label": "mtz_820"
+        "label": "mtz_80"
       },
       {
         "key": "round5/r5-54",
@@ -1335,7 +1335,7 @@
         "expected_family": "mtz_80_family",
         "candidate": "mtz_80_family",
         "family": "mtz_80_family",
-        "label": "mtz_82"
+        "label": "mtz_820"
       },
       {
         "key": "round5/r5b-41",
@@ -1343,7 +1343,7 @@
         "expected_family": "mtz_80_family",
         "candidate": "mtz_80_family",
         "family": "mtz_80_family",
-        "label": "mtz_82"
+        "label": "mtz_80"
       },
       {
         "key": "round5/r5b-47",
@@ -1508,7 +1508,7 @@
         "expected_family": "mtz_80_family",
         "candidate": "mtz_80_family",
         "family": "mtz_80_family",
-        "label": "mtz_80"
+        "label": "mtz_82"
       },
       {
         "key": "mvp/n012",

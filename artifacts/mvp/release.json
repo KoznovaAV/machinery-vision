@@ -1,9 +1,9 @@
 {
-  "round": "maintenance6-web-demo",
-  "model_training": "maintenance_round6",
+  "round": "maintenance7-handover",
+  "model_training": "maintenance_round6 + grouped_mtz_refresh_2026-11-16",
   "artifacts": {
     "condition_bundle.json": "0f89766d2e985f0ace7c108486506702c9a5487a02cb9b8393a25cd22a9220cc",
-    "hierarchy_bundle.json": "44316a1df46476ec086f8ebdd92c7b63ea491dc20fb1adcab04197f0c93a6fa5",
+    "hierarchy_bundle.json": "af91e7c5b9ddae1e698287445bb12b14f39cd5fa5b7cb56af7403002d986a181",
     "parts_bundle.json": "30c0e6202d1c52e941a73593e1620bd43822751e040accadb8be097383b17619",
     "region_bundle.json": "1349c116a7ac19115c83f73f8f1888d0c16517f65dfb4e70b95303c3bb482f5f",
     "region_references.npz": "722225ddf2e30662119b435fd86b3052ddc3f188b96a50cba3c3fe5580f68a66"
@@ -27,7 +27,7 @@
     "src/models/parts.py": "bd0fe3f7dfdeda55ab32176eb5edd17fd525b9cdd4798ef530c5d1a9b72684af",
     "src/models/trailer_filter.py": "75fa8d92c1be0b8c369936595e602cbf50d24532de56d152b9e93d91c25fdb3d",
     "src/models/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-    "src/training/candidates.py": "b93675b1522cb2a5a625429fd9d5651c96af2b48081ae42f27deea877e137875",
+    "src/training/candidates.py": "5020b5a26d37653539a8d96d842d0736e519403269754afd710a5acb0a0aeecf",
     "src/training/grouped.py": "7fab79e2575d8a27694af431230757bc5ec9dcc241ba58a64a63909cd76701a5",
     "src/training/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
     "src/web/public.py": "a725075ca6c961befe856c743826fc5d71dceb28c5eb607fe1e626122a35ed37",
@@ -39,11 +39,11 @@
     "scripts/predict.py": "e097d558d016c269a52acf3281b76aeeeaaced6c974eb2584a96fa5555871a60",
     "scripts/render_review.py": "465b40547e886d0832170036c352972b55cd5cab1ce8463fd7d8f1de9e227909",
     "scripts/setup_weights.py": "87f8683868c5b5fef1ea4d933a2a4c60303dd2ae4651c7cd72f2a964c08701ee",
-    "scripts/train.py": "6db67a980b6e1675446e920453020a07425f7a7b49212b5131d538444c264673",
+    "scripts/train.py": "fd8e187f32af27723bb70a738fd1efd55bdee863b81ae041cebc1ace65223cab",
     "scripts/web.py": "13329913ec2ae5a39ed29f15ce1f41f2e51435b6659ce7a07b3de743d38da5e5",
     "scripts/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
     "requirements.txt": "be5542b10657774ed435df8109a986194896b56f4b7ba5c8829b3b2a3d351110",
-    "configs/machinery_taxonomy.json": "2f83739b3dfdf90e8c6b7c9cc568972072cd72cd1ba77270c6bffa80d9632687",
+    "configs/machinery_taxonomy.json": "f60f89c1507072b83567b36439e20b5cf301321686b2c8932571dfde0827396b",
     "scripts/benchmark.py": "efb57dc11ba1d8d589b7be9d7af5122ad014660922f2dafdf7ddbbc58e2d6c94"
   },
   "validation": "evaluation/validation.json",
