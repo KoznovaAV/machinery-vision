@@ -6,7 +6,6 @@ import shutil
 from pathlib import Path
 
 import yaml
-from ultralytics import YOLO
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "output/axle_round2"
@@ -29,6 +28,8 @@ def validate_annotations(rows):
 
 
 def main():
+    from ultralytics import YOLO
+
     rows = json.loads((ROOT / "reports/axle_marking_annotations.json").read_text(encoding="utf-8"))
     rows = validate_annotations(rows)
     labels = {"front_axle": 0, "model_marking": 1}
