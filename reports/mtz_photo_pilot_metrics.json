@@ -1,0 +1,17 @@
+{
+  "test_frames": 7,
+  "variants": {
+    "baseline": {
+      "frames_correct": 6,
+      "groups_all_correct": 4
+    },
+    "with_new": {
+      "frames_correct": 6,
+      "groups_all_correct": 4
+    },
+    "with_new_more_weight": {
+      "frames_correct": 7,
+      "groups_all_correct": 5
+    }
+  }
+}

@@ -1,0 +1,515 @@
+{
+  "partial_control": [
+    {
+      "key": "control/attachment",
+      "expected": "attachment",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.029967010021209717,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "mine6/round5/r5g-87/0",
+        "machine_reference": "weather_expansion/listing-photo-15768",
+        "uncertain_role": true,
+        "supplement_label": "attachment",
+        "supplement_score": 0.6843005069909882
+      }
+    },
+    {
+      "key": "control/model_wave2/tractorbg-191734/left",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.0756831169128418,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "feedback/wet_trailer/left35",
+        "machine_reference": "model_wave2/tractorbg-84076",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.992218297331147
+      }
+    },
+    {
+      "key": "control/model_wave2/tractorbg-191734/right",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.029504776000976562,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "feedback/wet_trailer/left35",
+        "machine_reference": "model_wave2/tractorbg-271864",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.9556888276493493
+      }
+    },
+    {
+      "key": "control/expansion/bazar-3-11/left",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.01654556393623352,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "mine6/negative-train/tractorbg-733430/0",
+        "machine_reference": "model_wave2/tractorbg-1207064",
+        "uncertain_role": true,
+        "supplement_label": "attachment",
+        "supplement_score": 0.8527135502915321
+      }
+    },
+    {
+      "key": "control/expansion/bazar-3-11/right",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.07101529836654663,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "feedback/wet_trailer/left35",
+        "machine_reference": "expansion/tractorbg-457485",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.9998058233613719
+      }
+    },
+    {
+      "key": "control/axle_round2/axle2-4-3/left",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.05618000030517578,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "feedback/wet_trailer/left35",
+        "machine_reference": "historical/processed/val/mtz_belarus/e829d251a423ed1d.jpg",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.9978861813946803
+      }
+    },
+    {
+      "key": "control/axle_round2/axle2-4-3/right",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.1454424262046814,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "feedback/wet_trailer/right70",
+        "machine_reference": "mtz_model_pilot/other-mtz-296134",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.9953674329304821
+      }
+    },
+    {
+      "key": "control/model_wave2/tractorbg-98308/left",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.06132996082305908,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "feedback/wet_trailer/left35",
+        "machine_reference": "model_wave2/tractorbg-271864",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.9824748880319253
+      }
+    },
+    {
+      "key": "control/model_wave2/tractorbg-98308/right",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.10899132490158081,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "feedback/wet_trailer/left35",
+        "machine_reference": "model_wave2/tractorbg-878137",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.9991969270082243
+      }
+    },
+    {
+      "key": "control/expansion/bazar-1-01/left",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.090908944606781,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "feedback/wet_trailer/left35",
+        "machine_reference": "historical/processed/train/mtz_belarus/d53ea62b9d5886f8.jpg",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.9998043330321722
+      }
+    },
+    {
+      "key": "control/expansion/bazar-1-01/right",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.03058713674545288,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "feedback/wet_trailer/left35",
+        "machine_reference": "weather_expansion/resumable-photo-843803",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.9902239172844742
+      }
+    },
+    {
+      "key": "control/round5/r5-141/left",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.23527702689170837,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "trailer5/neg_04/left70",
+        "machine_reference": "mine6/field_registry/round4-59/1",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.846008894792777
+      }
+    },
+    {
+      "key": "control/round5/r5-141/right",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -1.4603137969970703e-05,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "mvp/z014",
+        "machine_reference": "mine6/field_registry/round4-59/0",
+        "uncertain_role": true,
+        "supplement_label": "attachment",
+        "supplement_score": 0.968552779751222
+      }
+    },
+    {
+      "key": "control/mtz_model_pilot/commons-106142718/left",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.1310092806816101,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "feedback/wet_trailer/left35",
+        "machine_reference": "mine6/expansion/tractorbg-285448/0",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.9999604185356861
+      }
+    },
+    {
+      "key": "control/mtz_model_pilot/commons-106142718/right",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.06930077075958252,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "feedback/wet_trailer/left35",
+        "machine_reference": "weather_expansion/wave3-photo-511411",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.9849366609854829
+      }
+    },
+    {
+      "key": "control/old_heldout/tractorbg-949130/left",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.12587201595306396,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "feedback/wet_trailer/left35",
+        "machine_reference": "negative-train/tractorbg-1434987",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.9999741401294264
+      }
+    },
+    {
+      "key": "control/old_heldout/tractorbg-949130/right",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.06618255376815796,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "feedback/wet_trailer/left35",
+        "machine_reference": "mine6/expansion/tractorbg-188248/0",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.9461813989016776
+      }
+    },
+    {
+      "key": "control/old_heldout/tractorbg-887586/left",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.3062330186367035,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "feedback/wet_trailer/left35",
+        "machine_reference": "negative-train/tractorbg-733429",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.9999054982415635
+      }
+    },
+    {
+      "key": "control/old_heldout/tractorbg-887586/right",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.09259921312332153,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "mine6/historical/processed/train/mtz_belarus/7da5d9b880825220.jpg/0",
+        "machine_reference": "historical/processed/train/mtz_belarus/7da5d9b880825220.jpg",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.9614252797531562
+      }
+    },
+    {
+      "key": "control/axle_round2/axle2-extra-5/left",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.12301188707351685,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "feedback/wet_trailer/left35",
+        "machine_reference": "historical/processed/test/mtz_belarus/76f60c56b997be23.jpg",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.999878117451163
+      }
+    },
+    {
+      "key": "control/axle_round2/axle2-extra-5/right",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.13065731525421143,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "feedback/wet_trailer/left35",
+        "machine_reference": "round5/r5b-58",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.9798488893433109
+      }
+    },
+    {
+      "key": "control/model_wave2/tractorbg-955002/left",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.06635290384292603,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "feedback/wet_trailer/left35",
+        "machine_reference": "round5/r5b-2",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.8806257268376176
+      }
+    },
+    {
+      "key": "control/model_wave2/tractorbg-955002/right",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.016957342624664307,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "feedback/wet_trailer/left35",
+        "machine_reference": "model_wave2/tractorbg-271864",
+        "uncertain_role": true,
+        "supplement_label": "machine",
+        "supplement_score": 0.9362534798747987
+      }
+    },
+    {
+      "key": "control/model_wave2/tractorbg-895103/left",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.135969340801239,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "feedback/wet_trailer/left70",
+        "machine_reference": "weather_expansion/listing-photo-1080552",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.9948997424389254
+      }
+    },
+    {
+      "key": "control/model_wave2/tractorbg-895103/right",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.08716869354248047,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "feedback/wet_trailer/left35",
+        "machine_reference": "model_wave2/tractorbg-271864",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.9925621599627902
+      }
+    },
+    {
+      "key": "control/weather_expansion/wave3-photo-990671/left",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.07411372661590576,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "feedback/wet_trailer/left35",
+        "machine_reference": "weather_expansion/listing-photo-1081429",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.9955069810329021
+      }
+    },
+    {
+      "key": "control/weather_expansion/wave3-photo-990671/right",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.11306548118591309,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "feedback/wet_trailer/left35",
+        "machine_reference": "weather_expansion/listing-photo-1080571",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.9739190348490274
+      }
+    },
+    {
+      "key": "control/field_registry/field1-11/left",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.0648876428604126,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "feedback/wet_trailer/left35",
+        "machine_reference": "expansion/dealer-14",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.9991629853245525
+      }
+    },
+    {
+      "key": "control/field_registry/field1-11/right",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.044439494609832764,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "feedback/wet_trailer/left35",
+        "machine_reference": "model_wave2/tractorbg-271864",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.9729984330864238
+      }
+    },
+    {
+      "key": "control/weather_expansion/wave4-photo-193699/left",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.07488930225372314,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "feedback/wet_trailer/left35",
+        "machine_reference": "weather_expansion/wave4-photo-1424234",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.9881317711174761
+      }
+    },
+    {
+      "key": "control/weather_expansion/wave4-photo-193699/right",
+      "expected": "machine",
+      "veto": false,
+      "evidence": {
+        "status": "assessed",
+        "score_kind": "cosine_margin",
+        "margin": -0.05522119998931885,
+        "threshold": 0.06099987030029297,
+        "attachment_reference": "feedback/wet_trailer/left35",
+        "machine_reference": "model_wave2/tractorbg-84077",
+        "uncertain_role": false,
+        "supplement_label": "machine",
+        "supplement_score": 0.9984985037560935
+      }
+    }
+  ],
+  "new_tanker": {
+    "key": "maint6/fieldtank_02",
+    "veto": true,
+    "evidence": {
+      "status": "assessed",
+      "score_kind": "cosine_margin",
+      "margin": 0.1696520447731018,
+      "threshold": 0.06099987030029297,
+      "attachment_reference": "maint6/fieldtank_00/right70",
+      "machine_reference": "mine6/field_registry/round4-59/1",
+      "uncertain_role": false,
+      "supplement_label": "attachment",
+      "supplement_score": 0.9996652600438037
+    }
+  }
+}

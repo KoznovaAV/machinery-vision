@@ -1,0 +1,1466 @@
+[
+  {
+    "key": "expansion/tractorbg-1111706",
+    "margin": -0.23009562492370605,
+    "label": "machine",
+    "score": 0.9999948940022889,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "expansion/tractorbg-1111708",
+    "margin": -0.2582767605781555,
+    "label": "machine",
+    "score": 0.9999955438066311,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "expansion/tractorbg-1111711",
+    "margin": -0.23244625329971313,
+    "label": "machine",
+    "score": 0.999997096925452,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "expansion/tractorbg-1111714",
+    "margin": -0.17045629024505615,
+    "label": "machine",
+    "score": 0.9990938124976115,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "expansion/tractorbg-1111716",
+    "margin": -0.21868693828582764,
+    "label": "machine",
+    "score": 0.9998818061057877,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "expansion/tractorbg-904017",
+    "margin": -0.20208406448364258,
+    "label": "machine",
+    "score": 0.999991342406099,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "expansion/tractorbg-904018",
+    "margin": -0.14442014694213867,
+    "label": "machine",
+    "score": 0.9999845533755835,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "expansion/tractorbg-904021",
+    "margin": -0.18135863542556763,
+    "label": "machine",
+    "score": 0.9999926619780055,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "expansion/bazar-1-01",
+    "margin": -0.19984334707260132,
+    "label": "machine",
+    "score": 0.9999799563516728,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "expansion/bazar-1-02",
+    "margin": -0.16373121738433838,
+    "label": "machine",
+    "score": 0.9987156922256046,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "expansion/bazar-1-04",
+    "margin": -0.17119204998016357,
+    "label": "machine",
+    "score": 0.9998081395490742,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "expansion/bazar-1-05",
+    "margin": -0.18084311485290527,
+    "label": "machine",
+    "score": 0.9999484964464698,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "expansion/bazar-1-06",
+    "margin": -0.23855113983154297,
+    "label": "machine",
+    "score": 0.9999645589270648,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "expansion/bazar-1-13",
+    "margin": -0.17816466093063354,
+    "label": "machine",
+    "score": 0.9989257946365089,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "expansion/bazar-3-01",
+    "margin": -0.16422039270401,
+    "label": "machine",
+    "score": 0.9998151221532706,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "expansion/bazar-3-02",
+    "margin": -0.14510929584503174,
+    "label": "machine",
+    "score": 0.9983985374984303,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "expansion/bazar-3-03",
+    "margin": -0.16124886274337769,
+    "label": "machine",
+    "score": 0.9999192237041289,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "expansion/bazar-3-09",
+    "margin": -0.16133320331573486,
+    "label": "machine",
+    "score": 0.9998282239814248,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "expansion/bazar-3-11",
+    "margin": -0.13942337036132812,
+    "label": "machine",
+    "score": 0.9993969844278386,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "expansion/tractorbg-183818",
+    "margin": -0.22789019346237183,
+    "label": "machine",
+    "score": 0.99999751957089,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "expansion/tractorbg-183819",
+    "margin": -0.19774234294891357,
+    "label": "machine",
+    "score": 0.999980459296365,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "expansion/tractorbg-183820",
+    "margin": -0.19366103410720825,
+    "label": "machine",
+    "score": 0.9999908712274416,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "expansion/tractorbg-183821",
+    "margin": -0.16931962966918945,
+    "label": "machine",
+    "score": 0.9999698386946684,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "expansion/tractorbg-183825",
+    "margin": -0.20944976806640625,
+    "label": "machine",
+    "score": 0.9999944169942707,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "mtz_model_pilot/other-mtz-231749",
+    "margin": -0.15952396392822266,
+    "label": "machine",
+    "score": 0.9997634523486973,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "mtz_model_pilot/other-mtz-991140",
+    "margin": -0.24326181411743164,
+    "label": "machine",
+    "score": 0.9999920950033198,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "mtz_model_pilot/other-mtz-991141",
+    "margin": -0.2248016595840454,
+    "label": "machine",
+    "score": 0.9999823725498221,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "mtz_model_pilot/other-mtz-991142",
+    "margin": -0.23096221685409546,
+    "label": "machine",
+    "score": 0.9999904206582696,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "mtz_model_pilot/other-mtz-991143",
+    "margin": -0.1444230079650879,
+    "label": "machine",
+    "score": 0.9996904273741611,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "mtz_model_pilot/other-mtz-991144",
+    "margin": -0.17515283823013306,
+    "label": "machine",
+    "score": 0.999904116517038,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "mtz_model_pilot/tractorbg-53874",
+    "margin": -0.19234400987625122,
+    "label": "machine",
+    "score": 0.9999972934752372,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "mtz_model_pilot/commons-106142718",
+    "margin": -0.19616961479187012,
+    "label": "machine",
+    "score": 0.9999552024536672,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "mtz_model_pilot/tractorbg-847612",
+    "margin": -0.2366940975189209,
+    "label": "machine",
+    "score": 0.99997092054324,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "mtz_model_pilot/commons-159869516",
+    "margin": -0.16320770978927612,
+    "label": "machine",
+    "score": 0.9998855546628844,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "mtz_model_pilot/commons-31163057",
+    "margin": -0.1599600911140442,
+    "label": "machine",
+    "score": 0.9995984250408935,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "mtz_model_pilot/commons-11881224",
+    "margin": -0.17510521411895752,
+    "label": "machine",
+    "score": 0.999733825469337,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "mtz_model_pilot/tractorbg-190808",
+    "margin": -0.2360973358154297,
+    "label": "machine",
+    "score": 0.9999802278764127,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "mtz_model_pilot/tractorbg-190809",
+    "margin": -0.16468888521194458,
+    "label": "machine",
+    "score": 0.9999556952423271,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "model_wave2/tractorbg-965693",
+    "margin": -0.19687187671661377,
+    "label": "machine",
+    "score": 0.9997617196245748,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "model_wave2/tractorbg-965694",
+    "margin": -0.20783984661102295,
+    "label": "machine",
+    "score": 0.9999356374679108,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "model_wave2/tractorbg-965695",
+    "margin": -0.17756050825119019,
+    "label": "machine",
+    "score": 0.9997428097928807,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "model_wave2/tractorbg-895101",
+    "margin": -0.21630412340164185,
+    "label": "machine",
+    "score": 0.9999875322686097,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "model_wave2/tractorbg-895103",
+    "margin": -0.1789509654045105,
+    "label": "machine",
+    "score": 0.9999249410822489,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "model_wave2/tractorbg-98308",
+    "margin": -0.21486222743988037,
+    "label": "machine",
+    "score": 0.9998884240538445,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "model_wave2/tractorbg-98309",
+    "margin": -0.1802336573600769,
+    "label": "machine",
+    "score": 0.999531151443543,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "model_wave2/tractorbg-98310",
+    "margin": -0.23833143711090088,
+    "label": "machine",
+    "score": 0.9999852189382492,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "model_wave2/tractorbg-954999",
+    "margin": -0.16923099756240845,
+    "label": "machine",
+    "score": 0.9996738635357096,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "model_wave2/tractorbg-955000",
+    "margin": -0.197698712348938,
+    "label": "machine",
+    "score": 0.9999225986086504,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "model_wave2/tractorbg-955001",
+    "margin": -0.16736125946044922,
+    "label": "machine",
+    "score": 0.999590513221767,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "model_wave2/tractorbg-955002",
+    "margin": -0.14736366271972656,
+    "label": "machine",
+    "score": 0.9995386083364594,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "model_wave2/tractorbg-191734",
+    "margin": -0.15910744667053223,
+    "label": "machine",
+    "score": 0.9997769041837503,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "model_wave2/tractorbg-191735",
+    "margin": -0.17156898975372314,
+    "label": "machine",
+    "score": 0.9999464940463201,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "model_wave2/tractorbg-191736",
+    "margin": -0.13219428062438965,
+    "label": "machine",
+    "score": 0.999299219544049,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "model_wave2/tractorbg-191740",
+    "margin": -0.15748447179794312,
+    "label": "machine",
+    "score": 0.9994029742185125,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "model_wave2/tractorbg-293981",
+    "margin": -0.18851643800735474,
+    "label": "machine",
+    "score": 0.9993856367942526,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "model_wave2/tractorbg-293982",
+    "margin": -0.16422128677368164,
+    "label": "machine",
+    "score": 0.9881859575317103,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "model_wave2/tractorbg-293983",
+    "margin": -0.2409154772758484,
+    "label": "machine",
+    "score": 0.9999747861906555,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "model_wave2/tractorbg-293984",
+    "margin": -0.225941002368927,
+    "label": "machine",
+    "score": 0.9999661105276547,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "model_wave2/tractorbg-434471",
+    "margin": -0.2680785655975342,
+    "label": "machine",
+    "score": 0.9999989836408039,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "model_wave2/tractorbg-434472",
+    "margin": -0.22635948657989502,
+    "label": "machine",
+    "score": 0.9999878141713622,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "model_wave2/tractorbg-434473",
+    "margin": -0.17320728302001953,
+    "label": "machine",
+    "score": 0.9997690261113354,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "model_wave2/tractorbg-614862",
+    "margin": -0.17259907722473145,
+    "label": "machine",
+    "score": 0.9999099169843306,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "model_wave2/tractorbg-614863",
+    "margin": -0.2250344157218933,
+    "label": "machine",
+    "score": 0.999984079776241,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "model_wave2/tractorbg-614864",
+    "margin": -0.19401901960372925,
+    "label": "machine",
+    "score": 0.9999867443989537,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/commons-142372244",
+    "margin": -0.23923414945602417,
+    "label": "machine",
+    "score": 0.9999682037366525,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/commons-47918733",
+    "margin": -0.17961478233337402,
+    "label": "machine",
+    "score": 0.9999535504416793,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/resumable-photo-627531",
+    "margin": -0.17383861541748047,
+    "label": "machine",
+    "score": 0.9994781217983868,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/resumable-photo-603251",
+    "margin": -0.24336469173431396,
+    "label": "machine",
+    "score": 0.999991372716293,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/resumable-photo-603252",
+    "margin": -0.2323405146598816,
+    "label": "machine",
+    "score": 0.9999896054445371,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/resumable-photo-603253",
+    "margin": -0.16628354787826538,
+    "label": "machine",
+    "score": 0.9999293047637273,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/resumable-photo-195462",
+    "margin": -0.1316775679588318,
+    "label": "machine",
+    "score": 0.9979104827685613,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/resumable-photo-195466",
+    "margin": -0.20790445804595947,
+    "label": "machine",
+    "score": 0.9999706017882454,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/resumable-photo-47167",
+    "margin": -0.1735295057296753,
+    "label": "machine",
+    "score": 0.9972220488288358,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/resumable-photo-47168",
+    "margin": -0.14697694778442383,
+    "label": "machine",
+    "score": 0.9995794941474766,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/russells-50209-1",
+    "margin": -0.14059209823608398,
+    "label": "machine",
+    "score": 0.9994706356789005,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/russells-50209-3",
+    "margin": -0.1957835555076599,
+    "label": "machine",
+    "score": 0.9983024502421844,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/russells-50209-4",
+    "margin": -0.1537027359008789,
+    "label": "machine",
+    "score": 0.9988337998237127,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/russells-50209-5",
+    "margin": -0.126756489276886,
+    "label": "machine",
+    "score": 0.9987417098628242,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/russells-50209-6",
+    "margin": -0.18773454427719116,
+    "label": "machine",
+    "score": 0.9996704310053792,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/resumable-photo-1333473",
+    "margin": -0.13619279861450195,
+    "label": "machine",
+    "score": 0.9998101394197331,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/resumable-photo-78132",
+    "margin": -0.2115512490272522,
+    "label": "machine",
+    "score": 0.9999921868670788,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/resumable-photo-78133",
+    "margin": -0.17223525047302246,
+    "label": "machine",
+    "score": 0.9998055558230979,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/resumable-photo-78134",
+    "margin": -0.1437188982963562,
+    "label": "machine",
+    "score": 0.9996677876853165,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/resumable-photo-78135",
+    "margin": -0.16653186082839966,
+    "label": "machine",
+    "score": 0.9999944510126574,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/wave3-photo-191733",
+    "margin": -0.17797601222991943,
+    "label": "machine",
+    "score": 0.9999589886101662,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/wave3-photo-53875",
+    "margin": -0.1881900429725647,
+    "label": "machine",
+    "score": 0.9999449489322532,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/wave3-photo-990668",
+    "margin": -0.18244606256484985,
+    "label": "machine",
+    "score": 0.9993076113352091,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/wave3-photo-990669",
+    "margin": -0.14886736869812012,
+    "label": "machine",
+    "score": 0.9929038548848278,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/wave3-photo-990670",
+    "margin": -0.12898969650268555,
+    "label": "machine",
+    "score": 0.9944609296632013,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/wave3-photo-990671",
+    "margin": -0.17824286222457886,
+    "label": "machine",
+    "score": 0.9993370487947444,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/wave4-photo-193693",
+    "margin": -0.10511535406112671,
+    "label": "machine",
+    "score": 0.9906219874699109,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/wave4-photo-193694",
+    "margin": -0.13384270668029785,
+    "label": "machine",
+    "score": 0.9996330148212904,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/wave4-photo-193699",
+    "margin": -0.1781267523765564,
+    "label": "machine",
+    "score": 0.9999229910914953,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/engine-snow80-4",
+    "margin": -0.19501221179962158,
+    "label": "machine",
+    "score": 0.9999278658401218,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/engine-snow80-11",
+    "margin": -0.3241116404533386,
+    "label": "machine",
+    "score": 0.9999846065419931,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/engine-snow820-1",
+    "margin": -0.15599441528320312,
+    "label": "machine",
+    "score": 0.9997964821902878,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/engine-weatherNH-7",
+    "margin": -0.13320225477218628,
+    "label": "machine",
+    "score": 0.9999664841786736,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/engine-weatherNH-11",
+    "margin": -0.14961016178131104,
+    "label": "machine",
+    "score": 0.9999725535243417,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/engine-rain80-4",
+    "margin": -0.1808750033378601,
+    "label": "machine",
+    "score": 0.9999473505050746,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/engine-rain80-11",
+    "margin": -0.1308167576789856,
+    "label": "machine",
+    "score": 0.9998692701396161,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/engine-rain820-9",
+    "margin": -0.1934370994567871,
+    "label": "machine",
+    "score": 0.9983212804437006,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/engine-rainNH-9",
+    "margin": -0.1508219838142395,
+    "label": "machine",
+    "score": 0.9999159135945059,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/engine-nh5070-1",
+    "margin": -0.10275518894195557,
+    "label": "machine",
+    "score": 0.9996102785258183,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "weather_expansion/engine-nh5070-2",
+    "margin": -0.13160866498947144,
+    "label": "machine",
+    "score": 0.9996875102963182,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "axle_round2/axle2-1-0",
+    "margin": -0.2071724534034729,
+    "label": "machine",
+    "score": 0.9999744634880681,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "axle_round2/axle2-2-0",
+    "margin": -0.1591815948486328,
+    "label": "machine",
+    "score": 0.9999592202993962,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "axle_round2/axle2-2-1",
+    "margin": -0.14057117700576782,
+    "label": "machine",
+    "score": 0.9999228968019491,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "axle_round2/axle2-3-0",
+    "margin": -0.16124355792999268,
+    "label": "machine",
+    "score": 0.9994918660285876,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "axle_round2/axle2-3-1",
+    "margin": -0.3178066909313202,
+    "label": "machine",
+    "score": 0.9999815863384067,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "axle_round2/axle2-4-0",
+    "margin": -0.1808253526687622,
+    "label": "machine",
+    "score": 0.9999084283393841,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "axle_round2/axle2-4-3",
+    "margin": -0.22466814517974854,
+    "label": "machine",
+    "score": 0.9999842803281133,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "axle_round2/axle2-4-4",
+    "margin": -0.11210376024246216,
+    "label": "machine",
+    "score": 0.9990292947786318,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "axle_round2/axle2-extra-0",
+    "margin": -0.20317941904067993,
+    "label": "machine",
+    "score": 0.9999921071509955,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "axle_round2/axle2-extra-5",
+    "margin": -0.26205986738204956,
+    "label": "machine",
+    "score": 0.9999901584169003,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "axle_round2/axle2-extra-7",
+    "margin": -0.17613112926483154,
+    "label": "machine",
+    "score": 0.9996471407754614,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round4/round4-5",
+    "margin": -0.22981733083724976,
+    "label": "machine",
+    "score": 0.9999928651964766,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round4/round4-14",
+    "margin": -0.2377842664718628,
+    "label": "machine",
+    "score": 0.9999962176169207,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round4/round4-16",
+    "margin": -0.19438546895980835,
+    "label": "machine",
+    "score": 0.9999711899296302,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round4/round4-17",
+    "margin": -0.25120866298675537,
+    "label": "machine",
+    "score": 0.9999920422271609,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round4/round4-73",
+    "margin": -0.19572699069976807,
+    "label": "machine",
+    "score": 0.9998427464874682,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round4/round4-78",
+    "margin": -0.1653006672859192,
+    "label": "machine",
+    "score": 0.9999392492539321,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "field_registry/field1-7",
+    "margin": -0.12406522035598755,
+    "label": "machine",
+    "score": 0.9974263940555392,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "field_registry/field1-8",
+    "margin": -0.06330728530883789,
+    "label": "machine",
+    "score": 0.9970251794404048,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "field_registry/field1-11",
+    "margin": -0.15155482292175293,
+    "label": "machine",
+    "score": 0.9998915321377811,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "field_registry/field1-14",
+    "margin": -0.34978044033050537,
+    "label": "machine",
+    "score": 0.9971933807552965,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "field_registry/round4-29",
+    "margin": -0.3604617118835449,
+    "label": "machine",
+    "score": 0.9998296753271748,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "field_registry/round4-mtz1523-8",
+    "margin": -0.18078285455703735,
+    "label": "machine",
+    "score": 0.9999836931863074,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "old_heldout/tractorbg-887586",
+    "margin": -0.2603034973144531,
+    "label": "machine",
+    "score": 0.9999574231536551,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "old_heldout/tractorbg-887591",
+    "margin": -0.3908044397830963,
+    "label": "machine",
+    "score": 0.999746245539618,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "old_heldout/tractorbg-887594",
+    "margin": -0.31293413043022156,
+    "label": "machine",
+    "score": 0.9985458213210316,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "old_heldout/tractorbg-949130",
+    "margin": -0.17340165376663208,
+    "label": "machine",
+    "score": 0.9999918346587409,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "user_attachment/01",
+    "margin": -0.15479207038879395,
+    "label": "machine",
+    "score": 0.9998694183988297,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "user_attachment/11",
+    "margin": -0.1961957812309265,
+    "label": "machine",
+    "score": 0.9991264200364234,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "user_attachment/12",
+    "margin": -0.2687806487083435,
+    "label": "machine",
+    "score": 0.9999394179339249,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round5/r5-1",
+    "margin": -0.1416233777999878,
+    "label": "machine",
+    "score": 0.9996888163516815,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round5/r5-5",
+    "margin": -0.17537438869476318,
+    "label": "machine",
+    "score": 0.9999766735426752,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round5/r5-10",
+    "margin": -0.206190288066864,
+    "label": "machine",
+    "score": 0.9999298511542206,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round5/r5-123",
+    "margin": -0.15568459033966064,
+    "label": "machine",
+    "score": 0.9937678861012755,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round5/r5-133",
+    "margin": -0.23209601640701294,
+    "label": "machine",
+    "score": 0.9998622234539277,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round5/r5-141",
+    "margin": -0.2017102837562561,
+    "label": "machine",
+    "score": 0.9992532358740587,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round5/r5-143",
+    "margin": -0.16439294815063477,
+    "label": "machine",
+    "score": 0.9999632679546995,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round5/r5-28",
+    "margin": -0.17722976207733154,
+    "label": "machine",
+    "score": 0.9999718136139958,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round5/r5-54",
+    "margin": -0.22069913148880005,
+    "label": "machine",
+    "score": 0.9999864443191104,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round5/r5-91",
+    "margin": -0.15107977390289307,
+    "label": "machine",
+    "score": 0.9999519094088314,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round5/r5b-15",
+    "margin": -0.19499272108078003,
+    "label": "machine",
+    "score": 0.9999588872389357,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round5/r5b-17",
+    "margin": -0.12660032510757446,
+    "label": "machine",
+    "score": 0.9976646182189346,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round5/r5b-20",
+    "margin": -0.23133885860443115,
+    "label": "machine",
+    "score": 0.9999876514326999,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round5/r5b-21",
+    "margin": -0.11219722032546997,
+    "label": "machine",
+    "score": 0.9985374749185385,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round5/r5b-25",
+    "margin": -0.18545371294021606,
+    "label": "machine",
+    "score": 0.9999428391979681,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round5/r5b-32",
+    "margin": -0.17774862051010132,
+    "label": "machine",
+    "score": 0.9999496615491232,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round5/r5b-41",
+    "margin": -0.16078025102615356,
+    "label": "machine",
+    "score": 0.9999043028818279,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round5/r5b-47",
+    "margin": -0.16345655918121338,
+    "label": "machine",
+    "score": 0.9997576370797959,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round5/r5b-62",
+    "margin": -0.2592892050743103,
+    "label": "machine",
+    "score": 0.9987051471705822,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round5/r5b-63",
+    "margin": -0.19500994682312012,
+    "label": "machine",
+    "score": 0.9977513681463802,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round5/r5b-69",
+    "margin": -0.3506910800933838,
+    "label": "machine",
+    "score": 0.99995590924838,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round5/r5b-103",
+    "margin": -0.13134819269180298,
+    "label": "machine",
+    "score": 0.9941879134011804,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round5/r5g-0",
+    "margin": -0.1646040678024292,
+    "label": "machine",
+    "score": 0.9999605641785435,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "round5/r5g-1",
+    "margin": -0.1451926827430725,
+    "label": "machine",
+    "score": 0.9994463374723296,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "mvp/m000",
+    "margin": -0.31248921155929565,
+    "label": "machine",
+    "score": 0.9999677718275229,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "mvp/m002",
+    "margin": -0.17571032047271729,
+    "label": "machine",
+    "score": 0.9999791309989043,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "mvp/m004",
+    "margin": -0.1376873254776001,
+    "label": "machine",
+    "score": 0.9946560238731589,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "mvp/m006",
+    "margin": -0.24975651502609253,
+    "label": "machine",
+    "score": 0.9999970658513894,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "mvp/m011",
+    "margin": -0.26533758640289307,
+    "label": "machine",
+    "score": 0.9999610719222132,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "mvp/m016",
+    "margin": -0.2031288743019104,
+    "label": "machine",
+    "score": 0.9999901029500313,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "mvp/m028",
+    "margin": -0.18283957242965698,
+    "label": "machine",
+    "score": 0.999979554394722,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "mvp/n002",
+    "margin": -0.274330735206604,
+    "label": "machine",
+    "score": 0.9997546836554336,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "mvp/n003",
+    "margin": -0.22036045789718628,
+    "label": "machine",
+    "score": 0.9999978758875333,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "mvp/n004",
+    "margin": -0.1823919415473938,
+    "label": "machine",
+    "score": 0.9999927938573543,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "mvp/n010",
+    "margin": -0.19363176822662354,
+    "label": "machine",
+    "score": 0.9999647574447589,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "mvp/n012",
+    "margin": -0.1636446714401245,
+    "label": "machine",
+    "score": 0.9967660055522088,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "winter2/w042",
+    "margin": -0.26162058115005493,
+    "label": "machine",
+    "score": 0.9999903442390857,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "winter2/w085",
+    "margin": -0.33820492029190063,
+    "label": "machine",
+    "score": 0.9999562889551313,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "winter2/w086",
+    "margin": -0.13817596435546875,
+    "label": "machine",
+    "score": 0.9985814488401625,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "winter2/b004",
+    "margin": -0.09616845846176147,
+    "label": "machine",
+    "score": 0.9997987984615001,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "winter2/b006",
+    "margin": -0.07386612892150879,
+    "label": "machine",
+    "score": 0.9982316113322367,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "winter2/b017",
+    "margin": -0.08199644088745117,
+    "label": "machine",
+    "score": 0.9997568368870658,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "winter2/b018",
+    "margin": -0.08792847394943237,
+    "label": "machine",
+    "score": 0.9970263640135691,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "winter2/b020",
+    "margin": -0.0807296633720398,
+    "label": "machine",
+    "score": 0.9854540982609404,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "winter2/b040",
+    "margin": -0.1523086428642273,
+    "label": "machine",
+    "score": 0.999764351678846,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "robust3/nh019",
+    "margin": -0.1997736096382141,
+    "label": "machine",
+    "score": 0.9996943559987352,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "robust3/nh054",
+    "margin": -0.21337252855300903,
+    "label": "machine",
+    "score": 0.9999703849925694,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "robust3/nh057",
+    "margin": -0.12375026941299438,
+    "label": "machine",
+    "score": 0.9996978305504249,
+    "veto": false,
+    "uncertain": false
+  },
+  {
+    "key": "trailer5/t5_c3",
+    "margin": -0.16751569509506226,
+    "label": "machine",
+    "score": 0.9996599414703927,
+    "veto": false,
+    "uncertain": false
+  }
+]

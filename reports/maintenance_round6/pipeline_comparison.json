@@ -1,0 +1,1047 @@
+{
+  "before": {
+    "model_wave2/tractorbg-293982": {
+      "path": "D:\\machinery-vision\\project\\output\\open_set\\candidates\\tractorbg-293982.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\trailer_round5\\pipeline\\after\\model_wave2_tractorbg-293982\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "claas_axion_800_family",
+          "family": null,
+          "visible_model_marking": null,
+          "condition": "not_assessed",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.729411780834198,
+            "machine_median_luminance": 0.41960784792900085,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": "tractor"
+        },
+        {
+          "family_candidate": "claas_axion_800_family",
+          "family": null,
+          "visible_model_marking": null,
+          "condition": "not_assessed",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.729411780834198,
+            "machine_median_luminance": 0.4470588266849518,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": "tractor"
+        }
+      ],
+      "ignored": [
+        "attachment"
+      ]
+    },
+    "model_wave2/tractorbg-293984": {
+      "path": "D:\\machinery-vision\\project\\output\\open_set\\candidates\\tractorbg-293984.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\trailer_round5\\pipeline\\after\\model_wave2_tractorbg-293984\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "claas_axion_800_family",
+          "family": null,
+          "visible_model_marking": null,
+          "condition": "not_assessed",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.729411780834198,
+            "machine_median_luminance": 0.4588235318660736,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": "tractor"
+        },
+        {
+          "family_candidate": "claas_axion_800_family",
+          "family": null,
+          "visible_model_marking": null,
+          "condition": "not_assessed",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.729411780834198,
+            "machine_median_luminance": 0.5882353186607361,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": null
+        },
+        {
+          "family_candidate": "claas_axion_800_family",
+          "family": null,
+          "visible_model_marking": null,
+          "condition": "not_assessed",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.729411780834198,
+            "machine_median_luminance": 0.29019609093666077,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": "tractor"
+        }
+      ],
+      "ignored": []
+    },
+    "weather_expansion/resumable-photo-627531": {
+      "path": "D:\\machinery-vision\\project\\output\\weather_expansion\\photos\\resumable-photo-627531.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\trailer_round5\\pipeline\\after\\weather_expansion_resumable-photo-627531\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "claas_axion_800_family",
+          "family": null,
+          "visible_model_marking": null,
+          "condition": "not_assessed",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.47843137383461,
+            "machine_median_luminance": 0.3921568691730499,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": "tractor"
+        },
+        {
+          "family_candidate": "mtz_1523_family",
+          "family": null,
+          "visible_model_marking": null,
+          "condition": "not_assessed",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.47843137383461,
+            "machine_median_luminance": 0.3176470696926117,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": "tractor"
+        }
+      ],
+      "ignored": []
+    },
+    "weather_expansion/resumable-photo-78132": {
+      "path": "D:\\machinery-vision\\project\\output\\weather_expansion\\photos\\resumable-photo-78132.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\trailer_round5\\pipeline\\after\\weather_expansion_resumable-photo-78132\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "mtz_80_family",
+          "family": null,
+          "visible_model_marking": null,
+          "condition": "dirty",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.5098039507865906,
+            "machine_median_luminance": 0.501960813999176,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": "tractor"
+        },
+        {
+          "family_candidate": "mtz_80_family",
+          "family": null,
+          "visible_model_marking": null,
+          "condition": "dirty",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.5098039507865906,
+            "machine_median_luminance": 0.4588235318660736,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": "tractor"
+        },
+        {
+          "family_candidate": "t_150k_family",
+          "family": null,
+          "visible_model_marking": null,
+          "condition": "not_assessed",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.5098039507865906,
+            "machine_median_luminance": 0.46666666865348816,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": "tractor"
+        },
+        {
+          "family_candidate": null,
+          "family": null,
+          "visible_model_marking": null,
+          "condition": "not_assessed",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.5098039507865906,
+            "machine_median_luminance": 0.3960784375667572,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": "tractor"
+        }
+      ],
+      "ignored": []
+    },
+    "axle_round2/axle2-extra-7": {
+      "path": "D:\\machinery-vision\\project\\output\\axle_round2\\photos\\axle2-extra-7.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\trailer_round5\\pipeline\\after\\axle_round2_axle2-extra-7\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "mtz_80_family",
+          "family": null,
+          "visible_model_marking": "820",
+          "condition": "not_assessed",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.4941176474094391,
+            "machine_median_luminance": 0.4941176474094391,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": null
+        }
+      ],
+      "ignored": [
+        "unconfirmed_region"
+      ]
+    },
+    "round5/r5-143": {
+      "path": "D:\\machinery-vision\\project\\output\\continuation_round5\\photos\\r5-143.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\trailer_round5\\pipeline\\after\\round5_r5-143\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "mtz_1523_family",
+          "family": null,
+          "visible_model_marking": "1523",
+          "condition": "not_assessed",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.47843137383461,
+            "machine_median_luminance": 0.47058823704719543,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": "tractor"
+        },
+        {
+          "family_candidate": "mtz_1221_family",
+          "family": null,
+          "visible_model_marking": null,
+          "condition": "not_assessed",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.47843137383461,
+            "machine_median_luminance": 0.46666666865348816,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": "tractor"
+        }
+      ],
+      "ignored": []
+    },
+    "round5/r5-54": {
+      "path": "D:\\machinery-vision\\project\\output\\continuation_round5\\photos\\r5-54.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\trailer_round5\\pipeline\\after\\round5_r5-54\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "mtz_1523_family",
+          "family": null,
+          "visible_model_marking": "1523.3",
+          "condition": "dirty",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.48627451062202454,
+            "machine_median_luminance": 0.46666666865348816,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": "tractor"
+        }
+      ],
+      "ignored": [
+        "unconfirmed_region"
+      ]
+    },
+    "round5/r5b-103": {
+      "path": "D:\\machinery-vision\\project\\output\\continuation_round5\\photos\\r5b-103.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\trailer_round5\\pipeline\\after\\round5_r5b-103\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "claas_axion_800_family",
+          "family": null,
+          "visible_model_marking": null,
+          "condition": "not_assessed",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.3843137323856354,
+            "machine_median_luminance": 0.33725491166114807,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": "tractor"
+        },
+        {
+          "family_candidate": "claas_axion_800_family",
+          "family": null,
+          "visible_model_marking": null,
+          "condition": "dirty",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.3843137323856354,
+            "machine_median_luminance": 0.35686275362968445,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": "tractor"
+        },
+        {
+          "family_candidate": "claas_axion_800_family",
+          "family": null,
+          "visible_model_marking": null,
+          "condition": "not_assessed",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.3843137323856354,
+            "machine_median_luminance": 0.3294117748737335,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": "tractor"
+        }
+      ],
+      "ignored": []
+    },
+    "weather4/w4_021": {
+      "path": "D:\\machinery-vision\\project\\output\\weather_round4\\photos\\w4_021.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\trailer_round5\\pipeline\\after\\weather4_w4_021\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "nh_t5000_family",
+          "family": null,
+          "visible_model_marking": null,
+          "condition": "not_assessed",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.3137255012989044,
+            "machine_median_luminance": 0.30588236451148987,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": "tractor"
+        }
+      ],
+      "ignored": [
+        "semantic_trailer"
+      ]
+    },
+    "trailer5/t5_c3": {
+      "path": "D:\\machinery-vision\\project\\output\\trailer_round5\\photos\\t5_c3.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\trailer_round5\\pipeline\\after\\trailer5_t5_c3\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "nh_t5000_family",
+          "family": "nh_t5000_family",
+          "visible_model_marking": null,
+          "condition": "not_assessed",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.5803921818733215,
+            "machine_median_luminance": 0.5333333611488342,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": "tractor"
+        }
+      ],
+      "ignored": []
+    },
+    "trailer5/neg_01": {
+      "path": "D:\\machinery-vision\\project\\output\\trailer_round5\\region_train\\neg_01.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\trailer_round5\\pipeline\\after\\trailer5_neg_01\\prediction.json",
+      "objects": [],
+      "ignored": [
+        "attachment"
+      ]
+    },
+    "trailer5/neg_05": {
+      "path": "D:\\machinery-vision\\project\\output\\trailer_round5\\region_train\\neg_05.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\trailer_round5\\pipeline\\after\\trailer5_neg_05\\prediction.json",
+      "objects": [],
+      "ignored": [
+        "attachment",
+        "attachment",
+        "unconfirmed_region"
+      ]
+    },
+    "mud": {
+      "path": "D:\\machinery-vision\\project\\output\\hierarchy_review\\c7f689a77538495b893703dd765ca5b8\\input.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\trailer_round5\\pipeline\\after\\mud\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "mtz_80_family",
+          "family": "mtz_80_family",
+          "visible_model_marking": null,
+          "condition": "dirty",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.5372549295425415,
+            "machine_median_luminance": 0.5372549295425415,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": "tractor"
+        }
+      ],
+      "ignored": []
+    },
+    "attachment": {
+      "path": "D:\\machinery-vision\\project\\output\\hierarchy_review\\f067a0be65404cdea89f113e9e206f92\\input.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\trailer_round5\\pipeline\\after\\attachment\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "mtz_1523_family",
+          "family": null,
+          "visible_model_marking": "1523.3",
+          "condition": "dirty",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.48627451062202454,
+            "machine_median_luminance": 0.46666666865348816,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": "tractor"
+        }
+      ],
+      "ignored": [
+        "unconfirmed_region"
+      ]
+    },
+    "multiple": {
+      "path": "D:\\machinery-vision\\project\\output\\continuation_round6\\web_verification\\6345b13e171f419ab19301aed4892993\\input.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\trailer_round5\\pipeline\\after\\multiple\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "mtz_80_family",
+          "family": null,
+          "visible_model_marking": null,
+          "condition": "not_assessed",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.3294117748737335,
+            "machine_median_luminance": 0.29411765933036804,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": "tractor"
+        },
+        {
+          "family_candidate": "mtz_80_family",
+          "family": null,
+          "visible_model_marking": null,
+          "condition": "not_assessed",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.3294117748737335,
+            "machine_median_luminance": 0.3490196168422699,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": "tractor"
+        },
+        {
+          "family_candidate": null,
+          "family": null,
+          "visible_model_marking": null,
+          "condition": "not_assessed",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.3294117748737335,
+            "machine_median_luminance": 0.20392157137393951,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": null
+        }
+      ],
+      "ignored": []
+    },
+    "mvp/m004": {
+      "path": "D:\\machinery-vision\\project\\output\\mvp\\photos\\m004.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\trailer_round5\\pipeline\\after\\mvp_m004\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": null,
+          "family": null,
+          "visible_model_marking": null,
+          "condition": "not_assessed",
+          "image_quality": {
+            "low_light": true,
+            "scene_median_luminance": 0.12156862765550613,
+            "machine_median_luminance": 0.1882352977991104,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": "tractor"
+        }
+      ],
+      "ignored": []
+    },
+    "mvp/m011": {
+      "path": "D:\\machinery-vision\\project\\output\\mvp\\photos\\m011.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\trailer_round5\\pipeline\\after\\mvp_m011\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "mtz_80_family",
+          "family": null,
+          "visible_model_marking": "82",
+          "condition": "not_assessed",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.45098039507865906,
+            "machine_median_luminance": 0.46666666865348816,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": "tractor"
+        }
+      ],
+      "ignored": []
+    },
+    "mvp/m028": {
+      "path": "D:\\machinery-vision\\project\\output\\mvp\\photos\\m028.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\trailer_round5\\pipeline\\after\\mvp_m028\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "unknown",
+          "family": null,
+          "visible_model_marking": "M135",
+          "condition": "dirty",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.5058823823928833,
+            "machine_median_luminance": 0.4901960790157318,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": null
+        }
+      ],
+      "ignored": []
+    },
+    "mvp/m000": {
+      "path": "D:\\machinery-vision\\project\\output\\mvp\\photos\\m000.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\trailer_round5\\pipeline\\after\\mvp_m000\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "mtz_80_family",
+          "family": null,
+          "visible_model_marking": null,
+          "condition": "not_assessed",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.6235294342041016,
+            "machine_median_luminance": 0.5372549295425415,
+            "policy": "prototype_photometric_refusal_v1"
+          },
+          "vehicle_type": "tractor"
+        }
+      ],
+      "ignored": []
+    },
+    "new_fliegl": {
+      "path": "D:\\machinery-vision\\project\\output\\maintenance_round6\\photos\\fieldtank_02.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\maintenance_round6\\pipeline\\before\\new_fliegl\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "acros_family",
+          "family": null,
+          "condition": "not_assessed",
+          "visible_model_marking": null,
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.5372549295425415,
+            "machine_median_luminance": 0.5490196347236633,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        }
+      ],
+      "ignored": [
+        "unconfirmed_region"
+      ],
+      "uncertain": 0
+    }
+  },
+  "after": {
+    "model_wave2/tractorbg-293982": {
+      "path": "D:\\machinery-vision\\project\\output\\open_set\\candidates\\tractorbg-293982.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\maintenance_round6\\pipeline\\after\\model_wave2_tractorbg-293982\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "claas_axion_800_family",
+          "family": null,
+          "condition": "not_assessed",
+          "visible_model_marking": null,
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.729411780834198,
+            "machine_median_luminance": 0.41960784792900085,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        },
+        {
+          "family_candidate": "claas_axion_800_family",
+          "family": null,
+          "condition": "not_assessed",
+          "visible_model_marking": null,
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.729411780834198,
+            "machine_median_luminance": 0.4470588266849518,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        }
+      ],
+      "ignored": [
+        "attachment"
+      ],
+      "uncertain": 0
+    },
+    "model_wave2/tractorbg-293984": {
+      "path": "D:\\machinery-vision\\project\\output\\open_set\\candidates\\tractorbg-293984.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\maintenance_round6\\pipeline\\after\\model_wave2_tractorbg-293984\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "claas_axion_800_family",
+          "family": null,
+          "condition": "not_assessed",
+          "visible_model_marking": null,
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.729411780834198,
+            "machine_median_luminance": 0.4588235318660736,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        },
+        {
+          "family_candidate": "claas_axion_800_family",
+          "family": null,
+          "condition": "not_assessed",
+          "visible_model_marking": null,
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.729411780834198,
+            "machine_median_luminance": 0.5882353186607361,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        },
+        {
+          "family_candidate": "claas_axion_800_family",
+          "family": null,
+          "condition": "not_assessed",
+          "visible_model_marking": null,
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.729411780834198,
+            "machine_median_luminance": 0.29019609093666077,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        }
+      ],
+      "ignored": [],
+      "uncertain": 0
+    },
+    "weather_expansion/resumable-photo-627531": {
+      "path": "D:\\machinery-vision\\project\\output\\weather_expansion\\photos\\resumable-photo-627531.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\maintenance_round6\\pipeline\\after\\weather_expansion_resumable-photo-627531\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "claas_axion_800_family",
+          "family": null,
+          "condition": "not_assessed",
+          "visible_model_marking": null,
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.47843137383461,
+            "machine_median_luminance": 0.3960784375667572,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        }
+      ],
+      "ignored": [
+        "ambiguous_powered_or_attachment"
+      ],
+      "uncertain": 1
+    },
+    "weather_expansion/resumable-photo-78132": {
+      "path": "D:\\machinery-vision\\project\\output\\weather_expansion\\photos\\resumable-photo-78132.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\maintenance_round6\\pipeline\\after\\weather_expansion_resumable-photo-78132\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "mtz_80_family",
+          "family": null,
+          "condition": "not_assessed",
+          "visible_model_marking": null,
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.5098039507865906,
+            "machine_median_luminance": 0.501960813999176,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        },
+        {
+          "family_candidate": "mtz_80_family",
+          "family": null,
+          "condition": "not_assessed",
+          "visible_model_marking": null,
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.5098039507865906,
+            "machine_median_luminance": 0.4588235318660736,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        },
+        {
+          "family_candidate": "t_150k_family",
+          "family": null,
+          "condition": "not_assessed",
+          "visible_model_marking": null,
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.5098039507865906,
+            "machine_median_luminance": 0.46666666865348816,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        }
+      ],
+      "ignored": [
+        "ambiguous_powered_or_attachment"
+      ],
+      "uncertain": 1
+    },
+    "axle_round2/axle2-extra-7": {
+      "path": "D:\\machinery-vision\\project\\output\\axle_round2\\photos\\axle2-extra-7.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\maintenance_round6\\pipeline\\after\\axle_round2_axle2-extra-7\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "mtz_80_family",
+          "family": null,
+          "condition": "not_assessed",
+          "visible_model_marking": "820",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.4941176474094391,
+            "machine_median_luminance": 0.4941176474094391,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        }
+      ],
+      "ignored": [
+        "unconfirmed_region"
+      ],
+      "uncertain": 0
+    },
+    "round5/r5-143": {
+      "path": "D:\\machinery-vision\\project\\output\\continuation_round5\\photos\\r5-143.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\maintenance_round6\\pipeline\\after\\round5_r5-143\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "mtz_1523_family",
+          "family": null,
+          "condition": "not_assessed",
+          "visible_model_marking": "1523",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.47843137383461,
+            "machine_median_luminance": 0.47058823704719543,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        },
+        {
+          "family_candidate": "mtz_1221_family",
+          "family": null,
+          "condition": "not_assessed",
+          "visible_model_marking": null,
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.47843137383461,
+            "machine_median_luminance": 0.46666666865348816,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        }
+      ],
+      "ignored": [],
+      "uncertain": 0
+    },
+    "round5/r5-54": {
+      "path": "D:\\machinery-vision\\project\\output\\continuation_round5\\photos\\r5-54.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\maintenance_round6\\pipeline\\after\\round5_r5-54\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "mtz_1523_family",
+          "family": null,
+          "condition": "dirty",
+          "visible_model_marking": "1523.3",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.48627451062202454,
+            "machine_median_luminance": 0.46666666865348816,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        }
+      ],
+      "ignored": [
+        "unconfirmed_region"
+      ],
+      "uncertain": 0
+    },
+    "round5/r5b-103": {
+      "path": "D:\\machinery-vision\\project\\output\\continuation_round5\\photos\\r5b-103.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\maintenance_round6\\pipeline\\after\\round5_r5b-103\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "claas_axion_800_family",
+          "family": null,
+          "condition": "not_assessed",
+          "visible_model_marking": null,
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.3843137323856354,
+            "machine_median_luminance": 0.3529411852359772,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        }
+      ],
+      "ignored": [
+        "semantic_trailer",
+        "composite_duplicate"
+      ],
+      "uncertain": 0
+    },
+    "weather4/w4_021": {
+      "path": "D:\\machinery-vision\\project\\output\\weather_round4\\photos\\w4_021.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\maintenance_round6\\pipeline\\after\\weather4_w4_021\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "nh_t5000_family",
+          "family": null,
+          "condition": "not_assessed",
+          "visible_model_marking": null,
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.3137255012989044,
+            "machine_median_luminance": 0.30588236451148987,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        }
+      ],
+      "ignored": [
+        "semantic_trailer"
+      ],
+      "uncertain": 0
+    },
+    "trailer5/t5_c3": {
+      "path": "D:\\machinery-vision\\project\\output\\trailer_round5\\photos\\t5_c3.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\maintenance_round6\\pipeline\\after\\trailer5_t5_c3\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "nh_t5000_family",
+          "family": "nh_t5000_family",
+          "condition": "not_assessed",
+          "visible_model_marking": null,
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.5803921818733215,
+            "machine_median_luminance": 0.5333333611488342,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        }
+      ],
+      "ignored": [],
+      "uncertain": 0
+    },
+    "trailer5/neg_01": {
+      "path": "D:\\machinery-vision\\project\\output\\trailer_round5\\region_train\\neg_01.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\maintenance_round6\\pipeline\\after\\trailer5_neg_01\\prediction.json",
+      "objects": [],
+      "ignored": [
+        "attachment"
+      ],
+      "uncertain": 0
+    },
+    "trailer5/neg_05": {
+      "path": "D:\\machinery-vision\\project\\output\\trailer_round5\\region_train\\neg_05.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\maintenance_round6\\pipeline\\after\\trailer5_neg_05\\prediction.json",
+      "objects": [],
+      "ignored": [
+        "attachment",
+        "attachment",
+        "unconfirmed_region"
+      ],
+      "uncertain": 0
+    },
+    "mud": {
+      "path": "D:\\machinery-vision\\project\\output\\hierarchy_review\\c7f689a77538495b893703dd765ca5b8\\input.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\maintenance_round6\\pipeline\\after\\mud\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "mtz_80_family",
+          "family": "mtz_80_family",
+          "condition": "dirty",
+          "visible_model_marking": null,
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.5372549295425415,
+            "machine_median_luminance": 0.5372549295425415,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        }
+      ],
+      "ignored": [],
+      "uncertain": 0
+    },
+    "attachment": {
+      "path": "D:\\machinery-vision\\project\\output\\hierarchy_review\\f067a0be65404cdea89f113e9e206f92\\input.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\maintenance_round6\\pipeline\\after\\attachment\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "mtz_1523_family",
+          "family": null,
+          "condition": "dirty",
+          "visible_model_marking": "1523.3",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.48627451062202454,
+            "machine_median_luminance": 0.46666666865348816,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        }
+      ],
+      "ignored": [
+        "unconfirmed_region"
+      ],
+      "uncertain": 0
+    },
+    "multiple": {
+      "path": "D:\\machinery-vision\\project\\output\\continuation_round6\\web_verification\\6345b13e171f419ab19301aed4892993\\input.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\maintenance_round6\\pipeline\\after\\multiple\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "mtz_80_family",
+          "family": null,
+          "condition": "not_assessed",
+          "visible_model_marking": null,
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.3294117748737335,
+            "machine_median_luminance": 0.29411765933036804,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        },
+        {
+          "family_candidate": "mtz_80_family",
+          "family": null,
+          "condition": "not_assessed",
+          "visible_model_marking": null,
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.3294117748737335,
+            "machine_median_luminance": 0.3490196168422699,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        },
+        {
+          "family_candidate": null,
+          "family": null,
+          "condition": "not_assessed",
+          "visible_model_marking": null,
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.3294117748737335,
+            "machine_median_luminance": 0.20392157137393951,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        }
+      ],
+      "ignored": [],
+      "uncertain": 0
+    },
+    "mvp/m004": {
+      "path": "D:\\machinery-vision\\project\\output\\mvp\\photos\\m004.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\maintenance_round6\\pipeline\\after\\mvp_m004\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": null,
+          "family": null,
+          "condition": "not_assessed",
+          "visible_model_marking": null,
+          "image_quality": {
+            "low_light": true,
+            "scene_median_luminance": 0.12156862765550613,
+            "machine_median_luminance": 0.1882352977991104,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        }
+      ],
+      "ignored": [],
+      "uncertain": 0
+    },
+    "mvp/m011": {
+      "path": "D:\\machinery-vision\\project\\output\\mvp\\photos\\m011.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\maintenance_round6\\pipeline\\after\\mvp_m011\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "mtz_80_family",
+          "family": null,
+          "condition": "not_assessed",
+          "visible_model_marking": "82",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.45098039507865906,
+            "machine_median_luminance": 0.46666666865348816,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        }
+      ],
+      "ignored": [],
+      "uncertain": 0
+    },
+    "mvp/m028": {
+      "path": "D:\\machinery-vision\\project\\output\\mvp\\photos\\m028.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\maintenance_round6\\pipeline\\after\\mvp_m028\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "unknown",
+          "family": null,
+          "condition": "dirty",
+          "visible_model_marking": "M135",
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.5058823823928833,
+            "machine_median_luminance": 0.4901960790157318,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        }
+      ],
+      "ignored": [],
+      "uncertain": 0
+    },
+    "mvp/m000": {
+      "path": "D:\\machinery-vision\\project\\output\\mvp\\photos\\m000.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\maintenance_round6\\pipeline\\after\\mvp_m000\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "mtz_80_family",
+          "family": null,
+          "condition": "not_assessed",
+          "visible_model_marking": null,
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.6235294342041016,
+            "machine_median_luminance": 0.5372549295425415,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        }
+      ],
+      "ignored": [],
+      "uncertain": 0
+    },
+    "new_fliegl": {
+      "path": "D:\\machinery-vision\\project\\output\\maintenance_round6\\photos\\fieldtank_02.jpg",
+      "result": "D:\\machinery-vision\\project\\output\\maintenance_round6\\pipeline\\after\\new_fliegl\\prediction.json",
+      "objects": [
+        {
+          "family_candidate": "acros_family",
+          "family": null,
+          "condition": "not_assessed",
+          "visible_model_marking": null,
+          "image_quality": {
+            "low_light": false,
+            "scene_median_luminance": 0.5372549295425415,
+            "machine_median_luminance": 0.5490196347236633,
+            "policy": "prototype_photometric_refusal_v1"
+          }
+        }
+      ],
+      "ignored": [
+        "unconfirmed_region"
+      ],
+      "uncertain": 0
+    }
+  }
+}

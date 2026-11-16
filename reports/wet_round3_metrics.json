@@ -1,0 +1,92 @@
+{
+  "refined": {
+    "previous": {
+      "correct": 59,
+      "known": 89,
+      "exact_correct": 20,
+      "exact_wrong": 2,
+      "exact_n": 22
+    },
+    "previous_without_history": {
+      "correct": 57,
+      "known": 89,
+      "exact_correct": 26,
+      "exact_wrong": 4,
+      "exact_n": 30
+    },
+    "expanded": {
+      "correct": 59,
+      "known": 89,
+      "exact_correct": 22,
+      "exact_wrong": 3,
+      "exact_n": 25
+    },
+    "expanded_without_history": {
+      "correct": 57,
+      "known": 89,
+      "exact_correct": 22,
+      "exact_wrong": 3,
+      "exact_n": 25
+    }
+  },
+  "convnext": {
+    "previous": {
+      "correct": 57,
+      "known": 89,
+      "exact_correct": 12,
+      "exact_wrong": 4,
+      "exact_n": 16
+    },
+    "previous_without_history": {
+      "correct": 61,
+      "known": 89,
+      "exact_correct": 9,
+      "exact_wrong": 4,
+      "exact_n": 13
+    },
+    "expanded": {
+      "correct": 55,
+      "known": 89,
+      "exact_correct": 6,
+      "exact_wrong": 3,
+      "exact_n": 9
+    },
+    "expanded_without_history": {
+      "correct": 60,
+      "known": 89,
+      "exact_correct": 20,
+      "exact_wrong": 7,
+      "exact_n": 27
+    }
+  },
+  "fused": {
+    "previous": {
+      "correct": 61,
+      "known": 89,
+      "exact_correct": 21,
+      "exact_wrong": 2,
+      "exact_n": 23
+    },
+    "previous_without_history": {
+      "correct": 59,
+      "known": 89,
+      "exact_correct": 29,
+      "exact_wrong": 4,
+      "exact_n": 33
+    },
+    "expanded": {
+      "correct": 61,
+      "known": 89,
+      "exact_correct": 17,
+      "exact_wrong": 3,
+      "exact_n": 20
+    },
+    "expanded_without_history": {
+      "correct": 58,
+      "known": 89,
+      "exact_correct": 18,
+      "exact_wrong": 3,
+      "exact_n": 21
+    }
+  }
+}

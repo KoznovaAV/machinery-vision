@@ -1,0 +1,11 @@
+{
+  "reviewer": "assistant_visual_review",
+  "expert_confirmation": false,
+  "date": "2026-11-16",
+  "files": [
+    "manual_region_review.json",
+    "manual_instance_annotations.json",
+    "manual_external_review.json",
+    "new_tanker_control.json"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "round": "maintenance_round6",
+  "release_date": "2026-11-16",
+  "timezone": "Europe/Moscow",
+  "report": "reports/MAINTENANCE_ROUND6_2026-11-16.md",
+  "handover": "docs/HANDOVER.md",
+  "artifacts": {
+    "hierarchy_bundle.json": "44316a1df46476ec086f8ebdd92c7b63ea491dc20fb1adcab04197f0c93a6fa5",
+    "condition_bundle.json": "0f89766d2e985f0ace7c108486506702c9a5487a02cb9b8393a25cd22a9220cc",
+    "region_bundle.json": "18cd1391f1583c73e9c33a7fca8230d5d4514ccc7477b8d42b83703e12e32e8d",
+    "trailer_references_round6.npz": "722225ddf2e30662119b435fd86b3052ddc3f188b96a50cba3c3fe5580f68a66"
+  },
+  "sources": {
+    "scripts/predict_machinery_hierarchy.py": "1a6daf3f844547acc89a5774a09f59eae4626fea39b497c377e79df313f98784",
+    "scripts/render_hierarchy_review.py": "ca296121be080bf3ff9c1b0015de911c7249cce9aeb30d1edec99314bb2fe3d4",
+    "scripts/serve_hierarchy_review.py": "989e4fa4d6daabac03514db4a7004708de983d3c9ec8dd567343ebc3dd4b9360",
+    "scripts/check_mvp_release.py": "2e4cf24ce36dda211fd29e16e902eb0b053e98ee4e5f5d3f80918858fb84898f",
+    "src/models/mvp_inference.py": "4b77bd296c606ab75c714d41b5beebcd12ad43e8d9e02ab405e47e8f14ffcf53",
+    "src/models/hierarchy.py": "4264a06adcc043126f2e493a24fe6d3045e068afae5a039a167479639973ed5c",
+    "src/models/trailer_filter.py": "c10539424d4ef0e6e06794f57c32df23a29ac33ce222f70120e001636594420e",
+    "src/models/image_visibility.py": "90ec0000c36009ee85069038d982754ab61d376da13e5aaae2cce09493746aac",
+    "src/models/condition_features.py": "0c7d80e67557ae26b36f54eea586f677aba6b7f34fdf89374adef023604b6bb1",
+    "src/models/visible_condition.py": "84232dc8771b6608ab7459013eb961406a2fb2e241e9998c932e3f1d780e6b76",
+    "src/config/machinery_taxonomy.py": "e62b2e9811b9eafe88234c459994b4d6f079aa8ad7228d215c2d6f867d2c66c4",
+    "src/config/hierarchy_artifacts.py": "61aa0ff9396b4f5d4642e057a1a994ee1cc82d313c8a028c28e409c6987094aa",
+    "configs/machinery_taxonomy.json": "2f83739b3dfdf90e8c6b7c9cc568972072cd72cd1ba77270c6bffa80d9632687",
+    "scripts/benchmark_tractor_localization.py": "01de66016a17338e364d2bfd2a92f6348dca1a2b6274d35b7c75e6338b694e1d",
+    "scripts/benchmark_grouped_recognition.py": "5ecdef56a73d64054f950b73aeecaef0215ec2c68d0569778fb4a923ab092dd2",
+    "scripts/benchmark_front_axle.py": "444552584a60e239326bd9d3997b531d7af886738e68dfb058b793b62cdfdf49",
+    "scripts/analyze_model_marking.py": "196f7e17595885c85ab380d21e09b89727e5a35c29fba019b277d2bdfa06f740",
+    "scripts/predict_tractor_conditions.py": "14ae6681dcb4f8f4d3c6cac94aee198a035345e7072e4fa96dc34b8523a73f16",
+    "requirements-hierarchy.txt": "b49a0c670042c9b8ef6b746683d89c7cf4a1f6804dc9958e6e776e7b809c0b45"
+  },
+  "tests": 222,
+  "pipeline_cases": 20,
+  "preserved": [
+    "family/type/MTZ classifier weights",
+    "condition weights",
+    "original region and partial heads"
+  ],
+  "condition_candidates_rejected": true,
+  "release_source": "Git commit containing this manifest; additional local snapshot output/maintenance_round6/release_source",
+  "limitations": [
+    "Repeated diagnostic controls are not blinded validation",
+    "Uncertain regions require human review",
+    "Rain and machine wetness remain insufficiently validated"
+  ],
+  "automatic_training": false,
+  "automatic_deployment": false,
+  "live_web_verification": "reports/maintenance_round6/live_web_verification.json",
+  "inference_immutability": "reports/maintenance_round6/inference_immutability.json",
+  "web_cases_verified": [
+    "tanker",
+    "uncertain_trailer",
+    "real_combine",
+    "multiple",
+    "mud",
+    "night"
+  ],
+  "annotation_review": "assistant_visual_not_expert_certified",
+  "published_evidence": "reports/maintenance_round6",
+  "publication_checks": "reports/maintenance_round6/publication_checks.json"
+}

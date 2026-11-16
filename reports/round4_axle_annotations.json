@@ -1,0 +1,1816 @@
+[
+  {
+    "key": "mtz_model_pilot/other-mtz-61105",
+    "group": "tractorbg-43150",
+    "model": "mtz_80",
+    "role": "train",
+    "index": 0,
+    "path": "output/tractor_parts/views/83a83f64435dceff6db3432cd66d7015d7d8c3c0e68c44adb01392f200f67a68/tractor.jpg",
+    "sha256": "065a94168c6d87f00b09e323b55efb053d259d3bd575018837a2ff3f3790b546",
+    "original_sha256": "83a83f64435dceff6db3432cd66d7015d7d8c3c0e68c44adb01392f200f67a68",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.61,
+          0.65,
+          0.99,
+          0.82
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "mtz_model_pilot/other-mtz-274588",
+    "group": "tractorbg-100353",
+    "model": "mtz_80",
+    "role": "train",
+    "index": 1,
+    "path": "output/tractor_parts/views/23e898a34bf1e29290ead166500172b4871e0c51db05eaa440cffad77144891a/tractor.jpg",
+    "sha256": "86940774dc43a0c7bd2c18689913d1d85bea46aafa625220895ccc7e3580deff",
+    "original_sha256": "23e898a34bf1e29290ead166500172b4871e0c51db05eaa440cffad77144891a",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.02,
+          0.66,
+          0.66,
+          0.82
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "mtz_model_pilot/other-mtz-296132",
+    "group": "tractorbg-101761",
+    "model": "mtz_80",
+    "role": "train",
+    "index": 2,
+    "path": "output/tractor_parts/views/82b9f1ab0482267f8fe5199bac6e25b04a07a0dc223b62807b1533c08ea88beb/tractor.jpg",
+    "sha256": "61835268dbd05c0c0c703f0bca49956970e3c37b631806541d39a46f3fb29a63",
+    "original_sha256": "82b9f1ab0482267f8fe5199bac6e25b04a07a0dc223b62807b1533c08ea88beb",
+    "boxes": [],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "mtz_model_pilot/commons-68365571",
+    "group": "commons-68365571",
+    "model": "mtz_80",
+    "role": "train",
+    "index": 3,
+    "path": "output/tractor_parts/views/a6492c8c8018d95225e7880bdecfe365c3861c4a2a74988b5fa0303e183dd849/tractor.jpg",
+    "sha256": "3ed6b1c06fec2a9881cb57abf506bd6424df49a453ef9dd96ff948c34b6fe0ba",
+    "original_sha256": "a6492c8c8018d95225e7880bdecfe365c3861c4a2a74988b5fa0303e183dd849",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.18,
+          0.73,
+          0.68,
+          0.88
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "model_wave2/tractorbg-431150",
+    "group": "tractorbg-106318",
+    "model": "mtz_80",
+    "role": "train",
+    "index": 4,
+    "path": "output/tractor_parts/views/4611f2b52b82cabba6d75cd8162c2cb379bf438aa548e9adc29b08f969b66f56/tractor.jpg",
+    "sha256": "597ad27a044a85707f72d9abd43137741d994685fa3d70887e27fc855e702fb1",
+    "original_sha256": "4611f2b52b82cabba6d75cd8162c2cb379bf438aa548e9adc29b08f969b66f56",
+    "boxes": [],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "model_wave2/tractorbg-1207063",
+    "group": "tractorbg-148322",
+    "model": "mtz_80",
+    "role": "train",
+    "index": 5,
+    "path": "output/tractor_parts/views/51b1b6f982bab88a91fa07e7246abc1ac3c8691bd6aafff026758310e61eea04/tractor.jpg",
+    "sha256": "d43d81ef55fd335a269f332fc81f638f05688221f1d3083422d93fbc9ac4b463",
+    "original_sha256": "51b1b6f982bab88a91fa07e7246abc1ac3c8691bd6aafff026758310e61eea04",
+    "boxes": [],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "model_wave2/tractorbg-430666",
+    "group": "tractorbg-106281",
+    "model": "mtz_80",
+    "role": "train",
+    "index": 6,
+    "path": "output/tractor_parts/views/db98277ffa8169f314fd4277f674b28f2a9c90d5b75248cdb33e82929ad467d0/tractor.jpg",
+    "sha256": "6a25a53301b3d163bcf728e1ed8becba6e01413d4efb57f699ff43cbb0e7757f",
+    "original_sha256": "db98277ffa8169f314fd4277f674b28f2a9c90d5b75248cdb33e82929ad467d0",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.4,
+          0.57,
+          0.94,
+          0.72
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "weather_expansion/resumable-photo-41360",
+    "group": "tractorbg-32816",
+    "model": "mtz_80",
+    "role": "train",
+    "index": 7,
+    "path": "output/tractor_parts/views/85bef36b3dd2400e042e9193ff9e8546f2192faaff611b80dd02354b9f0e6092/tractor.jpg",
+    "sha256": "3b346497aaff55b8bb279d20de4909aad9df2568487d8dd0a3189fdfe994a9ba",
+    "original_sha256": "85bef36b3dd2400e042e9193ff9e8546f2192faaff611b80dd02354b9f0e6092",
+    "boxes": [],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "weather_expansion/resumable-photo-77081",
+    "group": "tractorbg-49240",
+    "model": "mtz_80",
+    "role": "train",
+    "index": 8,
+    "path": "output/tractor_parts/views/ca11b61043d0f5e8f48d67f0347d125f1c43cd027cca3b0883f86a1ddd765126/tractor.jpg",
+    "sha256": "9e709dcdb143e07a510efeca2d52b83d7180b181e83dd8d3036d6cdedb059982",
+    "original_sha256": "ca11b61043d0f5e8f48d67f0347d125f1c43cd027cca3b0883f86a1ddd765126",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.43,
+          0.6,
+          0.88,
+          0.77
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "weather_expansion/resumable-photo-95317",
+    "group": "tractorbg-55909",
+    "model": "mtz_80",
+    "role": "train",
+    "index": 9,
+    "path": "output/tractor_parts/views/cb379182f7d80d90e00a5fa2ef40bd4ed73e3d5f8e75d2ae4db04c5a7a6663ba/tractor.jpg",
+    "sha256": "8224f317ca549597d53504aa19cdb243322ae600839082697a789c69836f916b",
+    "original_sha256": "cb379182f7d80d90e00a5fa2ef40bd4ed73e3d5f8e75d2ae4db04c5a7a6663ba",
+    "boxes": [],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "expansion/tractorbg-456411",
+    "group": "tractorbg-108235",
+    "model": "mtz_82",
+    "role": "train",
+    "index": 10,
+    "path": "output/tractor_parts/views/1925084d553d8178fbeb728fb7f1361b17035c62cd1b73c078e450c37fae0343/tractor.jpg",
+    "sha256": "ae99341602ab00bad3985325eab0ffceecfc2d6efb93e91b19b8e7553c831a9e",
+    "original_sha256": "1925084d553d8178fbeb728fb7f1361b17035c62cd1b73c078e450c37fae0343",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.05,
+          0.65,
+          0.38,
+          0.82
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      },
+      {
+        "label": "model_marking",
+        "xyxy": [
+          0.29,
+          0.37,
+          0.34,
+          0.41
+        ],
+        "visibility": "readable",
+        "transcription": "82.1"
+      }
+    ],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "expansion/tractorbg-460623",
+    "group": "tractorbg-108598",
+    "model": "mtz_82",
+    "role": "train",
+    "index": 11,
+    "path": "output/tractor_parts/views/fba6dfb4ee1c2a7773db73fde7ce01be547828f54efa2ef867a7dfeef6bf44af/tractor.jpg",
+    "sha256": "2398134b987fe5bd5efd7abd0a6a58827aebd38d71b37fa04c31ce312bce0e50",
+    "original_sha256": "fba6dfb4ee1c2a7773db73fde7ce01be547828f54efa2ef867a7dfeef6bf44af",
+    "boxes": [],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "expansion/tractorbg-868740",
+    "group": "tractorbg-134727",
+    "model": "mtz_82",
+    "role": "train",
+    "index": 12,
+    "path": "output/tractor_parts/views/751f72ac9bbcfb1b742769b2b33c407109a6a4af89a0d59fb6ec42f84f462f5a/tractor.jpg",
+    "sha256": "5ea42858d873ca3291fd04fe9b8bbc6aba4f9b324f3b65c2ea69bc06ba4bd1f0",
+    "original_sha256": "751f72ac9bbcfb1b742769b2b33c407109a6a4af89a0d59fb6ec42f84f462f5a",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.2,
+          0.63,
+          0.78,
+          0.77
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "expansion/tractorbg-910318",
+    "group": "tractorbg-137847",
+    "model": "mtz_82",
+    "role": "train",
+    "index": 13,
+    "path": "output/tractor_parts/views/0a67c5ff9c40a095d080228139493aa6050c44a0cf1a63543e0430e6535ef126/tractor.jpg",
+    "sha256": "78e348a0896d21b87767dafc359b63235adb3596878d9718cb3ab20808decde9",
+    "original_sha256": "0a67c5ff9c40a095d080228139493aa6050c44a0cf1a63543e0430e6535ef126",
+    "boxes": [],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "expansion/tractorbg-115457",
+    "group": "tractorbg-63069",
+    "model": "mtz_82",
+    "role": "train",
+    "index": 14,
+    "path": "output/tractor_parts/views/970b244dd7ffc03612fb3eb0cd7af8e103a48da8fcf028499154c7c86ea41516/tractor.jpg",
+    "sha256": "5626556a757c2b3b7e0104806d4381660f98d13864c423e9051127ba99d6c4c3",
+    "original_sha256": "970b244dd7ffc03612fb3eb0cd7af8e103a48da8fcf028499154c7c86ea41516",
+    "boxes": [
+      {
+        "label": "model_marking",
+        "xyxy": [
+          0.74,
+          0.41,
+          0.78,
+          0.45
+        ],
+        "visibility": "readable",
+        "transcription": "82.1"
+      }
+    ],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "expansion/tractorbg-154536",
+    "group": "tractorbg-75942",
+    "model": "mtz_82",
+    "role": "train",
+    "index": 15,
+    "path": "output/tractor_parts/views/d6ae1b79205f6ed45a0cf55c2027b08151ef1d2c1ab0de760c293ead78d30d1d/tractor.jpg",
+    "sha256": "c862d8ad73e3f7a022e0d1360af14e841ffd3289bd6e6f3dfe6ba906732fa245",
+    "original_sha256": "d6ae1b79205f6ed45a0cf55c2027b08151ef1d2c1ab0de760c293ead78d30d1d",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.34,
+          0.63,
+          0.71,
+          0.81
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      },
+      {
+        "label": "model_marking",
+        "xyxy": [
+          0.55,
+          0.43,
+          0.59,
+          0.47
+        ],
+        "visibility": "readable",
+        "transcription": "82"
+      }
+    ],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "expansion/tractorbg-254963",
+    "group": "tractorbg-98396",
+    "model": "mtz_82",
+    "role": "train",
+    "index": 16,
+    "path": "output/tractor_parts/views/a5d8a5c6177507e16352e58947944e7265e3dfbb60f569553ce229f9f0da7589/tractor.jpg",
+    "sha256": "e9812f6a3a1c983161cbbdca27d3b256db3e3097129f4c1a8dc9a0b4af1cdf14",
+    "original_sha256": "a5d8a5c6177507e16352e58947944e7265e3dfbb60f569553ce229f9f0da7589",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.24,
+          0.6,
+          0.54,
+          0.79
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "expansion/tractorbg-1316893",
+    "group": "tractorbg-151472",
+    "model": "mtz_82",
+    "role": "train",
+    "index": 17,
+    "path": "output/tractor_parts/views/cb6ede35a6110a85fa972d3914df3299029b6bbea6898dbb35b9e55e4e2dae49/tractor.jpg",
+    "sha256": "1fd6385d7c8259fa510352a7ee1e89b73a7627a5eefee2870482c1cffb4317c2",
+    "original_sha256": "cb6ede35a6110a85fa972d3914df3299029b6bbea6898dbb35b9e55e4e2dae49",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.51,
+          0.59,
+          0.88,
+          0.76
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "expansion/tractorbg-88258",
+    "group": "tractorbg-53446",
+    "model": "mtz_82",
+    "role": "train",
+    "index": 18,
+    "path": "output/tractor_parts/views/5c7265fc12cef8a6a8f108d0a5c12badfd2eb3e7864ebe781c8ddc14dff64429/tractor.jpg",
+    "sha256": "24431be43507264315facf24f7f699da27022ad6ceaef32a60c29c80755e1211",
+    "original_sha256": "5c7265fc12cef8a6a8f108d0a5c12badfd2eb3e7864ebe781c8ddc14dff64429",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.39,
+          0.6,
+          0.8,
+          0.8
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "expansion/tractorbg-188652",
+    "group": "tractorbg-86312",
+    "model": "mtz_82",
+    "role": "train",
+    "index": 19,
+    "path": "output/tractor_parts/views/8a932aa0359c43bfa2648b40c47640304f9cce081c6beb23f9589d8715a20b12/tractor.jpg",
+    "sha256": "ae6d131a68c61ce77dd765f02a2657857dfcef9d3876e081452f44052f2889a4",
+    "original_sha256": "8a932aa0359c43bfa2648b40c47640304f9cce081c6beb23f9589d8715a20b12",
+    "boxes": [],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "mtz_model_pilot/tractorbg-1410525",
+    "group": "tractorbg-155342",
+    "model": "mtz_820",
+    "role": "train",
+    "index": 20,
+    "path": "output/tractor_parts/views/a2a26b844470b5916ebae950ae5849e61dae52fbc28d3550430217ab16a790a8/tractor.jpg",
+    "sha256": "4353cc4a1668195a9bba9ecc89411fe0de0469709b6a648b19e63e4e44939441",
+    "original_sha256": "a2a26b844470b5916ebae950ae5849e61dae52fbc28d3550430217ab16a790a8",
+    "boxes": [],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "mtz_model_pilot/tractorbg-30378",
+    "group": "tractorbg-26481",
+    "model": "mtz_820",
+    "role": "train",
+    "index": 21,
+    "path": "output/tractor_parts/views/632433e5b4dfd5e751a319d56db423d2ea52723e70a74c8c624c459b6ccfbf64/tractor.jpg",
+    "sha256": "2c11b23bbcebea09992782b709321ab9fc3feae78c211fe62f92ae2fa4ffe60b",
+    "original_sha256": "632433e5b4dfd5e751a319d56db423d2ea52723e70a74c8c624c459b6ccfbf64",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.43,
+          0.73,
+          0.8,
+          0.9
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "mtz_model_pilot/commons-15698578",
+    "group": "commons-15698578",
+    "model": "mtz_820",
+    "role": "train",
+    "index": 22,
+    "path": "output/tractor_parts/views/8a12cecf7a478c1240b4b9d548d0ba352b6103c3b68146db5e226665824d1037/tractor.jpg",
+    "sha256": "00026d84912d75d1c3a6acbac1a050f8553492adeb7e6db2c19e7ee741641e52",
+    "original_sha256": "8a12cecf7a478c1240b4b9d548d0ba352b6103c3b68146db5e226665824d1037",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.07,
+          0.71,
+          0.28,
+          0.85
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "mtz_model_pilot/tractorbg-460981",
+    "group": "tractorbg-108624",
+    "model": "mtz_820",
+    "role": "train",
+    "index": 23,
+    "path": "output/tractor_parts/views/eab9af04d2ca26b5d728cc6c4003db5c8b48460b59ad4f9dab6609ce73b8c23a/tractor.jpg",
+    "sha256": "2f8bd228909c1941e753cc240226b3154177a096f204d792da73f077970d1507",
+    "original_sha256": "eab9af04d2ca26b5d728cc6c4003db5c8b48460b59ad4f9dab6609ce73b8c23a",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.06,
+          0.76,
+          0.44,
+          0.94
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      },
+      {
+        "label": "model_marking",
+        "xyxy": [
+          0.31,
+          0.46,
+          0.36,
+          0.51
+        ],
+        "visibility": "readable",
+        "transcription": "820"
+      }
+    ],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "model_wave2/tractorbg-35661",
+    "group": "tractorbg-29553",
+    "model": "mtz_820",
+    "role": "train",
+    "index": 24,
+    "path": "output/tractor_parts/views/342e2d8df854d81087f3b98b0982178a754753c901e4fe0448be3c06cc0cc2b8/tractor.jpg",
+    "sha256": "ae6fe95396d9a0692bf9c41a8670e4cb163f2a17b169a370f2bf2004620d3606",
+    "original_sha256": "342e2d8df854d81087f3b98b0982178a754753c901e4fe0448be3c06cc0cc2b8",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.47,
+          0.66,
+          0.89,
+          0.87
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      },
+      {
+        "label": "model_marking",
+        "xyxy": [
+          0.6,
+          0.37,
+          0.67,
+          0.42
+        ],
+        "visibility": "readable",
+        "transcription": "820"
+      }
+    ],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "weather_expansion/resumable-photo-843803",
+    "group": "tractorbg-132737",
+    "model": "mtz_820",
+    "role": "train",
+    "index": 25,
+    "path": "output/tractor_parts/views/1b1520cce036e14ef2830b3e99a8e17f2cbf12addab5916f53210c2c79bd1f39/tractor.jpg",
+    "sha256": "012c6a552d221a8d7f8440e4018f54edef8374d330e177c77979f246947d2257",
+    "original_sha256": "1b1520cce036e14ef2830b3e99a8e17f2cbf12addab5916f53210c2c79bd1f39",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.26,
+          0.71,
+          0.81,
+          0.85
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "weather_expansion/resumable-photo-25553",
+    "group": "tractorbg-23295",
+    "model": "mtz_820",
+    "role": "train",
+    "index": 26,
+    "path": "output/tractor_parts/views/4acbb6bc52b1a65a115f732f5d751292a5d739c88499c8704a8868883f43c862/tractor.jpg",
+    "sha256": "b969048ff121a13dfc3c9464e15e0b280444072b550da2f710517a38b049c431",
+    "original_sha256": "4acbb6bc52b1a65a115f732f5d751292a5d739c88499c8704a8868883f43c862",
+    "boxes": [],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "weather_expansion/engine-snow820-5",
+    "group": "olx-pl-id18wntg",
+    "model": "mtz_820",
+    "role": "train",
+    "index": 27,
+    "path": "output/tractor_parts/views/fc02e156692b04721c6942cbc55ccfb5028e4e172b191ab0af4fbfe3c5a54fd8/tractor.jpg",
+    "sha256": "a6a8b1dc917bbaac2ccd67ed080817b4b4a815bd2bd3cdac481fad7aacee203e",
+    "original_sha256": "fc02e156692b04721c6942cbc55ccfb5028e4e172b191ab0af4fbfe3c5a54fd8",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.12,
+          0.73,
+          0.43,
+          0.88
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      },
+      {
+        "label": "model_marking",
+        "xyxy": [
+          0.32,
+          0.34,
+          0.39,
+          0.39
+        ],
+        "visibility": "readable",
+        "transcription": "820"
+      }
+    ],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "weather_expansion/engine-snow820-10",
+    "group": "olx-pl-id19abro",
+    "model": "mtz_820",
+    "role": "train",
+    "index": 28,
+    "path": "output/tractor_parts/views/cec4e24ef1e0791acef0e0ef8b21922933516076f310c26f6618ed805a11774f/tractor.jpg",
+    "sha256": "71022f5f246e7df1fa735625198be1d99e7e80aabeb95d090b0fc0104d8327d8",
+    "original_sha256": "cec4e24ef1e0791acef0e0ef8b21922933516076f310c26f6618ed805a11774f",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.1,
+          0.73,
+          0.48,
+          0.91
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "weather_expansion/engine-snow820-11",
+    "group": "source-8a485e276b57ff",
+    "model": "mtz_820",
+    "role": "train",
+    "index": 29,
+    "path": "output/tractor_parts/views/ac91c249f0ab46b3c8f4c8f01668d6c42bcd8b2538a8e2c049e540e4d074d71d/tractor.jpg",
+    "sha256": "45a8f0e054b53f2eff5f74b6ecd243aea23aa344f5499cf013796136a1afcaf6",
+    "original_sha256": "ac91c249f0ab46b3c8f4c8f01668d6c42bcd8b2538a8e2c049e540e4d074d71d",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.04,
+          0.71,
+          0.3,
+          0.87
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      },
+      {
+        "label": "model_marking",
+        "xyxy": [
+          0.26,
+          0.35,
+          0.34,
+          0.41
+        ],
+        "visibility": "readable",
+        "transcription": "820"
+      }
+    ],
+    "review": "Manual visible-part boxes; no amodal boxes; hidden axle/absent model badge left unboxed. Overlay verified; ambiguous text boxes removed.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "mtz_model_pilot/other-mtz-231749",
+    "group": "tractorbg-96645",
+    "model": "mtz_80",
+    "role": "test",
+    "index": 53,
+    "path": "output/tractor_parts/views/0d76259038f9b070ee6d3f4b3535784159f26a7aed7aa65184e2a64d4a8d5485/tractor.jpg",
+    "sha256": "a21a01829d9690bd5b3f25464efd010cf16b05f392e62d8a1f7ba7f642f6faaf",
+    "original_sha256": "0d76259038f9b070ee6d3f4b3535784159f26a7aed7aa65184e2a64d4a8d5485",
+    "boxes": [],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "mtz_model_pilot/other-mtz-991140",
+    "group": "tractorbg-135285",
+    "model": "mtz_80",
+    "role": "test",
+    "index": 54,
+    "path": "output/tractor_parts/views/dcd2da9075c749014b9cec02ac9c8866f419778b7b6109e95ca0d066b0ace1e5/tractor.jpg",
+    "sha256": "50a5946ece35cd2956f5ca3c7e2abd7c1c3303e515ece938e12eb896275cc16c",
+    "original_sha256": "dcd2da9075c749014b9cec02ac9c8866f419778b7b6109e95ca0d066b0ace1e5",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.58,
+          0.7,
+          0.94,
+          0.85
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "mtz_model_pilot/other-mtz-991141",
+    "group": "tractorbg-135285",
+    "model": "mtz_80",
+    "role": "test",
+    "index": 55,
+    "path": "output/tractor_parts/views/895655417978199c3646f69dcf94de03ef997271411fa643714650a4f0534a0f/tractor.jpg",
+    "sha256": "cbfc2420750fa2c843f24c62b0eb5ec71f8a101114bda5baf12b10d5902a3f2b",
+    "original_sha256": "895655417978199c3646f69dcf94de03ef997271411fa643714650a4f0534a0f",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.15,
+          0.73,
+          0.85,
+          0.87
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "mtz_model_pilot/other-mtz-991142",
+    "group": "tractorbg-135285",
+    "model": "mtz_80",
+    "role": "test",
+    "index": 56,
+    "path": "output/tractor_parts/views/9849445bd3630f61f921e5b52c5f042bbbeb79d3dd546a3ed710fff7a6e27cc0/tractor.jpg",
+    "sha256": "905ecdf79c7ac77339ac522e85ff27380aca3f07b16e80b0bfe68d8bcca31092",
+    "original_sha256": "9849445bd3630f61f921e5b52c5f042bbbeb79d3dd546a3ed710fff7a6e27cc0",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.1,
+          0.7,
+          0.52,
+          0.86
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "mtz_model_pilot/other-mtz-991143",
+    "group": "tractorbg-135285",
+    "model": "mtz_80",
+    "role": "test",
+    "index": 57,
+    "path": "output/tractor_parts/views/7cde0101339712beb5b690382b06247bea017c8b05e34aacd37293185b0d378a/tractor.jpg",
+    "sha256": "76da690de7965c8c3d5ecbd608cbfe8089bdf122a3d0639f8feb8b64de163c4d",
+    "original_sha256": "7cde0101339712beb5b690382b06247bea017c8b05e34aacd37293185b0d378a",
+    "boxes": [],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "mtz_model_pilot/other-mtz-991144",
+    "group": "tractorbg-135285",
+    "model": "mtz_80",
+    "role": "test",
+    "index": 58,
+    "path": "output/tractor_parts/views/39f838e7e1b6d98a3ca498ecf1765e313c672e126cf98323851a1320474f79d7/tractor.jpg",
+    "sha256": "9287d41c05991436e2231f7565d356df0b07b0b36cb5a5227fefcc967e8f0f7c",
+    "original_sha256": "39f838e7e1b6d98a3ca498ecf1765e313c672e126cf98323851a1320474f79d7",
+    "boxes": [],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "mtz_model_pilot/tractorbg-53874",
+    "group": "tractorbg-40262",
+    "model": "mtz_820",
+    "role": "test",
+    "index": 59,
+    "path": "output/tractor_parts/views/3b7a5815b962fb5aaa13dc16f53a6125eb5d2a92151020a899569226a7352c6e/tractor.jpg",
+    "sha256": "177c5304f71cf4c9d13a53fa3786cb5ce0fdd163e45ec7e392306549192ecff4",
+    "original_sha256": "3b7a5815b962fb5aaa13dc16f53a6125eb5d2a92151020a899569226a7352c6e",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.39,
+          0.66,
+          0.7,
+          0.83
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      },
+      {
+        "label": "model_marking",
+        "xyxy": [
+          0.5496987951807228,
+          0.36363636363636365,
+          0.5903614457831325,
+          0.41014799154334036
+        ],
+        "visibility": "readable",
+        "transcription": "820",
+        "review": "Previously manually verified OCR rectangle"
+      }
+    ],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "mtz_model_pilot/tractorbg-847612",
+    "group": "tractorbg-133111",
+    "model": "mtz_820",
+    "role": "test",
+    "index": 60,
+    "path": "output/tractor_parts/views/82fa6dc26345b3da81601837e94044ab23f53a36a6b1e62d2f0f5116a50fdef6/tractor.jpg",
+    "sha256": "f0899fbd0e55cc0ef31903a4ed07e5d12eade388c81efcdf64df992d6f8cd8a7",
+    "original_sha256": "82fa6dc26345b3da81601837e94044ab23f53a36a6b1e62d2f0f5116a50fdef6",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.15,
+          0.64,
+          0.55,
+          0.81
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      },
+      {
+        "label": "model_marking",
+        "xyxy": [
+          0.346723044397463,
+          0.39501039501039503,
+          0.38266384778012685,
+          0.4158004158004158
+        ],
+        "visibility": "readable",
+        "transcription": "820",
+        "review": "Previously manually verified OCR rectangle"
+      }
+    ],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "mtz_model_pilot/commons-159869516",
+    "group": "commons-159869516",
+    "model": "mtz_820",
+    "role": "test",
+    "index": 61,
+    "path": "output/tractor_parts/views/783f0d3703ab1d791fbed9cfc8d59c5adfced8079baae2e0786a8215159d4b6b/tractor.jpg",
+    "sha256": "89fa1cc56f7f0083220b72f4c9fc6111fc4014bf6c67ddb72a8ee6964cfb1d29",
+    "original_sha256": "783f0d3703ab1d791fbed9cfc8d59c5adfced8079baae2e0786a8215159d4b6b",
+    "boxes": [],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "mtz_model_pilot/commons-31163057",
+    "group": "commons-31163057",
+    "model": "mtz_820",
+    "role": "test",
+    "index": 62,
+    "path": "output/tractor_parts/views/e66c0c5a89d966074551fa3c96c99b2958d73565880b405ce6b8af5294e5d712/tractor.jpg",
+    "sha256": "23856524a2b972c76c1c2de5fa702ccc0ca8d425538face0b6215f1fb0ca9ce6",
+    "original_sha256": "e66c0c5a89d966074551fa3c96c99b2958d73565880b405ce6b8af5294e5d712",
+    "boxes": [],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "mtz_model_pilot/commons-11881224",
+    "group": "commons-11881224",
+    "model": "mtz_80",
+    "role": "test",
+    "index": 63,
+    "path": "output/tractor_parts/views/5feb6888a9a751cdc373dc95e87594c7ae3ca95f9e10d9f325f0da65ed6f2077/tractor.jpg",
+    "sha256": "64e86120894c071c6139c672e811e3a13988f28acd8560f105c9bcabcd76cb87",
+    "original_sha256": "5feb6888a9a751cdc373dc95e87594c7ae3ca95f9e10d9f325f0da65ed6f2077",
+    "boxes": [],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "mtz_model_pilot/tractorbg-190808",
+    "group": "tractorbg-86778",
+    "model": "mtz_820",
+    "role": "test",
+    "index": 64,
+    "path": "output/tractor_parts/views/35e1912122aad3887997d52c7ce070b88b2f3b17b4fa2d1cfcb0387f04b900e5/tractor.jpg",
+    "sha256": "ebe27faafce8239f0184565ff3baa80dfa6845ff00351e560b100644e50a57cd",
+    "original_sha256": "35e1912122aad3887997d52c7ce070b88b2f3b17b4fa2d1cfcb0387f04b900e5",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.19,
+          0.68,
+          0.61,
+          0.84
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "mtz_model_pilot/tractorbg-190809",
+    "group": "tractorbg-86778",
+    "model": "mtz_820",
+    "role": "test",
+    "index": 65,
+    "path": "output/tractor_parts/views/9378eef8711de29a17959dfb90e0601c9ecb406ebcfecb67cea3772312aaf97b/tractor.jpg",
+    "sha256": "542f65dfe0f392580b7ac9b1b0b301592ab06de2584a9f857ebaa2a1f633bcd7",
+    "original_sha256": "9378eef8711de29a17959dfb90e0601c9ecb406ebcfecb67cea3772312aaf97b",
+    "boxes": [],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "model_wave2/tractorbg-434471",
+    "group": "tractorbg-106604",
+    "model": "mtz_80",
+    "role": "test",
+    "index": 70,
+    "path": "output/tractor_parts/views/45f33f9759a4e2c6b10e3623616da42ae67e8816f52fdce429f4ad2e7baf744c/tractor.jpg",
+    "sha256": "bcd14a255c817ed276119872db4e2c33ab3be28ff4b2b3bc2b1e44ec04d3a3ac",
+    "original_sha256": "45f33f9759a4e2c6b10e3623616da42ae67e8816f52fdce429f4ad2e7baf744c",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.38,
+          0.7,
+          0.86,
+          0.86
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "model_wave2/tractorbg-434472",
+    "group": "tractorbg-106604",
+    "model": "mtz_80",
+    "role": "test",
+    "index": 71,
+    "path": "output/tractor_parts/views/2d4bb61a191665fbeb582627c658b7c0182391752ebca254edf2e7993682c15c/tractor.jpg",
+    "sha256": "dd06dbcf1ea5e98866738af56d066f1c280bb2737a1982e25857cf27ba7d58ae",
+    "original_sha256": "2d4bb61a191665fbeb582627c658b7c0182391752ebca254edf2e7993682c15c",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.17,
+          0.72,
+          0.48,
+          0.88
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "model_wave2/tractorbg-434473",
+    "group": "tractorbg-106604",
+    "model": "mtz_80",
+    "role": "test",
+    "index": 72,
+    "path": "output/tractor_parts/views/d6b43e7e13ebbf3320a8dd302c70126c822121dfeeeb2c00f7a66bda7385e435/tractor.jpg",
+    "sha256": "7c0a5ca331e5a2e3eb42ce7de9ad35aba39546b5b46583da25b0a3c88281d87b",
+    "original_sha256": "d6b43e7e13ebbf3320a8dd302c70126c822121dfeeeb2c00f7a66bda7385e435",
+    "boxes": [],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "weather_expansion/resumable-photo-603251",
+    "group": "tractorbg-118027",
+    "model": "mtz_80",
+    "role": "test",
+    "index": 76,
+    "path": "output/tractor_parts/views/f21ef9824eec736b32a3a99ed6c0539a6f9f36b6a629867a109b7c8f280c580d/tractor.jpg",
+    "sha256": "05b471ecad3fbea8c1578fe3ec03b2c9845e1b3a4d04237556ef9b46a4c476dc",
+    "original_sha256": "f21ef9824eec736b32a3a99ed6c0539a6f9f36b6a629867a109b7c8f280c580d",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.13,
+          0.68,
+          0.67,
+          0.86
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "weather_expansion/resumable-photo-603252",
+    "group": "tractorbg-118027",
+    "model": "mtz_80",
+    "role": "test",
+    "index": 77,
+    "path": "output/tractor_parts/views/585a091c87019edc8faa9b6d636cbec551c940bc4252cf0482f648627963d0d6/tractor.jpg",
+    "sha256": "1e6adad849f221168a3f349373932bc9608c9ed5a8c71ca1a44bb001547bda51",
+    "original_sha256": "585a091c87019edc8faa9b6d636cbec551c940bc4252cf0482f648627963d0d6",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.4,
+          0.7,
+          0.84,
+          0.87
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "weather_expansion/resumable-photo-603253",
+    "group": "tractorbg-118027",
+    "model": "mtz_80",
+    "role": "test",
+    "index": 78,
+    "path": "output/tractor_parts/views/83dcedf315b097798062a67862e5806f6fc64e7567ff68110584478595224e0d/tractor.jpg",
+    "sha256": "46846d230119739e06100ad37f76d86cd1fdf45ef87a6f79dfb15ee7d03695a4",
+    "original_sha256": "83dcedf315b097798062a67862e5806f6fc64e7567ff68110584478595224e0d",
+    "boxes": [],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "weather_expansion/resumable-photo-195462",
+    "group": "tractorbg-87735",
+    "model": "mtz_80",
+    "role": "test",
+    "index": 79,
+    "path": "output/tractor_parts/views/c2a837a56ab7bbe90c455c7e77d113afb69d7d4f75dcf46defd64fbbb81df517/tractor.jpg",
+    "sha256": "6757ba60bb215da265b0ec204af395c2f75f077ddf908181a144853986ac0a56",
+    "original_sha256": "c2a837a56ab7bbe90c455c7e77d113afb69d7d4f75dcf46defd64fbbb81df517",
+    "boxes": [],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "weather_expansion/resumable-photo-195466",
+    "group": "tractorbg-87735",
+    "model": "mtz_80",
+    "role": "test",
+    "index": 80,
+    "path": "output/tractor_parts/views/57c242ad2b3fafd8068e58ee03ea1ee4a1d09083bd69a682164fffe89efdf3b2/tractor.jpg",
+    "sha256": "c63a2dabb3f335540848f0bbe12410ee344c9830d1f3f430ac372d4f8bbe5554",
+    "original_sha256": "57c242ad2b3fafd8068e58ee03ea1ee4a1d09083bd69a682164fffe89efdf3b2",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.2,
+          0.72,
+          0.8,
+          0.87
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "weather_expansion/resumable-photo-47167",
+    "group": "tractorbg-36075",
+    "model": "mtz_820",
+    "role": "test",
+    "index": 81,
+    "path": "output/tractor_parts/views/2ce77bffd8bc770ccd228a233ee6777bbf9ff9213f17ce7a1394f6357d218d5f/tractor.jpg",
+    "sha256": "6245f2d40553a07f99d8e8d569b18534a3b28e4d3fc31fa0e8dcc3dcd1c04910",
+    "original_sha256": "2ce77bffd8bc770ccd228a233ee6777bbf9ff9213f17ce7a1394f6357d218d5f",
+    "boxes": [],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "weather_expansion/resumable-photo-47168",
+    "group": "tractorbg-36075",
+    "model": "mtz_820",
+    "role": "test",
+    "index": 82,
+    "path": "output/tractor_parts/views/defaed3daa19bdae5a592590c8418605ecc1df0ab0331eaf3c762d5fe98e8a31/tractor.jpg",
+    "sha256": "44354c3a19b64abe765877d2e09f0319b5a59848bec1078ac2add6da52a9fcf3",
+    "original_sha256": "defaed3daa19bdae5a592590c8418605ecc1df0ab0331eaf3c762d5fe98e8a31",
+    "boxes": [],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "weather_expansion/wave3-photo-53875",
+    "group": "tractorbg-40262",
+    "model": "mtz_820",
+    "role": "test",
+    "index": 93,
+    "path": "output/tractor_parts/views/9ebea4d47b52b32815709bf48239b4145044a19de85815e00df21cdf87d7787d/tractor.jpg",
+    "sha256": "6ed4916e1f90b66e1bb98efe15dd63f5cffc189534f7b689d38d59263b84613f",
+    "original_sha256": "9ebea4d47b52b32815709bf48239b4145044a19de85815e00df21cdf87d7787d",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.07,
+          0.63,
+          0.57,
+          0.84
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      },
+      {
+        "label": "model_marking",
+        "xyxy": [
+          0.4632352941176471,
+          0.36152219873150104,
+          0.5036764705882353,
+          0.39957716701902746
+        ],
+        "visibility": "readable",
+        "transcription": "820",
+        "review": "Previously manually verified OCR rectangle"
+      }
+    ],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "weather_expansion/engine-snow80-4",
+    "group": "source-fb8b98b8e667be",
+    "model": "mtz_80",
+    "role": "test",
+    "index": 94,
+    "path": "output/tractor_parts/views/8aa66d22bd43bd8476f5fe7db9b057760ff36cdc984ec07c767a361964deadc2/tractor.jpg",
+    "sha256": "cc96d7d7f73e2182f3f8b6dce83a04533e2f12fbc8e9f09381ad8c062c38c815",
+    "original_sha256": "8aa66d22bd43bd8476f5fe7db9b057760ff36cdc984ec07c767a361964deadc2",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.13,
+          0.61,
+          0.43,
+          0.81
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "weather_expansion/engine-snow80-11",
+    "group": "source-735e881e5d959b",
+    "model": "mtz_80",
+    "role": "test",
+    "index": 95,
+    "path": "output/tractor_parts/views/25ca6e64de2aebbb2851a967572162829fb1e258604e3d7057f813366b28cd1f/tractor.jpg",
+    "sha256": "4ca466aaa28e3b79fddbb07b15bc6e198cc6fb94b064302673c0390648925de9",
+    "original_sha256": "25ca6e64de2aebbb2851a967572162829fb1e258604e3d7057f813366b28cd1f",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.18,
+          0.65,
+          0.78,
+          0.84
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "weather_expansion/engine-snow820-1",
+    "group": "source-ebd6719a2f16bf",
+    "model": "mtz_820",
+    "role": "test",
+    "index": 96,
+    "path": "output/tractor_parts/views/dcab2d3c637897b783d57c650e6246908dabbf62584542859046e0e08204dd9c/tractor.jpg",
+    "sha256": "c234882d5f06e688d793139587c454614a33664d8cc496b7d0558d94a3930914",
+    "original_sha256": "dcab2d3c637897b783d57c650e6246908dabbf62584542859046e0e08204dd9c",
+    "boxes": [
+      {
+        "label": "model_marking",
+        "xyxy": [
+          0.14210526315789473,
+          0.359375,
+          0.21278195488721804,
+          0.3885416666666667
+        ],
+        "visibility": "readable",
+        "transcription": "820",
+        "review": "Previously manually verified OCR rectangle"
+      }
+    ],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "weather_expansion/engine-rain80-11",
+    "group": "source-6771a9433c7955",
+    "model": "mtz_80",
+    "role": "test",
+    "index": 99,
+    "path": "output/tractor_parts/views/5d7eea19b4ec9255edc2db5078a90fe644e5ca38ffe584297adb70bb0bb871c3/tractor.jpg",
+    "sha256": "838a7880fdf6498e279873e127d02fbaf41a99ce6344a0d11c81adc67f65fe04",
+    "original_sha256": "5d7eea19b4ec9255edc2db5078a90fe644e5ca38ffe584297adb70bb0bb871c3",
+    "boxes": [],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "weather_expansion/engine-rain820-9",
+    "group": "olx-pl-id19cimr",
+    "model": "mtz_820",
+    "role": "test",
+    "index": 100,
+    "path": "output/tractor_parts/views/5f929e0152a6110b9eaf299fba6000602c358056e4f6077ad615687285ccabea/tractor.jpg",
+    "sha256": "5a844d22596454feadbb9a38b79954927919de9668f01a28352118fbef8a45cb",
+    "original_sha256": "5f929e0152a6110b9eaf299fba6000602c358056e4f6077ad615687285ccabea",
+    "boxes": [],
+    "review": "Manual control annotation; never used in training or epoch selection.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "axle_round2/axle2-1-0",
+    "group": "tractorbg-101058",
+    "model": "mtz_820",
+    "role": "test",
+    "cohort": "new",
+    "path": "output/axle_round2/new_views/axle2-1-0/tractor.jpg",
+    "sha256": "525c6b48470dc399e655625f26648b5ba15cee5393b9f5a7ef12458ceb331281",
+    "original_sha256": "d00d02e0d8919b3d3f9acb6ca1f1b6b43fcde82ab8cfb8ac6ca7fa0856ba6f84",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.08,
+          0.64,
+          0.38,
+          0.81
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      },
+      {
+        "label": "model_marking",
+        "xyxy": [
+          0.3,
+          0.37,
+          0.36,
+          0.42
+        ],
+        "visibility": "readable",
+        "transcription": "820"
+      }
+    ],
+    "review": "Manual new-source control boxes; training frozen before these annotations.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "axle_round2/axle2-2-0",
+    "group": "tractorbg-90917",
+    "model": "mtz_80",
+    "role": "test",
+    "cohort": "new",
+    "path": "output/axle_round2/new_views/axle2-2-0/tractor.jpg",
+    "sha256": "93afcd18ea62ac3f224379f77be4babc57b7a2a4c162880e62a241ea7cf13c67",
+    "original_sha256": "56957d379dcf25a3d63c4a6b91d555d23d9c6cfe99ecf5983752a21a49a893cb",
+    "boxes": [
+      {
+        "label": "model_marking",
+        "xyxy": [
+          0.18,
+          0.54,
+          0.23,
+          0.59
+        ],
+        "visibility": "unreadable",
+        "transcription": null
+      }
+    ],
+    "review": "Manual new-source control boxes; training frozen before these annotations.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "axle_round2/axle2-2-1",
+    "group": "tractorbg-90917",
+    "model": "mtz_80",
+    "role": "test",
+    "cohort": "new",
+    "path": "output/axle_round2/new_views/axle2-2-1/tractor.jpg",
+    "sha256": "a6e5b0420f115239fbb2ab5e4986a73666465f086bd5fd02a089d7420496bd97",
+    "original_sha256": "2b3a18cbd105567f5b07dc94dba6ef34d4d86970440075f9022708603dc60aa3",
+    "boxes": [],
+    "review": "Manual new-source control boxes; training frozen before these annotations.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "axle_round2/axle2-3-0",
+    "group": "tractorbg-43350",
+    "model": "mtz_80",
+    "role": "test",
+    "cohort": "new",
+    "path": "output/axle_round2/new_views/axle2-3-0/tractor.jpg",
+    "sha256": "7fa7095f407ab06bddb40b57208f51119e88dfddc2caf3dde7532fa4b6520cc7",
+    "original_sha256": "dee79758617e5a55660fb5752b69e84a01cce6014ade94cc72798f564fe38832",
+    "boxes": [],
+    "review": "Manual new-source control boxes; training frozen before these annotations.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "axle_round2/axle2-3-1",
+    "group": "tractorbg-43350",
+    "model": "mtz_80",
+    "role": "test",
+    "cohort": "new",
+    "path": "output/axle_round2/new_views/axle2-3-1/tractor.jpg",
+    "sha256": "31ff4711b4f4fc2a86ed71b299fcee30ace70137d5e519329d483f4ff3da6697",
+    "original_sha256": "664981b8f3af77b3ad696223ad150da6b7c67124e7cb7dcfe8c9534073b4666f",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.21,
+          0.65,
+          0.79,
+          0.8
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual new-source control boxes; training frozen before these annotations.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "axle_round2/axle2-4-0",
+    "group": "tractorbg-111240",
+    "model": "mtz_80",
+    "role": "test",
+    "cohort": "new",
+    "path": "output/axle_round2/new_views/axle2-4-0/tractor.jpg",
+    "sha256": "8544940f076738d8ccb50a749ff3f50d720089095172463622826d48545fad19",
+    "original_sha256": "276a9a7da9fce203ecdc0384aad3ec362ab4ff0be752c1171eaafb36fc3bac09",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.12,
+          0.59,
+          0.4,
+          0.75
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual new-source control boxes; training frozen before these annotations.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "axle_round2/axle2-4-3",
+    "group": "tractorbg-111240",
+    "model": "mtz_80",
+    "role": "test",
+    "cohort": "new",
+    "path": "output/axle_round2/new_views/axle2-4-3/tractor.jpg",
+    "sha256": "e2531a5f58ff0205cdc7c8735960e86096b772365fb6977a393fe9333792d2aa",
+    "original_sha256": "0b66d97a2f10371524b7ea05763991515e0ef73e88565bac9e96c05b419f5b53",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.53,
+          0.61,
+          0.93,
+          0.76
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "review": "Manual new-source control boxes; training frozen before these annotations.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "axle_round2/axle2-4-4",
+    "group": "tractorbg-111240",
+    "model": "mtz_80",
+    "role": "test",
+    "cohort": "new",
+    "path": "output/axle_round2/new_views/axle2-4-4/tractor.jpg",
+    "sha256": "6ff20232d7bc70be24d847511c2c655a5a3572e2406bb1153e3b2de426a75590",
+    "original_sha256": "285cfce622bcc6ecca715dd8b222d843abb734bdabe9599b2502f4a219fdc160",
+    "boxes": [],
+    "review": "Manual new-source control boxes; training frozen before these annotations.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "axle_round2/axle2-extra-0",
+    "group": "chemnitz-5173",
+    "model": "mtz_820",
+    "role": "test",
+    "cohort": "new",
+    "path": "output/axle_round2/new_views/axle2-extra-0/tractor.jpg",
+    "sha256": "98bc19eaaa7f908a7ba74434af038849889d2d19ed1534f4151cc46eac2182c6",
+    "original_sha256": "729999e598be92fd577f4d4f99e61cadd0c6c6bdc793b5868bc462913dec09da",
+    "boxes": [
+      {
+        "label": "model_marking",
+        "xyxy": [
+          0.44,
+          0.41,
+          0.53,
+          0.46
+        ],
+        "visibility": "readable",
+        "transcription": "820"
+      }
+    ],
+    "review": "Manual new-source control boxes; training frozen before these annotations.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "axle_round2/axle2-extra-5",
+    "group": "agrospec-3994",
+    "model": "mtz_820",
+    "role": "test",
+    "cohort": "new",
+    "path": "output/axle_round2/new_views/axle2-extra-5/tractor.jpg",
+    "sha256": "cba1bce59258ed2f3f5b3b635eb683f40be1a5ab49a18f48384c046f21ed29dc",
+    "original_sha256": "2a1e30a14d5335aecaf7254b904128f5502b8ba1b915d85dbd0c629c884e3e4a",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.25,
+          0.62,
+          0.81,
+          0.76
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      },
+      {
+        "label": "model_marking",
+        "xyxy": [
+          0.36,
+          0.37,
+          0.6,
+          0.43
+        ],
+        "visibility": "unreadable",
+        "transcription": null
+      }
+    ],
+    "review": "Manual new-source control boxes; training frozen before these annotations.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "axle_round2/axle2-extra-7",
+    "group": "autoplius-20143814",
+    "model": "mtz_820",
+    "role": "test",
+    "cohort": "new",
+    "path": "output/axle_round2/new_views/axle2-extra-7/tractor.jpg",
+    "sha256": "9a8ae330ef12838c14c412e036aef070f97e80ed89eb57df91feac2cbb41aa60",
+    "original_sha256": "ff39cbc177a04289752b9f8579c1b7ecf1b62cf410daa37393f888f0ca902f83",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.08,
+          0.65,
+          0.27,
+          0.78
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      },
+      {
+        "label": "model_marking",
+        "xyxy": [
+          0.18,
+          0.44,
+          0.23,
+          0.49
+        ],
+        "visibility": "readable",
+        "transcription": "820"
+      }
+    ],
+    "review": "Manual new-source control boxes; training frozen before these annotations.",
+    "annotation_version": "manual-v2"
+  },
+  {
+    "key": "weather_expansion/resumable-photo-122602",
+    "group": "tractorbg-65275",
+    "model": "mtz_80",
+    "role": "train",
+    "index": 200,
+    "path": "output/tractor_parts/views/60ad9079c5bc9fa4823a5ce800be35379fb97f7194db22675f04a975eae85143/tractor.jpg",
+    "sha256": "bc7d1e82bd3a931489c337241208b69663db795ac0cb1723fde9c35d86b4c8b1",
+    "original_sha256": "60ad9079c5bc9fa4823a5ce800be35379fb97f7194db22675f04a975eae85143",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.08,
+          0.59,
+          0.48,
+          0.77
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "annotation_version": "round4-manual",
+    "review": "Additional source-group-disjoint training view; only visible axle area boxed; hidden detail left unboxed. Source model is not inferred from tire tread."
+  },
+  {
+    "key": "weather_expansion/resumable-photo-172918",
+    "group": "tractorbg-82912",
+    "model": "mtz_80",
+    "role": "train",
+    "index": 201,
+    "path": "output/tractor_parts/views/1fb32cc08cd5018bfa1d936f2940370365a9cae759411961777b3929a77796af/tractor.jpg",
+    "sha256": "76d76d012e98142a3b949580bf6a2fc680656790f073f429adf05048b13dadbb",
+    "original_sha256": "1fb32cc08cd5018bfa1d936f2940370365a9cae759411961777b3929a77796af",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.22,
+          0.63,
+          0.78,
+          0.79
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "annotation_version": "round4-manual",
+    "review": "Additional source-group-disjoint training view; only visible axle area boxed; hidden detail left unboxed. Source model is not inferred from tire tread."
+  },
+  {
+    "key": "weather_expansion/commons-4077519",
+    "group": "source-efae1011be1b51",
+    "model": "mtz_80",
+    "role": "train",
+    "index": 202,
+    "path": "output/tractor_parts/views/c4653ae61fe7df6cf1528dff18c1307d8e5452066ad4d48f45d7dcbbeaab870d/tractor.jpg",
+    "sha256": "54ad1bbf2e2b519f95c72301ae6c6fb087541718398e1fce5e54185322e19e93",
+    "original_sha256": "c4653ae61fe7df6cf1528dff18c1307d8e5452066ad4d48f45d7dcbbeaab870d",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.69,
+          0.72,
+          0.9,
+          0.84
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "annotation_version": "round4-manual",
+    "review": "Additional source-group-disjoint training view; only visible axle area boxed; hidden detail left unboxed. Source model is not inferred from tire tread."
+  },
+  {
+    "key": "weather_expansion/engine-snow80-1",
+    "group": "olx-ua-idzdl2j",
+    "model": "mtz_80",
+    "role": "train",
+    "index": 203,
+    "path": "output/tractor_parts/views/d7eb12f8142b902d07d6ee4080705455d5e52917c77d1f3d7e76072c763378e2/tractor.jpg",
+    "sha256": "97c0af8d30d274ccb22953c0e16e1f4a5d25f03f2a08e536a21ed78f90e1304e",
+    "original_sha256": "d7eb12f8142b902d07d6ee4080705455d5e52917c77d1f3d7e76072c763378e2",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.1,
+          0.58,
+          0.6,
+          0.73
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "annotation_version": "round4-manual",
+    "review": "Additional source-group-disjoint training view; only visible axle area boxed; hidden detail left unboxed. Source model is not inferred from tire tread."
+  },
+  {
+    "key": "weather_expansion/engine-snow80-3",
+    "group": "source-34184114006a66",
+    "model": "mtz_80",
+    "role": "train",
+    "index": 204,
+    "path": "output/tractor_parts/views/7103be0c33b397b190c13d46201a8075c2fb97ed0bf732a3613351394907c1a0/tractor.jpg",
+    "sha256": "44bf1bbf10572d9717dc64152a376ce2a5d72001e8afc799904d9fd00f86f49a",
+    "original_sha256": "7103be0c33b397b190c13d46201a8075c2fb97ed0bf732a3613351394907c1a0",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.13,
+          0.67,
+          0.69,
+          0.82
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "annotation_version": "round4-manual",
+    "review": "Additional source-group-disjoint training view; only visible axle area boxed; hidden detail left unboxed. Source model is not inferred from tire tread."
+  },
+  {
+    "key": "weather_expansion/engine-snow80-5",
+    "group": "source-846290697af317",
+    "model": "mtz_80",
+    "role": "train",
+    "index": 205,
+    "path": "output/tractor_parts/views/36d557f4b4d89fba3e5f15751ee6ced4827e44de313bac5eab446e2a55a20554/tractor.jpg",
+    "sha256": "0db7a1fa4c64a4a79b7a9ae21d5dd24154bcaa5db1f6419ab01e161ad60b309e",
+    "original_sha256": "36d557f4b4d89fba3e5f15751ee6ced4827e44de313bac5eab446e2a55a20554",
+    "boxes": [],
+    "annotation_version": "round4-manual",
+    "review": "Additional source-group-disjoint training view; only visible axle area boxed; hidden detail left unboxed. Source model is not inferred from tire tread."
+  },
+  {
+    "key": "weather_expansion/engine-snow80-9",
+    "group": "source-e978606445ed52",
+    "model": "mtz_80",
+    "role": "train",
+    "index": 206,
+    "path": "output/tractor_parts/views/7c42522b83cce5dd3b3deceab87ee4b29aa4865a2c4c81a8afb04a377808494f/tractor.jpg",
+    "sha256": "ca3f34dff06da858e057f2f7fd1d7014bd3670d412e5aca920f40784110a807c",
+    "original_sha256": "7c42522b83cce5dd3b3deceab87ee4b29aa4865a2c4c81a8afb04a377808494f",
+    "boxes": [],
+    "annotation_version": "round4-manual",
+    "review": "Additional source-group-disjoint training view; only visible axle area boxed; hidden detail left unboxed. Source model is not inferred from tire tread."
+  },
+  {
+    "key": "weather_expansion/engine-snow80-10",
+    "group": "olx-ua-idzim01",
+    "model": "mtz_80",
+    "role": "train",
+    "index": 207,
+    "path": "output/tractor_parts/views/4fbeb7c2b10ce97ce9eeaf56f8b5f8097c313d1fdec1061b3246928e17c77b81/tractor.jpg",
+    "sha256": "cbf4cae77a8b3837bcc6aa6f414a4208ae877113ee19fffbc9aac3c953e81ab1",
+    "original_sha256": "4fbeb7c2b10ce97ce9eeaf56f8b5f8097c313d1fdec1061b3246928e17c77b81",
+    "boxes": [],
+    "annotation_version": "round4-manual",
+    "review": "Additional source-group-disjoint training view; only visible axle area boxed; hidden detail left unboxed. Source model is not inferred from tire tread."
+  },
+  {
+    "key": "weather_expansion/engine-snow80-12",
+    "group": "source-8b7ed464ade323",
+    "model": "mtz_80",
+    "role": "train",
+    "index": 208,
+    "path": "output/tractor_parts/views/716ce93604531a4f67baf5a329706e0c9cecefe37d8f74134522408296f53c63/tractor.jpg",
+    "sha256": "eef7553abde30850f659ec9df669368dc8d39a847847d3a4aa211288302af223",
+    "original_sha256": "716ce93604531a4f67baf5a329706e0c9cecefe37d8f74134522408296f53c63",
+    "boxes": [],
+    "annotation_version": "round4-manual",
+    "review": "Additional source-group-disjoint training view; only visible axle area boxed; hidden detail left unboxed. Source model is not inferred from tire tread."
+  },
+  {
+    "key": "weather_expansion/engine-rain80-3",
+    "group": "source-3bb04071741c52",
+    "model": "mtz_80",
+    "role": "train",
+    "index": 209,
+    "path": "output/tractor_parts/views/dab32c3e1639031b748559a0842d08d74e61858667969088b05e0c394393aa72/tractor.jpg",
+    "sha256": "21b97a1d141fcea3f88b75395c1034ca3a5f0531dc42941b02255d3d98fae2cc",
+    "original_sha256": "dab32c3e1639031b748559a0842d08d74e61858667969088b05e0c394393aa72",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.33,
+          0.64,
+          0.62,
+          0.83
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "annotation_version": "round4-manual",
+    "review": "Additional source-group-disjoint training view; only visible axle area boxed; hidden detail left unboxed. Source model is not inferred from tire tread."
+  },
+  {
+    "key": "weather_expansion/engine-rain820-7",
+    "group": "source-55f23880f8b60b",
+    "model": "mtz_820",
+    "role": "train",
+    "index": 210,
+    "path": "output/tractor_parts/views/3f71e13c447b9c6216001ae006b500e1ae68b81c3476778ebb104ede875cc0e0/tractor.jpg",
+    "sha256": "070bfd727f3c2c0654b2772398bd8659b5fecaa48b5016cb66025c458c06ef73",
+    "original_sha256": "3f71e13c447b9c6216001ae006b500e1ae68b81c3476778ebb104ede875cc0e0",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.19,
+          0.66,
+          0.6,
+          0.83
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "annotation_version": "round4-manual",
+    "review": "Additional source-group-disjoint training view; only visible axle area boxed; hidden detail left unboxed. Source model is not inferred from tire tread."
+  },
+  {
+    "key": "weather_expansion/engine-rain820-11",
+    "group": "olx-pl-id19pe5m",
+    "model": "mtz_820",
+    "role": "train",
+    "index": 211,
+    "path": "output/tractor_parts/views/8debf1f7bac94f42cac407311373fb3772fb22612677f019fac00d1af421dc28/tractor.jpg",
+    "sha256": "43e43abced89126b60ffd529b1a539141e5778f34623ca091b1277d098b253fd",
+    "original_sha256": "8debf1f7bac94f42cac407311373fb3772fb22612677f019fac00d1af421dc28",
+    "boxes": [
+      {
+        "label": "front_axle",
+        "xyxy": [
+          0.12,
+          0.66,
+          0.51,
+          0.82
+        ],
+        "visibility": "visible_or_partial",
+        "transcription": null
+      }
+    ],
+    "annotation_version": "round4-manual",
+    "review": "Additional source-group-disjoint training view; only visible axle area boxed; hidden detail left unboxed. Source model is not inferred from tire tread."
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "round4-mtz1523-0",
+    "file": "photos/round4-mtz1523-0.jpg",
+    "query_model": "mtz_1523",
+    "source": "https://999.md/ro/102765297",
+    "url": "https://i.simpalsmedia.com/999.md/BoardImages/900x900/18a44bc8d945cb681038f43adf6be759.jpg",
+    "status": "unreviewed",
+    "sha256": "4ef5961f73c9ac1b5dab6dd6e6fa32a3a156c59784cf3e953e4ab02f52447853",
+    "phash": 13018745370863585412,
+    "mirror": 16284605744274251217,
+    "dimensions": [
+      1280,
+      1280
+    ],
+    "nearest_prior": [
+      14,
+      "expansion/tractorbg-1316893",
+      "mtz_82"
+    ],
+    "group": "source-34d653dbb256",
+    "decision": "reviewed_future_candidate",
+    "model": "mtz_1523",
+    "review": "Manually inspected real tractor; source/model-code consistency checked; series subvariants retained."
+  },
+  {
+    "id": "round4-mtz1523-1",
+    "file": "photos/round4-mtz1523-1.jpg",
+    "query_model": "mtz_1523",
+    "source": "https://auto.ru/agricultural/used/sale/mtz/mtz_1523/1123811222-8cd0a728/",
+    "url": "https://avatars.mds.yandex.net/get-autoru-vos/5546503/82c4043b74c866449f54153d0a47cf17/1200x900",
+    "status": "unreviewed",
+    "sha256": "f28ea8b5f5d74c1cd2d5c4576adba74ac576d2e265c2ca5b1f3208f032727321",
+    "phash": 12385152599083411464,
+    "mirror": 13741806266786388313,
+    "dimensions": [
+      1200,
+      900
+    ],
+    "nearest_prior": [
+      16,
+      "axle_round2/axle2-1-0",
+      "mtz_820"
+    ],
+    "group": "source-d33da0ea637a",
+    "decision": "reviewed_future_candidate",
+    "model": "mtz_1523",
+    "review": "Manually inspected real tractor; source/model-code consistency checked; series subvariants retained."
+  },
+  {
+    "id": "round4-mtz1523-2",
+    "file": "photos/round4-mtz1523-2.jpg",
+    "query_model": "mtz_1523",
+    "source": "https://www.olx.ua/d/uk/obyavlenie/traktor-mtz-1523-povnstyu-v-orignal-vlasna-dostavka-ID101Ky0.html",
+    "url": "https://ireland.apollo.olxcdn.com/v1/files/dgzcyij49qlx2-UA/image%3Bs%3D1000x750",
+    "status": "unreviewed",
+    "sha256": "217062f5f14834f172b9f0d88cd365b930e87252884ed7df5a238c9d55d51353",
+    "phash": 16927297396423192741,
+    "mirror": 13671945614628726240,
+    "dimensions": [
+      933,
+      700
+    ],
+    "nearest_prior": [
+      16,
+      "expansion/tractorbg-648359",
+      "mtz_1221"
+    ],
+    "group": "source-4cb8133963d3",
+    "decision": "reviewed_future_candidate",
+    "model": "mtz_1523",
+    "review": "Manually inspected real tractor; source/model-code consistency checked; series subvariants retained."
+  },
+  {
+    "id": "round4-mtz1523-3",
+    "file": "photos/round4-mtz1523-3.jpg",
+    "query_model": "mtz_1523",
+    "source": "https://www.olx.ua/d/uk/obyavlenie/traktor-mtz-1523-povnstyu-v-orignal-vlasna-dostavka-ID101Ky0.html",
+    "url": "https://ireland.apollo.olxcdn.com/v1/files/5wyzpcw866os-UA/image%3Bs%3D1000x750",
+    "status": "unreviewed",
+    "sha256": "038af47a2ba98fb2c8faa6e4541493ce0a829097cd20a3bce8c2d6a4a2c6612b",
+    "phash": 13022609467174281669,
+    "mirror": 16279614369641969296,
+    "dimensions": [
+      933,
+      700
+    ],
+    "nearest_prior": [
+      18,
+      "expansion/commons-105650476",
+      "mtz_1221"
+    ],
+    "group": "source-4cb8133963d3",
+    "decision": "reviewed_future_candidate",
+    "model": "mtz_1523",
+    "review": "Manually inspected real tractor; source/model-code consistency checked; series subvariants retained."
+  },
+  {
+    "id": "round4-mtz1523-4",
+    "file": "photos/round4-mtz1523-4.jpg",
+    "query_model": "mtz_1523",
+    "source": "https://999.md/ro/103602706",
+    "url": "https://i.simpalsmedia.com/999.md/BoardImages/900x900/21f6d51ae634f567b743dde85f356fed.jpg",
+    "status": "unreviewed",
+    "sha256": "a5634f1ce861daf7f054bc9c5022a38f8f965dac994f756d51ba5503d1430cfd",
+    "phash": 12722885935334526382,
+    "mirror": 16561302686058208507,
+    "dimensions": [
+      960,
+      1280
+    ],
+    "nearest_prior": [
+      16,
+      "weather_expansion/resumable-photo-172921",
+      "mtz_80"
+    ],
+    "group": "source-82715c54ca3d",
+    "decision": "reviewed_future_candidate",
+    "model": "mtz_1523",
+    "review": "Manually inspected real tractor; source/model-code consistency checked; series subvariants retained."
+  },
+  {
+    "id": "round4-mtz1523-5",
+    "file": "photos/round4-mtz1523-5.jpg",
+    "query_model": "mtz_1523",
+    "source": "https://kajovika.lt/produktai/traktoriai/belarus-1523-3",
+    "url": "https://kajovika.lt/media/pages/produktai/traktoriai/belarus-1523-3/0e7cd912e8-1587635790/img-20200206-152831-1200x1200.jpg",
+    "status": "unreviewed",
+    "sha256": "dd3bccecb8bb22da1bbaf5881e4d1bad15f8f9b48e9418b64d9df0e045f14b29",
+    "phash": 17215801323150805929,
+    "mirror": 13456056681734577916,
+    "dimensions": [
+      900,
+      1200
+    ],
+    "nearest_prior": [
+      14,
+      "historical/processed/train/mtz_belarus/cb36cdeee6797c84.jpg",
+      "mtz_1221"
+    ],
+    "group": "source-cd153c7f9b2f",
+    "decision": "reviewed_future_candidate",
+    "model": "mtz_1523",
+    "review": "Manually inspected real tractor; source/model-code consistency checked; series subvariants retained."
+  },
+  {
+    "id": "round4-mtz1523-6",
+    "file": "photos/round4-mtz1523-6.jpg",
+    "query_model": "mtz_1523",
+    "source": "https://belarus.com.pl/",
+    "url": "https://belarus.com.pl/belarus/Belarus%201523.webp",
+    "status": "unreviewed",
+    "sha256": "892e58ee3e75487f7c28da6c02cb378638e27dd9c82507471046ef5938d82718",
+    "phash": 13373095123614680769,
+    "mirror": 17060640875016262548,
+    "dimensions": [
+      608,
+      455
+    ],
+    "nearest_prior": [
+      14,
+      "expansion/tractorbg-452419",
+      "mtz_1221"
+    ],
+    "group": "source-f1e85f75c08c",
+    "decision": "reviewed_future_candidate",
+    "model": "mtz_1523",
+    "review": "Manually inspected real tractor; source/model-code consistency checked; series subvariants retained."
+  },
+  {
+    "id": "round4-mtz1523-7",
+    "file": "photos/round4-mtz1523-7.jpg",
+    "query_model": "mtz_1523",
+    "source": "https://www.coricagrar.rs/m909_belarus_belarus_mtz_15233_traktori_poljoprivredna_mehanizacija_coric_agrar.html",
+    "url": "https://coricagrar.rs/th4_traktori_belarus_belarus_mtz_15233-src-_img/mehanizacija/mtz_1523.3_4.jpg",
+    "status": "unreviewed",
+    "sha256": "c875ab1d6e68146165a385288c5aeaa52a6d7c54d64245c65d717345e4c5d93c",
+    "phash": 15194745335603784451,
+    "mirror": 9767112649994845814,
+    "dimensions": [
+      680,
+      510
+    ],
+    "nearest_prior": [
+      14,
+      "weather_expansion/resumable-photo-25553",
+      "mtz_820"
+    ],
+    "group": "source-aac12c4bca75",
+    "decision": "quarantine",
+    "model": "mtz_1523",
+    "review": "Frontal view without readable model code; exact model versus related MTZ not established."
+  },
+  {
+    "id": "round4-mtz1523-8",
+    "file": "photos/round4-mtz1523-8.jpg",
+    "query_model": "mtz_1523",
+    "source": "https://auto.ru/agricultural/used/sale/mtz/mtz_1523/1119064972-8f1bb1a3/",
+    "url": "https://avatars.mds.yandex.net/get-autoru-vos/2088419/f7e76b43a57c6493a9fe2eb69bbf2b6c/1200x900",
+    "status": "unreviewed",
+    "sha256": "eeebd43d1a9c5e6c270725ce7125d20b0b8137239659870c7fb81906a5aa74a2",
+    "phash": 18061271076220825876,
+    "mirror": 12678621466735583305,
+    "dimensions": [
+      1200,
+      900
+    ],
+    "nearest_prior": [
+      18,
+      "expansion/commons-105650438",
+      "mtz_1221"
+    ],
+    "group": "source-b3b81cd7f8c3",
+    "decision": "reviewed_future_candidate",
+    "model": "mtz_1523",
+    "review": "Manually inspected real tractor; source/model-code consistency checked; series subvariants retained."
+  }
+]

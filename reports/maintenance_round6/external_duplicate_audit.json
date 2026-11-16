@@ -1,0 +1,37 @@
+[
+  {
+    "key": "maint6/samson_04",
+    "sha256": "f448b76dbac79efb28b7bfc75dfeed8c6bff8ff218e8b089a2accaabdf4f47bb",
+    "nearest_distance": 16,
+    "nearest_key": "expansion/tractorbg-456423",
+    "exact_duplicate": false
+  },
+  {
+    "key": "maint6/fieldtank_00",
+    "sha256": "7346651c984469360f75e08c177ba772f6d6bc06e221fd495680358c2af59479",
+    "nearest_distance": 16,
+    "nearest_key": "round6/r6-21",
+    "exact_duplicate": false
+  },
+  {
+    "key": "maint6/kotte_01",
+    "sha256": "6115f398e1f5f36ed3c5ff0de34729b762cf367ffe0ce07f39a6b7ff423c8295",
+    "nearest_distance": 12,
+    "nearest_key": "expansion/tractorbg-452419",
+    "exact_duplicate": false
+  },
+  {
+    "key": "maint6/kotte_02",
+    "sha256": "cceabec5d776e7d9b017518b50b3b845cdb8069a2097305c6984e8045629cc26",
+    "nearest_distance": 18,
+    "nearest_key": "round5/r5b-67",
+    "exact_duplicate": false
+  },
+  {
+    "key": "maint6/fieldtank_02",
+    "sha256": "f35643924eb33d45a9e5cecceb6418133b9567408a1d32cdf01a3fa4c1a865a8",
+    "nearest_distance": 18,
+    "nearest_key": "expansion/bazar-3-11",
+    "exact_duplicate": false
+  }
+]

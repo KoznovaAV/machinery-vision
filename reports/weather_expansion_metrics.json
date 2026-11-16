@@ -1,0 +1,168 @@
+{
+  "reviewed": 102,
+  "accepted": 99,
+  "quarantine": 3,
+  "new_known_train": 54,
+  "new_negative_train": 16,
+  "new_control": 29,
+  "runs": {
+    "DINOv2": {
+      "baseline": {
+        "known_n": 79,
+        "known_correct": 51,
+        "foreign_n": 14,
+        "foreign_rejected": 0,
+        "exact_correct": 0,
+        "exact_wrong": 0,
+        "family_only": 35,
+        "manual_review": 58
+      },
+      "added_photos": {
+        "known_n": 79,
+        "known_correct": 49,
+        "foreign_n": 14,
+        "foreign_rejected": 0,
+        "exact_correct": 0,
+        "exact_wrong": 0,
+        "family_only": 36,
+        "manual_review": 57
+      },
+      "augmented": {
+        "known_n": 79,
+        "known_correct": 50,
+        "foreign_n": 14,
+        "foreign_rejected": 1,
+        "exact_correct": 27,
+        "exact_wrong": 7,
+        "family_only": 30,
+        "manual_review": 29
+      },
+      "hard_negatives": {
+        "known_n": 79,
+        "known_correct": 51,
+        "foreign_n": 14,
+        "foreign_rejected": 1,
+        "exact_correct": 18,
+        "exact_wrong": 4,
+        "family_only": 29,
+        "manual_review": 42
+      },
+      "curated_negatives": {
+        "known_n": 79,
+        "known_correct": 46,
+        "foreign_n": 14,
+        "foreign_rejected": 1,
+        "exact_correct": 20,
+        "exact_wrong": 11,
+        "family_only": 28,
+        "manual_review": 34
+      }
+    },
+    "ConvNeXt": {
+      "baseline": {
+        "known_n": 79,
+        "known_correct": 46,
+        "foreign_n": 14,
+        "foreign_rejected": 0,
+        "exact_correct": 0,
+        "exact_wrong": 0,
+        "family_only": 42,
+        "manual_review": 51
+      },
+      "added_photos": {
+        "known_n": 79,
+        "known_correct": 45,
+        "foreign_n": 14,
+        "foreign_rejected": 0,
+        "exact_correct": 0,
+        "exact_wrong": 0,
+        "family_only": 40,
+        "manual_review": 53
+      },
+      "augmented": {
+        "known_n": 79,
+        "known_correct": 46,
+        "foreign_n": 14,
+        "foreign_rejected": 3,
+        "exact_correct": 17,
+        "exact_wrong": 5,
+        "family_only": 33,
+        "manual_review": 38
+      },
+      "hard_negatives": {
+        "known_n": 79,
+        "known_correct": 42,
+        "foreign_n": 14,
+        "foreign_rejected": 2,
+        "exact_correct": 9,
+        "exact_wrong": 4,
+        "family_only": 33,
+        "manual_review": 47
+      },
+      "curated_negatives": {
+        "known_n": 79,
+        "known_correct": 53,
+        "foreign_n": 14,
+        "foreign_rejected": 3,
+        "exact_correct": 6,
+        "exact_wrong": 4,
+        "family_only": 28,
+        "manual_review": 55
+      }
+    },
+    "DINOv2 + ConvNeXt": {
+      "baseline": {
+        "known_n": 79,
+        "known_correct": 50,
+        "foreign_n": 14,
+        "foreign_rejected": 0,
+        "exact_correct": 0,
+        "exact_wrong": 0,
+        "family_only": 36,
+        "manual_review": 57
+      },
+      "added_photos": {
+        "known_n": 79,
+        "known_correct": 48,
+        "foreign_n": 14,
+        "foreign_rejected": 0,
+        "exact_correct": 0,
+        "exact_wrong": 0,
+        "family_only": 36,
+        "manual_review": 57
+      },
+      "augmented": {
+        "known_n": 79,
+        "known_correct": 50,
+        "foreign_n": 14,
+        "foreign_rejected": 1,
+        "exact_correct": 28,
+        "exact_wrong": 7,
+        "family_only": 27,
+        "manual_review": 31
+      },
+      "hard_negatives": {
+        "known_n": 79,
+        "known_correct": 49,
+        "foreign_n": 14,
+        "foreign_rejected": 3,
+        "exact_correct": 19,
+        "exact_wrong": 3,
+        "family_only": 26,
+        "manual_review": 45
+      },
+      "curated_negatives": {
+        "known_n": 79,
+        "known_correct": 48,
+        "foreign_n": 14,
+        "foreign_rejected": 0,
+        "exact_correct": 18,
+        "exact_wrong": 10,
+        "family_only": 30,
+        "manual_review": 35
+      }
+    }
+  },
+  "review_head_sha256": "8c73bc1c6260e6ba9c06ad5e2c40705ed7a589859c0dcceee4c87cc0dcf0d4b7",
+  "tests_passed": 87
+}

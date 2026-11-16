@@ -1,0 +1,190 @@
+[
+  {
+    "key": "mtz_model_pilot/tractorbg-53874",
+    "sha256": "3b7a5815b962fb5aaa13dc16f53a6125eb5d2a92151020a899569226a7352c6e",
+    "source_model": "mtz_820",
+    "review": "Visible marking checked on tractor crop and enlarged text patches; not factory identity certification.",
+    "lines": [
+      {
+        "text": "820",
+        "confidence": 0.9979905684789022,
+        "on_tractor_marking": true,
+        "comment": "Visible model or series marking"
+      }
+    ]
+  },
+  {
+    "key": "weather_expansion/russells-50209-1",
+    "sha256": "56132ef8e1f8b007802a172bd2c4c9658b524f847b4f3a3823469163ebc190bf",
+    "source_model": "nh_t5000",
+    "review": "Visible marking checked on tractor crop and enlarged text patches; not factory identity certification.",
+    "lines": [
+      {
+        "text": "T5060",
+        "confidence": 0.9917174339294433,
+        "on_tractor_marking": true,
+        "comment": "Visible model or series marking"
+      }
+    ]
+  },
+  {
+    "key": "model_wave2/tractorbg-191735",
+    "sha256": "60a27738113e5a2e6e47e3a97607e57d90941f8a33c036f00d0a30a9e25a03d8",
+    "source_model": "nh_t5000",
+    "review": "Visible marking checked on tractor crop and enlarged text patches; not factory identity certification.",
+    "lines": [
+      {
+        "text": "T5050",
+        "confidence": 0.9905688285827636,
+        "on_tractor_marking": true,
+        "comment": "Visible model or series marking"
+      }
+    ]
+  },
+  {
+    "key": "model_wave2/tractorbg-895103",
+    "sha256": "6a193fa48b23ba7a7eab7181a2e5d42dd29a8122d1c76be7b1fb343a8c2285fc",
+    "source_model": "claas_arion",
+    "review": "Visible marking checked on tractor crop and enlarged text patches; not factory identity certification.",
+    "lines": [
+      {
+        "text": "ARION",
+        "confidence": 0.9631128787994385,
+        "on_tractor_marking": true,
+        "comment": "Visible model or series marking"
+      }
+    ]
+  },
+  {
+    "key": "weather_expansion/wave3-photo-990671",
+    "sha256": "6d33cdb1d90d052bbc5230c59f73cf98bb95c6388455d9037655db97dd09c6a8",
+    "source_model": "outside_arion",
+    "review": "Visible marking checked on tractor crop and enlarged text patches; not factory identity certification.",
+    "lines": [
+      {
+        "text": "ARION",
+        "confidence": 0.9773154735565186,
+        "on_tractor_marking": true,
+        "comment": "Visible model or series marking"
+      }
+    ]
+  },
+  {
+    "key": "weather_expansion/wave3-photo-191733",
+    "sha256": "72d13e11eca9251dc1c15503e3b0f100570ff9c0b4db32fb4577d267f95fa0e3",
+    "source_model": "nh_t5000",
+    "review": "Visible marking checked on tractor crop and enlarged text patches; not factory identity certification.",
+    "lines": [
+      {
+        "text": "T5050",
+        "confidence": 0.9631156325340271,
+        "on_tractor_marking": true,
+        "comment": "Visible model or series marking"
+      }
+    ]
+  },
+  {
+    "key": "weather_expansion/engine-nh5070-1",
+    "sha256": "806dac747fe908c9d5f3940675635681d46819532128f059cdec7d64ffeac191",
+    "source_model": "nh_t5000",
+    "review": "Visible marking checked on tractor crop and enlarged text patches; not factory identity certification.",
+    "lines": [
+      {
+        "text": "T5070",
+        "confidence": 0.9892874956130981,
+        "on_tractor_marking": true,
+        "comment": "Visible model or series marking"
+      },
+      {
+        "text": "82:",
+        "confidence": 0.8974477450052897,
+        "on_tractor_marking": false,
+        "comment": "Attachment designation, not tractor model"
+      }
+    ]
+  },
+  {
+    "key": "mtz_model_pilot/tractorbg-847612",
+    "sha256": "82fa6dc26345b3da81601837e94044ab23f53a36a6b1e62d2f0f5116a50fdef6",
+    "source_model": "mtz_820",
+    "review": "Visible marking checked on tractor crop and enlarged text patches; not factory identity certification.",
+    "lines": [
+      {
+        "text": "820",
+        "confidence": 0.9827878872553507,
+        "on_tractor_marking": true,
+        "comment": "Visible model or series marking"
+      }
+    ]
+  },
+  {
+    "key": "weather_expansion/wave3-photo-53875",
+    "sha256": "9ebea4d47b52b32815709bf48239b4145044a19de85815e00df21cdf87d7787d",
+    "source_model": "mtz_820",
+    "review": "Visible marking checked on tractor crop and enlarged text patches; not factory identity certification.",
+    "lines": [
+      {
+        "text": "820",
+        "confidence": 0.9837969938913981,
+        "on_tractor_marking": true,
+        "comment": "Visible model or series marking"
+      }
+    ]
+  },
+  {
+    "key": "expansion/tractorbg-183820",
+    "sha256": "a0fe0a20be2b096eeadd069b1b094ae589580070ff46011ddf24cefb8c855f00",
+    "source_model": "mtz_82",
+    "review": "Visible marking checked on tractor crop and enlarged text patches; not factory identity certification.",
+    "lines": [
+      {
+        "text": "MT3-82",
+        "confidence": 0.9967212577660879,
+        "on_tractor_marking": true,
+        "comment": "Visible model or series marking"
+      }
+    ]
+  },
+  {
+    "key": "weather_expansion/engine-nh5070-2",
+    "sha256": "ab958297a992b802afe73c0f85a6e1ab812d9bef5a237b8efadf2326a99d0f60",
+    "source_model": "nh_t5000",
+    "review": "Visible marking checked on tractor crop and enlarged text patches; not factory identity certification.",
+    "lines": [
+      {
+        "text": "T5070",
+        "confidence": 0.9735459327697754,
+        "on_tractor_marking": true,
+        "comment": "Visible model or series marking"
+      }
+    ]
+  },
+  {
+    "key": "expansion/tractorbg-183819",
+    "sha256": "b723d71a368eff484d19fc4d7b4d89631abd142c05ba85c48b6c36b283c4544d",
+    "source_model": "mtz_82",
+    "review": "Visible marking checked on tractor crop and enlarged text patches; not factory identity certification.",
+    "lines": [
+      {
+        "text": "MT3-82",
+        "confidence": 0.966375321149826,
+        "on_tractor_marking": true,
+        "comment": "Visible model or series marking"
+      }
+    ]
+  },
+  {
+    "key": "weather_expansion/engine-snow820-1",
+    "sha256": "dcab2d3c637897b783d57c650e6246908dabbf62584542859046e0e08204dd9c",
+    "source_model": "mtz_820",
+    "review": "Visible marking checked on tractor crop and enlarged text patches; not factory identity certification.",
+    "lines": [
+      {
+        "text": "820",
+        "confidence": 0.9992103974024454,
+        "on_tractor_marking": true,
+        "comment": "Visible model or series marking"
+      }
+    ]
+  }
+]

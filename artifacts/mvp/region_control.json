@@ -1,0 +1,1229 @@
+{
+  "total": 158,
+  "retained": 158,
+  "rows": [
+    {
+      "key": "expansion/tractorbg-1111706",
+      "label": "machine",
+      "score": 0.9982846825505112,
+      "accepted": true
+    },
+    {
+      "key": "expansion/tractorbg-1111708",
+      "label": "machine",
+      "score": 0.9969843978163152,
+      "accepted": true
+    },
+    {
+      "key": "expansion/tractorbg-1111711",
+      "label": "machine",
+      "score": 0.9985461788820806,
+      "accepted": true
+    },
+    {
+      "key": "expansion/tractorbg-1111714",
+      "label": "machine",
+      "score": 0.9954455710728024,
+      "accepted": true
+    },
+    {
+      "key": "expansion/tractorbg-1111716",
+      "label": "machine",
+      "score": 0.9960232157070125,
+      "accepted": true
+    },
+    {
+      "key": "expansion/tractorbg-904017",
+      "label": "machine",
+      "score": 0.9985307816720033,
+      "accepted": true
+    },
+    {
+      "key": "expansion/tractorbg-904018",
+      "label": "machine",
+      "score": 0.9984561341407883,
+      "accepted": true
+    },
+    {
+      "key": "expansion/tractorbg-904021",
+      "label": "machine",
+      "score": 0.9981326653668947,
+      "accepted": true
+    },
+    {
+      "key": "expansion/bazar-1-01",
+      "label": "machine",
+      "score": 0.998155808371746,
+      "accepted": true
+    },
+    {
+      "key": "expansion/bazar-1-02",
+      "label": "machine",
+      "score": 0.9975251699862385,
+      "accepted": true
+    },
+    {
+      "key": "expansion/bazar-1-04",
+      "label": "machine",
+      "score": 0.9976028896535211,
+      "accepted": true
+    },
+    {
+      "key": "expansion/bazar-1-05",
+      "label": "machine",
+      "score": 0.9979306642176189,
+      "accepted": true
+    },
+    {
+      "key": "expansion/bazar-1-06",
+      "label": "machine",
+      "score": 0.9927844211551483,
+      "accepted": true
+    },
+    {
+      "key": "expansion/bazar-1-13",
+      "label": "machine",
+      "score": 0.9924273561351395,
+      "accepted": true
+    },
+    {
+      "key": "expansion/bazar-3-01",
+      "label": "machine",
+      "score": 0.990885822084799,
+      "accepted": true
+    },
+    {
+      "key": "expansion/bazar-3-02",
+      "label": "machine",
+      "score": 0.9766648817840561,
+      "accepted": true
+    },
+    {
+      "key": "expansion/bazar-3-03",
+      "label": "machine",
+      "score": 0.9951140255953352,
+      "accepted": true
+    },
+    {
+      "key": "expansion/bazar-3-09",
+      "label": "machine",
+      "score": 0.9844830526507521,
+      "accepted": true
+    },
+    {
+      "key": "expansion/bazar-3-11",
+      "label": "machine",
+      "score": 0.9641033178861458,
+      "accepted": true
+    },
+    {
+      "key": "expansion/tractorbg-183818",
+      "label": "machine",
+      "score": 0.9987251508201324,
+      "accepted": true
+    },
+    {
+      "key": "expansion/tractorbg-183819",
+      "label": "machine",
+      "score": 0.9976446219029066,
+      "accepted": true
+    },
+    {
+      "key": "expansion/tractorbg-183820",
+      "label": "machine",
+      "score": 0.9975004091762371,
+      "accepted": true
+    },
+    {
+      "key": "expansion/tractorbg-183821",
+      "label": "machine",
+      "score": 0.9970578095270588,
+      "accepted": true
+    },
+    {
+      "key": "expansion/tractorbg-183825",
+      "label": "machine",
+      "score": 0.9984866788337708,
+      "accepted": true
+    },
+    {
+      "key": "mtz_model_pilot/other-mtz-231749",
+      "label": "machine",
+      "score": 0.996380637130939,
+      "accepted": true
+    },
+    {
+      "key": "mtz_model_pilot/other-mtz-991140",
+      "label": "machine",
+      "score": 0.9989999061188588,
+      "accepted": true
+    },
+    {
+      "key": "mtz_model_pilot/other-mtz-991141",
+      "label": "machine",
+      "score": 0.996932229229801,
+      "accepted": true
+    },
+    {
+      "key": "mtz_model_pilot/other-mtz-991142",
+      "label": "machine",
+      "score": 0.9986433011205985,
+      "accepted": true
+    },
+    {
+      "key": "mtz_model_pilot/other-mtz-991143",
+      "label": "machine",
+      "score": 0.997520390384593,
+      "accepted": true
+    },
+    {
+      "key": "mtz_model_pilot/other-mtz-991144",
+      "label": "machine",
+      "score": 0.9975677628470764,
+      "accepted": true
+    },
+    {
+      "key": "mtz_model_pilot/tractorbg-53874",
+      "label": "machine",
+      "score": 0.9983218140647097,
+      "accepted": true
+    },
+    {
+      "key": "mtz_model_pilot/commons-106142718",
+      "label": "machine",
+      "score": 0.9975953152830848,
+      "accepted": true
+    },
+    {
+      "key": "mtz_model_pilot/tractorbg-847612",
+      "label": "machine",
+      "score": 0.9982841775444923,
+      "accepted": true
+    },
+    {
+      "key": "mtz_model_pilot/commons-159869516",
+      "label": "machine",
+      "score": 0.9847590113911064,
+      "accepted": true
+    },
+    {
+      "key": "mtz_model_pilot/commons-31163057",
+      "label": "machine",
+      "score": 0.9947060483532898,
+      "accepted": true
+    },
+    {
+      "key": "mtz_model_pilot/commons-11881224",
+      "label": "machine",
+      "score": 0.9931374668300718,
+      "accepted": true
+    },
+    {
+      "key": "mtz_model_pilot/tractorbg-190808",
+      "label": "machine",
+      "score": 0.9985505286849697,
+      "accepted": true
+    },
+    {
+      "key": "mtz_model_pilot/tractorbg-190809",
+      "label": "machine",
+      "score": 0.9973067219134693,
+      "accepted": true
+    },
+    {
+      "key": "model_wave2/tractorbg-965693",
+      "label": "machine",
+      "score": 0.994792855993755,
+      "accepted": true
+    },
+    {
+      "key": "model_wave2/tractorbg-965694",
+      "label": "machine",
+      "score": 0.9969347329597121,
+      "accepted": true
+    },
+    {
+      "key": "model_wave2/tractorbg-965695",
+      "label": "machine",
+      "score": 0.994310886626653,
+      "accepted": true
+    },
+    {
+      "key": "model_wave2/tractorbg-895101",
+      "label": "machine",
+      "score": 0.9980735601183162,
+      "accepted": true
+    },
+    {
+      "key": "model_wave2/tractorbg-895103",
+      "label": "machine",
+      "score": 0.9985816838436944,
+      "accepted": true
+    },
+    {
+      "key": "model_wave2/tractorbg-98308",
+      "label": "machine",
+      "score": 0.9975342499345259,
+      "accepted": true
+    },
+    {
+      "key": "model_wave2/tractorbg-98309",
+      "label": "machine",
+      "score": 0.9977328390379823,
+      "accepted": true
+    },
+    {
+      "key": "model_wave2/tractorbg-98310",
+      "label": "machine",
+      "score": 0.9983374772815927,
+      "accepted": true
+    },
+    {
+      "key": "model_wave2/tractorbg-954999",
+      "label": "machine",
+      "score": 0.9971308713834338,
+      "accepted": true
+    },
+    {
+      "key": "model_wave2/tractorbg-955000",
+      "label": "machine",
+      "score": 0.9983953010263225,
+      "accepted": true
+    },
+    {
+      "key": "model_wave2/tractorbg-955001",
+      "label": "machine",
+      "score": 0.9977539303991227,
+      "accepted": true
+    },
+    {
+      "key": "model_wave2/tractorbg-955002",
+      "label": "machine",
+      "score": 0.998165017808751,
+      "accepted": true
+    },
+    {
+      "key": "model_wave2/tractorbg-191734",
+      "label": "machine",
+      "score": 0.9981310788979798,
+      "accepted": true
+    },
+    {
+      "key": "model_wave2/tractorbg-191735",
+      "label": "machine",
+      "score": 0.9982796889194031,
+      "accepted": true
+    },
+    {
+      "key": "model_wave2/tractorbg-191736",
+      "label": "machine",
+      "score": 0.997523518646075,
+      "accepted": true
+    },
+    {
+      "key": "model_wave2/tractorbg-191740",
+      "label": "machine",
+      "score": 0.9946276001530694,
+      "accepted": true
+    },
+    {
+      "key": "model_wave2/tractorbg-293981",
+      "label": "machine",
+      "score": 0.99658652968015,
+      "accepted": true
+    },
+    {
+      "key": "model_wave2/tractorbg-293982",
+      "label": "machine",
+      "score": 0.9945596611011833,
+      "accepted": true
+    },
+    {
+      "key": "model_wave2/tractorbg-293983",
+      "label": "machine",
+      "score": 0.9976249978074084,
+      "accepted": true
+    },
+    {
+      "key": "model_wave2/tractorbg-293984",
+      "label": "machine",
+      "score": 0.994989700986075,
+      "accepted": true
+    },
+    {
+      "key": "model_wave2/tractorbg-434471",
+      "label": "machine",
+      "score": 0.9984470784272568,
+      "accepted": true
+    },
+    {
+      "key": "model_wave2/tractorbg-434472",
+      "label": "machine",
+      "score": 0.9980386834381098,
+      "accepted": true
+    },
+    {
+      "key": "model_wave2/tractorbg-434473",
+      "label": "machine",
+      "score": 0.9961095742268068,
+      "accepted": true
+    },
+    {
+      "key": "model_wave2/tractorbg-614862",
+      "label": "machine",
+      "score": 0.9980330900907614,
+      "accepted": true
+    },
+    {
+      "key": "model_wave2/tractorbg-614863",
+      "label": "machine",
+      "score": 0.9981947879533785,
+      "accepted": true
+    },
+    {
+      "key": "model_wave2/tractorbg-614864",
+      "label": "machine",
+      "score": 0.9987018823322144,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/commons-142372244",
+      "label": "machine",
+      "score": 0.9942758859775751,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/commons-47918733",
+      "label": "machine",
+      "score": 0.9977226891162857,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/resumable-photo-627531",
+      "label": "machine",
+      "score": 0.9956915635662353,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/resumable-photo-603251",
+      "label": "machine",
+      "score": 0.9967274951241144,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/resumable-photo-603252",
+      "label": "machine",
+      "score": 0.9978273407337778,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/resumable-photo-603253",
+      "label": "machine",
+      "score": 0.9933214559593144,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/resumable-photo-195462",
+      "label": "machine",
+      "score": 0.9944076271444608,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/resumable-photo-195466",
+      "label": "machine",
+      "score": 0.9961353160220363,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/resumable-photo-47167",
+      "label": "machine",
+      "score": 0.939679872772772,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/resumable-photo-47168",
+      "label": "machine",
+      "score": 0.981864895446243,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/russells-50209-1",
+      "label": "machine",
+      "score": 0.973866650543201,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/russells-50209-3",
+      "label": "machine",
+      "score": 0.965938519040784,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/russells-50209-4",
+      "label": "machine",
+      "score": 0.9890530048677117,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/russells-50209-5",
+      "label": "machine",
+      "score": 0.992611549742683,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/russells-50209-6",
+      "label": "machine",
+      "score": 0.9937733826818427,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/resumable-photo-1333473",
+      "label": "machine",
+      "score": 0.9945382057257691,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/resumable-photo-78132",
+      "label": "machine",
+      "score": 0.9970848733161136,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/resumable-photo-78133",
+      "label": "machine",
+      "score": 0.9968341567945049,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/resumable-photo-78134",
+      "label": "machine",
+      "score": 0.9909950160736217,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/resumable-photo-78135",
+      "label": "machine",
+      "score": 0.9969008995308213,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/wave3-photo-191733",
+      "label": "machine",
+      "score": 0.9980575328229765,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/wave3-photo-53875",
+      "label": "machine",
+      "score": 0.9949301605912646,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/wave3-photo-990668",
+      "label": "machine",
+      "score": 0.9805993141874649,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/wave3-photo-990669",
+      "label": "machine",
+      "score": 0.983724048947169,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/wave3-photo-990670",
+      "label": "machine",
+      "score": 0.9963226714938748,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/wave3-photo-990671",
+      "label": "machine",
+      "score": 0.97863835620454,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/wave4-photo-193693",
+      "label": "machine",
+      "score": 0.9783156194077919,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/wave4-photo-193694",
+      "label": "machine",
+      "score": 0.9983574274653743,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/wave4-photo-193699",
+      "label": "machine",
+      "score": 0.996723164529942,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/engine-snow80-4",
+      "label": "machine",
+      "score": 0.9978468270984393,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/engine-snow80-11",
+      "label": "machine",
+      "score": 0.9974113765160609,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/engine-snow820-1",
+      "label": "machine",
+      "score": 0.9966198547973951,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/engine-weatherNH-7",
+      "label": "machine",
+      "score": 0.9985531581777571,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/engine-weatherNH-11",
+      "label": "machine",
+      "score": 0.9986289572511076,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/engine-rain80-4",
+      "label": "machine",
+      "score": 0.9956558906906936,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/engine-rain80-11",
+      "label": "machine",
+      "score": 0.9979586034815798,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/engine-rain820-9",
+      "label": "machine",
+      "score": 0.9408363449943908,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/engine-rainNH-9",
+      "label": "machine",
+      "score": 0.9985189762127893,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/engine-nh5070-1",
+      "label": "machine",
+      "score": 0.9942522606589458,
+      "accepted": true
+    },
+    {
+      "key": "weather_expansion/engine-nh5070-2",
+      "label": "machine",
+      "score": 0.983127301150753,
+      "accepted": true
+    },
+    {
+      "key": "axle_round2/axle2-1-0",
+      "label": "machine",
+      "score": 0.9982071220498786,
+      "accepted": true
+    },
+    {
+      "key": "axle_round2/axle2-2-0",
+      "label": "machine",
+      "score": 0.9982672822564487,
+      "accepted": true
+    },
+    {
+      "key": "axle_round2/axle2-2-1",
+      "label": "machine",
+      "score": 0.9977789575371186,
+      "accepted": true
+    },
+    {
+      "key": "axle_round2/axle2-3-0",
+      "label": "machine",
+      "score": 0.9960823208503268,
+      "accepted": true
+    },
+    {
+      "key": "axle_round2/axle2-3-1",
+      "label": "machine",
+      "score": 0.9921150856732388,
+      "accepted": true
+    },
+    {
+      "key": "axle_round2/axle2-4-0",
+      "label": "machine",
+      "score": 0.9966860489849996,
+      "accepted": true
+    },
+    {
+      "key": "axle_round2/axle2-4-3",
+      "label": "machine",
+      "score": 0.9970599548124656,
+      "accepted": true
+    },
+    {
+      "key": "axle_round2/axle2-4-4",
+      "label": "machine",
+      "score": 0.9961014169635752,
+      "accepted": true
+    },
+    {
+      "key": "axle_round2/axle2-extra-0",
+      "label": "machine",
+      "score": 0.9990636494780009,
+      "accepted": true
+    },
+    {
+      "key": "axle_round2/axle2-extra-5",
+      "label": "machine",
+      "score": 0.9974049709782901,
+      "accepted": true
+    },
+    {
+      "key": "axle_round2/axle2-extra-7",
+      "label": "machine",
+      "score": 0.9968135090449499,
+      "accepted": true
+    },
+    {
+      "key": "round4/round4-5",
+      "label": "machine",
+      "score": 0.9981247437356213,
+      "accepted": true
+    },
+    {
+      "key": "round4/round4-14",
+      "label": "machine",
+      "score": 0.9987122879901402,
+      "accepted": true
+    },
+    {
+      "key": "round4/round4-16",
+      "label": "machine",
+      "score": 0.9982591509866764,
+      "accepted": true
+    },
+    {
+      "key": "round4/round4-17",
+      "label": "machine",
+      "score": 0.9984096477842178,
+      "accepted": true
+    },
+    {
+      "key": "round4/round4-73",
+      "label": "machine",
+      "score": 0.9972868075796403,
+      "accepted": true
+    },
+    {
+      "key": "round4/round4-78",
+      "label": "machine",
+      "score": 0.996711136772473,
+      "accepted": true
+    },
+    {
+      "key": "field_registry/field1-7",
+      "label": "machine",
+      "score": 0.9870065212536058,
+      "accepted": true
+    },
+    {
+      "key": "field_registry/field1-8",
+      "label": "machine",
+      "score": 0.9916002902638825,
+      "accepted": true
+    },
+    {
+      "key": "field_registry/field1-11",
+      "label": "machine",
+      "score": 0.9984385423238092,
+      "accepted": true
+    },
+    {
+      "key": "field_registry/field1-14",
+      "label": "machine",
+      "score": 0.9798443604021693,
+      "accepted": true
+    },
+    {
+      "key": "field_registry/round4-29",
+      "label": "machine",
+      "score": 0.9951895998871844,
+      "accepted": true
+    },
+    {
+      "key": "field_registry/round4-mtz1523-8",
+      "label": "machine",
+      "score": 0.998764703106921,
+      "accepted": true
+    },
+    {
+      "key": "old_heldout/tractorbg-887586",
+      "label": "machine",
+      "score": 0.9905819496791898,
+      "accepted": true
+    },
+    {
+      "key": "old_heldout/tractorbg-887591",
+      "label": "machine",
+      "score": 0.9827945573424349,
+      "accepted": true
+    },
+    {
+      "key": "old_heldout/tractorbg-887594",
+      "label": "machine",
+      "score": 0.9590075803815693,
+      "accepted": true
+    },
+    {
+      "key": "old_heldout/tractorbg-949130",
+      "label": "machine",
+      "score": 0.9977839658456651,
+      "accepted": true
+    },
+    {
+      "key": "user_attachment/01",
+      "label": "machine",
+      "score": 0.9973201218438644,
+      "accepted": true
+    },
+    {
+      "key": "user_attachment/11",
+      "label": "machine",
+      "score": 0.9759547262289404,
+      "accepted": true
+    },
+    {
+      "key": "user_attachment/12",
+      "label": "machine",
+      "score": 0.9970900009713367,
+      "accepted": true
+    },
+    {
+      "key": "round5/r5-1",
+      "label": "machine",
+      "score": 0.9974853568403147,
+      "accepted": true
+    },
+    {
+      "key": "round5/r5-5",
+      "label": "machine",
+      "score": 0.9975164944131624,
+      "accepted": true
+    },
+    {
+      "key": "round5/r5-10",
+      "label": "machine",
+      "score": 0.9983778156377248,
+      "accepted": true
+    },
+    {
+      "key": "round5/r5-123",
+      "label": "machine",
+      "score": 0.980462394659778,
+      "accepted": true
+    },
+    {
+      "key": "round5/r5-133",
+      "label": "machine",
+      "score": 0.9952585464442435,
+      "accepted": true
+    },
+    {
+      "key": "round5/r5-141",
+      "label": "machine",
+      "score": 0.9761578964022568,
+      "accepted": true
+    },
+    {
+      "key": "round5/r5-143",
+      "label": "machine",
+      "score": 0.9987960154161866,
+      "accepted": true
+    },
+    {
+      "key": "round5/r5-28",
+      "label": "machine",
+      "score": 0.9984665113083886,
+      "accepted": true
+    },
+    {
+      "key": "round5/r5-54",
+      "label": "machine",
+      "score": 0.9984923949226472,
+      "accepted": true
+    },
+    {
+      "key": "round5/r5-91",
+      "label": "machine",
+      "score": 0.997905688755379,
+      "accepted": true
+    },
+    {
+      "key": "round5/r5b-15",
+      "label": "machine",
+      "score": 0.9988330947225116,
+      "accepted": true
+    },
+    {
+      "key": "round5/r5b-17",
+      "label": "machine",
+      "score": 0.9964331350005302,
+      "accepted": true
+    },
+    {
+      "key": "round5/r5b-20",
+      "label": "machine",
+      "score": 0.9985287688071329,
+      "accepted": true
+    },
+    {
+      "key": "round5/r5b-21",
+      "label": "machine",
+      "score": 0.997001254960089,
+      "accepted": true
+    },
+    {
+      "key": "round5/r5b-25",
+      "label": "machine",
+      "score": 0.9987955614495768,
+      "accepted": true
+    },
+    {
+      "key": "round5/r5b-32",
+      "label": "machine",
+      "score": 0.9955931479738152,
+      "accepted": true
+    },
+    {
+      "key": "round5/r5b-41",
+      "label": "machine",
+      "score": 0.9975448219952734,
+      "accepted": true
+    },
+    {
+      "key": "round5/r5b-47",
+      "label": "machine",
+      "score": 0.9924279847278061,
+      "accepted": true
+    },
+    {
+      "key": "round5/r5b-62",
+      "label": "machine",
+      "score": 0.9788842808842902,
+      "accepted": true
+    },
+    {
+      "key": "round5/r5b-63",
+      "label": "machine",
+      "score": 0.9766762337172501,
+      "accepted": true
+    },
+    {
+      "key": "round5/r5b-69",
+      "label": "machine",
+      "score": 0.995348572148665,
+      "accepted": true
+    },
+    {
+      "key": "round5/r5b-103",
+      "label": "machine",
+      "score": 0.9919190780494237,
+      "accepted": true
+    },
+    {
+      "key": "round5/r5g-0",
+      "label": "machine",
+      "score": 0.9979857927917128,
+      "accepted": true
+    },
+    {
+      "key": "round5/r5g-1",
+      "label": "machine",
+      "score": 0.9978330172271491,
+      "accepted": true
+    }
+  ],
+  "round3_partial_comparison": [
+    {
+      "key": "control/multiple",
+      "role": "feedback_train",
+      "model": "machine",
+      "baseline": false,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/attachment",
+      "role": "test",
+      "model": "attachment",
+      "baseline": false,
+      "supplement": false,
+      "combined": false
+    },
+    {
+      "key": "control/model_wave2/tractorbg-191734/left",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/model_wave2/tractorbg-191734/right",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/expansion/bazar-3-11/left",
+      "role": "test",
+      "model": "machine",
+      "baseline": false,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/expansion/bazar-3-11/right",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/axle_round2/axle2-4-3/left",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/axle_round2/axle2-4-3/right",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/model_wave2/tractorbg-98308/left",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/model_wave2/tractorbg-98308/right",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/expansion/bazar-1-01/left",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/expansion/bazar-1-01/right",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/round5/r5-141/left",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/round5/r5-141/right",
+      "role": "test",
+      "model": "machine",
+      "baseline": false,
+      "supplement": false,
+      "combined": false
+    },
+    {
+      "key": "control/mtz_model_pilot/commons-106142718/left",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/mtz_model_pilot/commons-106142718/right",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/old_heldout/tractorbg-949130/left",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/old_heldout/tractorbg-949130/right",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/old_heldout/tractorbg-887586/left",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/old_heldout/tractorbg-887586/right",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/axle_round2/axle2-extra-5/left",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/axle_round2/axle2-extra-5/right",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/model_wave2/tractorbg-955002/left",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/model_wave2/tractorbg-955002/right",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/model_wave2/tractorbg-895103/left",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/model_wave2/tractorbg-895103/right",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/weather_expansion/wave3-photo-990671/left",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/weather_expansion/wave3-photo-990671/right",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/field_registry/field1-11/left",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/field_registry/field1-11/right",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/weather_expansion/wave4-photo-193699/left",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    },
+    {
+      "key": "control/weather_expansion/wave4-photo-193699/right",
+      "role": "test",
+      "model": "machine",
+      "baseline": true,
+      "supplement": true,
+      "combined": true
+    }
+  ],
+  "note": "The user partial-tractor case is training feedback. Independent region control uses 30 cropped real-machine views and one implement crop; negative diversity is limited.",
+  "trailer_round5": {
+    "main_control": "output/trailer_round5/reference_main_control.json",
+    "pipeline": "output/trailer_round5/pipeline_comparison.json",
+    "reference_comparison": "output/trailer_round5/reference_comparison.json",
+    "known_feedback": "weather4/w4_021",
+    "independent_new_trailer_sources": 2,
+    "main_control_vetoes": 0,
+    "warning": "Known wet trailer is training feedback, not independent validation. Other trailer/tank/blade errors remain."
+  },
+  "maintenance_round6": {
+    "report": "reports/MAINTENANCE_ROUND6_2026-11-16.md",
+    "pipeline": "output/maintenance_round6/pipeline_comparison.json",
+    "main_control": "output/maintenance_round6/fusion_main_control.json",
+    "uncertain_regions_are_not_confirmed_machines": true,
+    "independent_region_checks": "output/maintenance_round6/independent_region_checks.json"
+  }
+}

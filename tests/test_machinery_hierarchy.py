@@ -159,3 +159,126 @@ def test_verified_digits_can_suggest_registered_member_without_confirming_it():
 
 def test_marking_whitespace_does_not_change_model_digits():
     assert visible_marking(dict(pairs=[dict(full_text="T 5050", body_text="T5050")])) == "T5050"
+
+
+def test_nested_night_tractor_boxes_are_one_machine():
+    raw = [
+        dict(box=[498, 424, 1011, 796], score=.8, label='tractor'),
+        dict(box=[390, 370, 1122, 849], score=.7, label='tractor'),
+    ]
+    assert len(select_regions(raw, 1600, 1000)) == 1
+
+
+def test_overlapping_machines_with_different_centres_stay_separate():
+    raw = [
+        dict(box=[10, 10, 210, 210], score=.8, label='tractor'),
+        dict(box=[130, 10, 330, 210], score=.7, label='tractor'),
+    ]
+    assert len(select_regions(raw, 400, 250)) == 2
+
+
+def test_offcentre_foreground_machine_is_not_a_centered_duplicate():
+    raw = [
+        dict(box=[10, 10, 310, 210], score=.8, label='tractor'),
+        dict(box=[20, 20, 120, 100], score=.7, label='tractor'),
+    ]
+    assert len(select_regions(raw, 400, 250)) == 2
+
+
+def test_optional_unknown_gate_requires_calibrated_evidence():
+    b = bundle()
+    b['heads']['unknown_gate'] = constant(['known', 'unknown'], 'unknown')
+    b['calibration']['unknown_gate'] = {'unknown': {'threshold': None}}
+    assert predict_hierarchy(b, np.zeros(2))['family_candidate'] == 'mtz_80_family'
+    b['calibration']['unknown_gate']['unknown']['threshold'] = .95
+    prediction = predict_hierarchy(b, np.zeros(2))
+    assert prediction['family_candidate'] == 'unknown'
+    assert prediction['family'] is None
+
+
+def test_nh_specialist_uses_its_own_calibration_without_certifying_exact_model():
+    b = bundle()
+    b['heads']['nh_specialist'] = constant(['nh_t5000_family', 'not_nh'], 'nh_t5000_family')
+    b['calibration']['nh_specialist'] = {'nh_t5000_family': {'threshold': .95}}
+    b['calibration']['family']['nh_t5000_family'] = {'threshold': 1.0}
+    prediction = predict_hierarchy(b, np.zeros(2))
+    assert prediction['family'] == 'nh_t5000_family'
+    assert prediction['exact_model'] is None
+
+
+def test_uncalibrated_nh_specialist_cannot_change_family():
+    b = bundle()
+    b['heads']['nh_specialist'] = constant(['nh_t5000_family', 'not_nh'], 'nh_t5000_family')
+    b['calibration']['nh_specialist'] = {'nh_t5000_family': {'threshold': None}}
+    assert predict_hierarchy(b, np.zeros(2))['family'] == 'mtz_80_family'
+
+
+def branded_evidence(token='82', suggestion='mtz_82', brand='MTZ'):
+    return dict(status='consistent_marking',suggestion=suggestion,image_size=[1000,800],
+        full=[],body=[dict(text=brand,confidence=.99,box=[500,300,580,340])],
+        pairs=[dict(full_text=token,body_text=token,full_box=[420,320,460,350],body_box=[420,320,460,350])])
+
+
+def test_branded_conflict_preserves_reading_and_reviewable_family_hint():
+    evidence=branded_evidence('T5050','nh_t5000','NEW HOLLAND')
+    result=predict_hierarchy(bundle(),np.zeros(2),evidence)
+    assert result['family_candidate']=='nh_t5000_family'
+    assert result['classifier_family_candidate']=='mtz_80_family'
+    assert result['visible_model_marking']=='T5050'
+    assert result['family'] is None and result['exact_model'] is None
+    assert result['marking_conflict'] and result['candidate_source']=='branded_marking'
+
+
+def test_unbranded_digits_cannot_override_visual_family():
+    evidence=branded_evidence('T5050','nh_t5000','')
+    result=predict_hierarchy(bundle(),np.zeros(2),evidence)
+    assert result['family_candidate']=='mtz_80_family'
+    assert result['visible_model_marking']=='T5050'
+    assert result['family'] is None
+
+
+def test_distant_brand_or_low_confidence_cannot_supply_family_hint():
+    from src.models.hierarchy import branded_marking_family
+    evidence=branded_evidence()
+    evidence['body'][0]['box']=[900,20,990,50]
+    assert branded_marking_family(evidence) is None
+    evidence=branded_evidence()
+    evidence['body'][0]['confidence']=.89
+    assert branded_marking_family(evidence) is None
+
+
+def test_model_token_must_agree_with_suggested_family():
+    from src.models.hierarchy import branded_marking_family
+    assert branded_marking_family(branded_evidence('T5050','mtz_82','MTZ')) is None
+
+
+def test_corner_number_is_not_hood_marking():
+    from src.models.hierarchy import branded_marking_family
+    evidence=branded_evidence()
+    evidence['pairs'][0]['full_box']=[420,740,460,780]
+    evidence['body'][0]['box']=[500,740,580,780]
+    assert branded_marking_family(evidence) is None
+
+
+def test_corroborated_unknown_nh_series_withholds_known_family():
+    marking=dict(status='unconfirmed',image_size=[1000,800])
+    lines=[dict(text='M135',confidence=.999,box=[400,300,450,330]),dict(text='NEW HOLLAND',confidence=.99,box=[470,300,600,330])]
+    marking['full']=lines;marking['body']=lines
+    result=predict_hierarchy(bundle('nh_t5000_family'),np.zeros(2),marking)
+    assert result['family_candidate']=='unknown' and result['family'] is None
+    assert result['visible_model_marking']=='M135'
+    assert result['candidate_source']=='unsupported_marking'
+    assert result['exact_model'] is None
+
+
+def test_unsupported_nh_model_requires_brand_in_both_views():
+    from src.models.hierarchy import unsupported_nh_marking
+    model=dict(text='M135',confidence=.999,box=[400,300,450,330])
+    brand=dict(text='NEW HOLLAND',confidence=.99,box=[470,300,600,330])
+    assert unsupported_nh_marking(dict(status='unconfirmed',image_size=[1000,800],full=[model,brand],body=[model])) is None
+
+
+def test_supported_t5000_is_not_an_unsupported_series():
+    from src.models.hierarchy import unsupported_nh_marking
+    lines=[dict(text='T5050',confidence=.999,box=[400,300,450,330]),dict(text='NEW HOLLAND',confidence=.99,box=[470,300,600,330])]
+    assert unsupported_nh_marking(dict(status='unconfirmed',image_size=[1000,800],full=lines,body=lines)) is None

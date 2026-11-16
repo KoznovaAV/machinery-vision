@@ -26,11 +26,29 @@ def render(data, asset_root=None):
             if item.get("status") == "family_only"
             else "Нужна проверка человеком"
         )
-        fine = CATALOG["models"].get(item.get("model_candidate"), {}).get("name", "Не определена")
+        fine = item.get("model_candidate_name") or CATALOG["models"].get(
+            item.get("model_candidate"), {}
+        ).get("name", "Не определена")
         candidate = LABELS.get(item.get("label_candidate"), {}).get("name", "Не определён")
-        kind = TYPE_NAMES.get(item.get("vehicle_type_candidate"), "Не определён")
+        kind = (
+            "Требуется уточнение"
+            if item.get("type_conflict")
+            else TYPE_NAMES.get(item.get("vehicle_type_candidate"), "Не определён")
+        )
         family_title = "Семейство" if item.get("family") else "Семейство — кандидат"
         details = item.get("details", {}).get("front_axle")
+        condition = {
+            "clean": "Видимой грязи не обнаружено",
+            "dirty": "Есть признаки загрязнения",
+        }.get(item.get("condition"), "Состояние не удалось оценить")
+        condition_reason = item.get("condition_reason")
+        condition_note = f"<small>{esc(condition_reason)}</small>" if condition_reason else ""
+        weather = ""
+        names = {"snow": "Снег в кадре", "rain": "Дождь в кадре", "wet": "Влажность поверхности"}
+        for key, title in names.items():
+            attribute = item.get("condition_attributes", {}).get(key)
+            if attribute:
+                weather += f"<dt>{esc(title)}</dt><dd>{esc(attribute['text'])}</dd>"
         part = ""
         if isinstance(details, dict) and details.get("image"):
             part = (
@@ -51,18 +69,29 @@ def render(data, asset_root=None):
 <dt>Точная модель — кандидат</dt><dd>{esc(fine)}; не подтверждена</dd>
 <dt>Видимая маркировка</dt>
 <dd>{esc(item.get('visible_model_marking') or 'Не подтверждена')}</dd>
+<dt>Загрязнение по фото</dt><dd>{esc(condition)}{condition_note}</dd>{weather}
 </dl>
 <p>{esc(item.get('reason'))}</p>{part}
 <p>Для уточнения:</p><ul>{pictures}</ul>
 </article>"""
         )
     content = "".join(cards)
+    if not content and any(r.get("reason") == "semantic_trailer" for r in data.get("ignored_regions", [])):
+        content = "<p>Обнаружен прицеп. Он не считается отдельной самоходной машиной.</p>"
+    if not content and any(r.get("reason") == "attachment" for r in data.get("ignored_regions", [])):
+        content = "<p>Обнаружено прицепное или навесное оборудование. Самоходная техника не подтверждена.</p>"
     if not content:
         content = (
             "<p>Загрузите фотографию для проверки.</p>"
             if data.get("initial")
             else "<p>Поддерживаемая техника не найдена. Попробуйте более крупный общий план.</p>"
         )
+    for region in data.get("uncertain_regions", []):
+        picture = (f'<img src="{esc(asset(region["crop"]))}" alt="Неподтверждённая область">'
+                   if region.get("crop") else "")
+        content += ("<aside class=\"notice\"><h2>Неподтверждённая область</h2>"
+                    + picture + "<p>Возможно, это прицеп, орудие или фрагмент машины. "
+                    "Не считаем отдельной самоходной машиной без проверки человеком.</p></aside>")
     return (
         """<!doctype html><html lang="ru">
 <meta charset="utf-8">
@@ -76,10 +105,11 @@ main{max-width:1100px;margin:auto;padding:24px}h1{font-size:27px}
 article,form{background:white;border:1px solid #ddd;border-radius:12px;padding:20px;margin-top:20px}
 img{width:100%;max-height:380px;object-fit:contain}
 dt{color:#566476;margin-top:10px}dd{margin:3px 0;font-weight:600}
+dd small{display:block;font-weight:400;color:#566476}
 .status{color:#704700}figcaption{font-size:13px}button{padding:10px 18px}
 </style><main><h1>Проверка распознавания техники</h1>
 <p class="notice">Экспериментальный режим. Проверяйте кандидатов и маркировку.
-Состояние и техническая исправность здесь не оцениваются.</p>
+Оценки видимого состояния могут потребовать уточняющего фото. Проверяйте результат перед использованием.</p>
 <form action="/predict" method="post" enctype="multipart/form-data">
 <label>Фото техники
 <input name="file" type="file" accept="image/jpeg,image/png,image/webp" required></label>

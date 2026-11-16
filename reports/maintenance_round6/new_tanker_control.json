@@ -1,0 +1,22 @@
+{
+  "id": "fieldtank_02",
+  "source": "https://www.fliegl.co.nz/products/effluent/tankers",
+  "url": "https://www.fliegl.co.nz/media/igdnbqqb/vfw_27500_alphaline-9.jpg?height=640&quality=75&v=1d8cf5c2d352c70&width=1920",
+  "target": "field_tankers",
+  "license": "unverified",
+  "path": "output/maintenance_round6/photos/fieldtank_02.jpg",
+  "sha256": "f35643924eb33d45a9e5cecceb6418133b9567408a1d32cdf01a3fa4c1a865a8",
+  "status": "downloaded",
+  "key": "maint6/fieldtank_02",
+  "group": "source-703d4ba7776614d9",
+  "model": "attachment",
+  "decision": "test_only",
+  "manual_note": "Real Fliegl tanker with separate Case tractor; crop is tanker only.",
+  "bbox": [
+    190,
+    60,
+    1330,
+    560
+  ],
+  "region_path": "output/maintenance_round6/held_tanker.jpg"
+}

@@ -1,0 +1,64 @@
+
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Проверка распознавания · Machinery Vision</title>
+<link rel="stylesheet" href="/review.css">
+<script src="/review.js" defer></script>
+</head>
+<body>
+<header><div class="shell brand"><span class="brand-mark" aria-hidden="true">MV</span> Machinery Vision</div></header>
+<main class="shell">
+  <div class="intro"><h1>Проверка распознавания</h1><p>Загрузите фото техники, сравните прогнозы и сохраните свою оценку.</p></div>
+  <div class="grid">
+    <section class="panel photo-panel" aria-labelledby="photo-label">
+      <h2 id="photo-label">Фотография</h2>
+      <div id="drop" class="drop">
+        <img id="preview" alt="Загруженная фотография" hidden>
+        <div id="placeholder"><span class="plus" aria-hidden="true">+</span><p>Перетащите фото сюда</p><small>JPEG, PNG, WebP · до 12 МБ</small></div>
+      </div>
+      <div class="actions"><label class="button secondary" for="photo">Выбрать фото</label><input type="file" id="photo" accept="image/jpeg,image/png,image/webp" class="visually-hidden"><button id="predict" disabled>Распознать</button></div>
+      <p id="photo-name" class="muted filename"></p>
+      <div class="actions" id="second-actions" hidden>
+        <label class="button secondary" for="photo-second">Добавить второй ракурс</label>
+        <input type="file" id="photo-second" accept="image/jpeg,image/png,image/webp" class="visually-hidden">
+        <button type="button" class="button secondary" id="remove-second" hidden>Убрать второй ракурс</button>
+      </div>
+      <p id="photo-second-name" class="muted filename"></p>
+      <p id="prediction-status" class="status" role="status"></p>
+    </section>
+    <div class="stack">
+      <section class="panel" aria-labelledby="result-label">
+        <h2 id="result-label">Прогнозы</h2>
+        <p class="muted" id="before-results">Результаты появятся после распознавания.</p>
+        <p id="decision" class="decision" role="status" hidden></p>
+        <p id="decision-tip" class="status" hidden></p>
+        <details id="scores" hidden>
+          <summary>Прогнозы и оценки</summary>
+          <dl id="results"></dl>
+        </details>
+      </section>
+      <section class="panel" aria-labelledby="review-label">
+        <div class="section-heading"><h2 id="review-label">Оценка оператора</h2><a href="/api/reviews.csv">Скачать CSV</a></div>
+        <form id="review">
+          <fieldset id="review-fields" disabled>
+            <label for="model">Модель техники</label>
+            <select id="model" name="model"><option value="">Выберите</option><option value="mtz_82">МТЗ‑82 / 82.1</option><option value="mtz_1221">МТЗ‑1221</option><option value="other">Другая техника</option><option value="unknown">Модель неясна</option></select>
+            <div class="form-grid">
+              <div><label for="mud">Грязь</label><select id="mud" name="mud"><option value="">Выберите</option><option value="clean">Грязь не видна</option><option value="dirty">Грязь видна</option><option value="unknown">Неясно</option></select></div>
+              <div><label for="condition">Поверхность</label><select id="condition" name="condition"><option value="">Выберите</option><option value="dry">Сухая</option><option value="wet">Мокрая</option><option value="snow">Снег на машине</option><option value="unknown">Неясно</option></select></div>
+            </div>
+            <label for="note">Комментарий <span class="muted">(необязательно)</span></label>
+            <textarea id="note" name="note" maxlength="1000" placeholder="Например, модель видна на шильдике"></textarea>
+            <button type="submit" id="save" disabled>Сохранить оценку</button>
+          </fieldset>
+        </form>
+        <p id="review-status" class="status" role="status"></p>
+      </section>
+    </div>
+  </div>
+</main>
+</body>
+</html>

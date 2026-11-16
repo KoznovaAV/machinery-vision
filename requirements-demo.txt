@@ -1,0 +1,3 @@
+# Gradio-демо (scripts/demo_app.py). Не входит в образ API — только для
+# локального запуска: pip install -r requirements-demo.txt поверх requirements.txt.
+gradio>=4.44.0

@@ -1,0 +1,17 @@
+{
+  "dirty": {
+    "no_more_errors": true,
+    "answers_preserved": false,
+    "groups_preserved": false
+  },
+  "snow": {
+    "no_more_errors": true,
+    "answers_preserved": false,
+    "groups_preserved": false
+  },
+  "wet": {
+    "no_more_errors": true,
+    "answers_preserved": true,
+    "groups_preserved": true
+  }
+}

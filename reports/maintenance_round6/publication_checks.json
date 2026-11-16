@@ -1,0 +1,19 @@
+{
+  "release": "maintenance_round6",
+  "date": "2026-11-16",
+  "publication_checkout": {
+    "tests_passed": 213,
+    "tests_skipped": 9,
+    "failed": 0,
+    "seconds": 8.01,
+    "skip_reason": "Legacy API/checkpoint and real dataset absent from publication checkout",
+    "release_integrity": true
+  },
+  "full_local_checkout_previous": {
+    "tests_passed": 222,
+    "pipeline_cases": 20,
+    "web_requests": 6
+  },
+  "photos_published": false,
+  "large_upstream_weights_published": false
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "key": "instance6/blue_tanker/machine",
+    "model": "machine",
+    "group": "source-737df11e21fe",
+    "path": "output/maintenance_round6/region_train/blue_tanker_machine.jpg",
+    "parent_key": "round6/r6s-r5-2",
+    "parent_path": "output\\continuation_round6\\photos\\r6s-r5-2.jpg",
+    "view_path": "output/continuation_round6/views/244cf84e8c775e68d16e2e0fb072a4c8e222129ad895badb48139949626d385d/tractor.jpg",
+    "view_sha256": "66a497f9e77be8a2e5f631424c863de2b7fc007fb77ce6c672e4014c7a9d8589",
+    "bbox": [
+      280,
+      0,
+      545,
+      300
+    ],
+    "note": "Separate tractor and towed tanker. Remove mixed whole-scene positive prototype; family label remains unchanged."
+  },
+  {
+    "key": "instance6/blue_tanker/attachment",
+    "model": "attachment",
+    "group": "source-737df11e21fe",
+    "path": "output/maintenance_round6/region_train/blue_tanker_attachment.jpg",
+    "parent_key": "round6/r6s-r5-2",
+    "parent_path": "output\\continuation_round6\\photos\\r6s-r5-2.jpg",
+    "view_path": "output/continuation_round6/views/244cf84e8c775e68d16e2e0fb072a4c8e222129ad895badb48139949626d385d/tractor.jpg",
+    "view_sha256": "66a497f9e77be8a2e5f631424c863de2b7fc007fb77ce6c672e4014c7a9d8589",
+    "bbox": [
+      0,
+      60,
+      307,
+      307
+    ],
+    "note": "Separate tractor and towed tanker. Remove mixed whole-scene positive prototype; family label remains unchanged."
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "reference": {
+    "threshold": 0.06099987030029297,
+    "groups": 19,
+    "correct": 19,
+    "training_oof_precision": 1.0
+  },
+  "conditional_linear": {
+    "threshold": 0.95,
+    "groups": 19,
+    "correct": 19,
+    "training_oof_precision": 1.0
+  },
+  "explanation": "Worst accepted region within every source group; mixed-label groups included. Linear decision additionally requires balanced OOF margin >= .03."
+}

@@ -6,6 +6,9 @@ ROOT = Path(__file__).resolve().parents[2]
 
 
 def hierarchy_bundle_path() -> Path:
+    mvp = ROOT / "artifacts/mvp/hierarchy_bundle.json"
+    if mvp.is_file():
+        return mvp
     local = ROOT / "output/continuation_round6/hierarchy_bundle.json"
     if local.is_file():
         return local

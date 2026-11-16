@@ -1,0 +1,67 @@
+{
+  "checkpoint": "weights\\multi_task_best.ckpt",
+  "image_size": 384,
+  "counts": {
+    "real_dirty_val": 28,
+    "synthetic_clean": 102,
+    "real_clean_probe": 19
+  },
+  "target_real_dirty_recall": 0.9,
+  "rows": [
+    {
+      "threshold": 0.5,
+      "real_dirty_recall": 0.8928571428571429,
+      "synthetic_clean_false_dirty": 0.12745098039215685,
+      "probe_false_dirty": 0.15789473684210525
+    },
+    {
+      "threshold": 0.55,
+      "real_dirty_recall": 0.8928571428571429,
+      "synthetic_clean_false_dirty": 0.12745098039215685,
+      "probe_false_dirty": 0.10526315789473684
+    },
+    {
+      "threshold": 0.6,
+      "real_dirty_recall": 0.8928571428571429,
+      "synthetic_clean_false_dirty": 0.11764705882352941,
+      "probe_false_dirty": 0.10526315789473684
+    },
+    {
+      "threshold": 0.65,
+      "real_dirty_recall": 0.8571428571428571,
+      "synthetic_clean_false_dirty": 0.0784313725490196,
+      "probe_false_dirty": 0.05263157894736842
+    },
+    {
+      "threshold": 0.7,
+      "real_dirty_recall": 0.8571428571428571,
+      "synthetic_clean_false_dirty": 0.058823529411764705,
+      "probe_false_dirty": 0.0
+    },
+    {
+      "threshold": 0.75,
+      "real_dirty_recall": 0.8571428571428571,
+      "synthetic_clean_false_dirty": 0.0392156862745098,
+      "probe_false_dirty": 0.0
+    },
+    {
+      "threshold": 0.8,
+      "real_dirty_recall": 0.8214285714285714,
+      "synthetic_clean_false_dirty": 0.0392156862745098,
+      "probe_false_dirty": 0.0
+    },
+    {
+      "threshold": 0.85,
+      "real_dirty_recall": 0.8214285714285714,
+      "synthetic_clean_false_dirty": 0.029411764705882353,
+      "probe_false_dirty": 0.0
+    },
+    {
+      "threshold": 0.9,
+      "real_dirty_recall": 0.6071428571428571,
+      "synthetic_clean_false_dirty": 0.029411764705882353,
+      "probe_false_dirty": 0.0
+    }
+  ],
+  "recommended_threshold": null
+}

@@ -1,0 +1,8 @@
+# Артефакты и данные монтируются в рантайме, в образ не входят.
+data/
+weights/
+lightning_logs/
+output/
+.git/
+.venv/
+__pycache__/

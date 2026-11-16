@@ -1,0 +1,350 @@
+{
+  "checkpoint": "weights\\multi_task_best.ckpt",
+  "image_size": 384,
+  "samples": 355,
+  "sources": {
+    "real_clean_probe": {
+      "clean": {
+        "total": 19,
+        "false_dirty": 3,
+        "false_dirty_rate": 0.15789473684210525,
+        "per_class": {
+          "chtz": {
+            "total": 3,
+            "false_dirty": 0,
+            "false_dirty_rate": 0.0
+          },
+          "johndeere": {
+            "total": 2,
+            "false_dirty": 0,
+            "false_dirty_rate": 0.0
+          },
+          "kirovets": {
+            "total": 10,
+            "false_dirty": 3,
+            "false_dirty_rate": 0.3
+          },
+          "mtz_belarus": {
+            "total": 4,
+            "false_dirty": 0,
+            "false_dirty_rate": 0.0
+          }
+        }
+      }
+    },
+    "real_dirty_val": {
+      "dirty": {
+        "total": 28,
+        "false_clean": 3,
+        "false_clean_rate": 0.10714285714285714,
+        "dirty_recall": 0.8928571428571429,
+        "per_class": {
+          "chtz": {
+            "total": 3,
+            "false_clean": 1,
+            "false_clean_rate": 0.3333333333333333,
+            "dirty_recall": 0.6666666666666666
+          },
+          "johndeere": {
+            "total": 8,
+            "false_clean": 1,
+            "false_clean_rate": 0.125,
+            "dirty_recall": 0.875
+          },
+          "kirovets": {
+            "total": 3,
+            "false_clean": 0,
+            "false_clean_rate": 0.0,
+            "dirty_recall": 1.0
+          },
+          "mtz_belarus": {
+            "total": 14,
+            "false_clean": 1,
+            "false_clean_rate": 0.07142857142857142,
+            "dirty_recall": 0.9285714285714286
+          }
+        }
+      }
+    },
+    "synthetic": {
+      "clean": {
+        "total": 102,
+        "false_dirty": 13,
+        "false_dirty_rate": 0.12745098039215685,
+        "per_class": {
+          "chtz": {
+            "total": 23,
+            "false_dirty": 3,
+            "false_dirty_rate": 0.13043478260869565
+          },
+          "johndeere": {
+            "total": 23,
+            "false_dirty": 2,
+            "false_dirty_rate": 0.08695652173913043
+          },
+          "kirovets": {
+            "total": 9,
+            "false_dirty": 2,
+            "false_dirty_rate": 0.2222222222222222
+          },
+          "mtz_belarus": {
+            "total": 47,
+            "false_dirty": 6,
+            "false_dirty_rate": 0.1276595744680851
+          }
+        }
+      },
+      "dirty": {
+        "total": 206,
+        "false_clean": 7,
+        "false_clean_rate": 0.03398058252427184,
+        "dirty_recall": 0.9660194174757282,
+        "per_class": {
+          "chtz": {
+            "total": 48,
+            "false_clean": 0,
+            "false_clean_rate": 0.0,
+            "dirty_recall": 1.0
+          },
+          "johndeere": {
+            "total": 46,
+            "false_clean": 3,
+            "false_clean_rate": 0.06521739130434782,
+            "dirty_recall": 0.9347826086956522
+          },
+          "kirovets": {
+            "total": 18,
+            "false_clean": 0,
+            "false_clean_rate": 0.0,
+            "dirty_recall": 1.0
+          },
+          "mtz_belarus": {
+            "total": 94,
+            "false_clean": 4,
+            "false_clean_rate": 0.0425531914893617,
+            "dirty_recall": 0.9574468085106383
+          }
+        }
+      }
+    }
+  },
+  "totals": {
+    "clean_false_dirty_rate": 0.1322314049586777,
+    "dirty_false_clean_rate": 0.042735042735042736,
+    "real_dirty_recall": 0.8928571428571429
+  },
+  "misses": {
+    "clean_as_dirty": [
+      {
+        "source": "synthetic",
+        "family": "chtz",
+        "path": "data\\dirty_clean\\test\\chtz\\clean\\7bfded4d17bb123d.jpg",
+        "pred_state": "dirty",
+        "family_conf": 0.9353,
+        "copied_as": "pred_dirty_conf0.94_7bfded4d17bb123d.jpg"
+      },
+      {
+        "source": "synthetic",
+        "family": "chtz",
+        "path": "data\\dirty_clean\\test\\chtz\\clean\\b32f3775b527aa14.jpg",
+        "pred_state": "dirty",
+        "family_conf": 0.8951,
+        "copied_as": "pred_dirty_conf0.90_b32f3775b527aa14.jpg"
+      },
+      {
+        "source": "synthetic",
+        "family": "chtz",
+        "path": "data\\dirty_clean\\test\\chtz\\clean\\f7dd1b0cf1b58bbd.jpg",
+        "pred_state": "dirty",
+        "family_conf": 0.9052,
+        "copied_as": "pred_dirty_conf0.91_f7dd1b0cf1b58bbd.jpg"
+      },
+      {
+        "source": "synthetic",
+        "family": "johndeere",
+        "path": "data\\dirty_clean\\test\\johndeere\\clean\\317f4e05e6c3435e.jpg",
+        "pred_state": "dirty",
+        "family_conf": 0.7102,
+        "copied_as": "pred_dirty_conf0.71_317f4e05e6c3435e.jpg"
+      },
+      {
+        "source": "synthetic",
+        "family": "johndeere",
+        "path": "data\\dirty_clean\\test\\johndeere\\clean\\cd8e5eaa89afe977.jpg",
+        "pred_state": "dirty",
+        "family_conf": 0.9132,
+        "copied_as": "pred_dirty_conf0.91_cd8e5eaa89afe977.jpg"
+      },
+      {
+        "source": "synthetic",
+        "family": "kirovets",
+        "path": "data\\dirty_clean\\test\\kirovets\\clean\\01350825710cc50f.jpg",
+        "pred_state": "dirty",
+        "family_conf": 0.9556,
+        "copied_as": "pred_dirty_conf0.96_01350825710cc50f.jpg"
+      },
+      {
+        "source": "synthetic",
+        "family": "kirovets",
+        "path": "data\\dirty_clean\\test\\kirovets\\clean\\afdec766cb4c1ab5.jpg",
+        "pred_state": "dirty",
+        "family_conf": 0.8458,
+        "copied_as": "pred_dirty_conf0.85_afdec766cb4c1ab5.jpg"
+      },
+      {
+        "source": "synthetic",
+        "family": "mtz_belarus",
+        "path": "data\\dirty_clean\\test\\mtz_belarus\\clean\\00e75409e8c1d3dd.jpg",
+        "pred_state": "dirty",
+        "family_conf": 0.8949,
+        "copied_as": "pred_dirty_conf0.89_00e75409e8c1d3dd.jpg"
+      },
+      {
+        "source": "synthetic",
+        "family": "mtz_belarus",
+        "path": "data\\dirty_clean\\test\\mtz_belarus\\clean\\6d1437a1ee42307d.jpg",
+        "pred_state": "dirty",
+        "family_conf": 0.937,
+        "copied_as": "pred_dirty_conf0.94_6d1437a1ee42307d.jpg"
+      },
+      {
+        "source": "synthetic",
+        "family": "mtz_belarus",
+        "path": "data\\dirty_clean\\test\\mtz_belarus\\clean\\6f5bf6597c7571be.jpg",
+        "pred_state": "dirty",
+        "family_conf": 0.909,
+        "copied_as": "pred_dirty_conf0.91_6f5bf6597c7571be.jpg"
+      },
+      {
+        "source": "synthetic",
+        "family": "mtz_belarus",
+        "path": "data\\dirty_clean\\test\\mtz_belarus\\clean\\b7bd8080cd977c24.jpg",
+        "pred_state": "dirty",
+        "family_conf": 0.9372,
+        "copied_as": "pred_dirty_conf0.94_b7bd8080cd977c24.jpg"
+      },
+      {
+        "source": "synthetic",
+        "family": "mtz_belarus",
+        "path": "data\\dirty_clean\\test\\mtz_belarus\\clean\\d6b61e0384870269.jpg",
+        "pred_state": "dirty",
+        "family_conf": 0.6578,
+        "copied_as": "pred_dirty_conf0.66_d6b61e0384870269.jpg"
+      },
+      {
+        "source": "synthetic",
+        "family": "mtz_belarus",
+        "path": "data\\dirty_clean\\test\\mtz_belarus\\clean\\fd4be2cdbc41700b.jpg",
+        "pred_state": "dirty",
+        "family_conf": 0.9145,
+        "copied_as": "pred_dirty_conf0.91_fd4be2cdbc41700b.jpg"
+      },
+      {
+        "source": "real_clean_probe",
+        "family": "kirovets",
+        "path": "data\\real_clean_probe\\kirovets\\probe_97368a5603eb45a9a5856ab2da2ca2c9.jpg",
+        "pred_state": "dirty",
+        "family_conf": 0.4283,
+        "copied_as": "pred_dirty_conf0.43_probe_97368a5603eb45a9a5856ab2da2ca2c9.jpg"
+      },
+      {
+        "source": "real_clean_probe",
+        "family": "kirovets",
+        "path": "data\\real_clean_probe\\kirovets\\probe_d3ea7f9f34244dbe822281058f95d364.jpg",
+        "pred_state": "dirty",
+        "family_conf": 0.5996,
+        "copied_as": "pred_dirty_conf0.60_probe_d3ea7f9f34244dbe822281058f95d364.jpg"
+      },
+      {
+        "source": "real_clean_probe",
+        "family": "kirovets",
+        "path": "data\\real_clean_probe\\kirovets\\real_clean_kir_2.jpg",
+        "pred_state": "dirty",
+        "family_conf": 0.9252,
+        "copied_as": "pred_dirty_conf0.93_real_clean_kir_2.jpg"
+      }
+    ],
+    "dirty_as_clean": [
+      {
+        "source": "synthetic",
+        "family": "johndeere",
+        "path": "data\\dirty_clean\\test\\johndeere\\dirty\\5f19ca5fc7f381c6_dirty1.jpg",
+        "pred_state": "clean",
+        "family_conf": 0.9436,
+        "copied_as": "pred_clean_conf0.94_5f19ca5fc7f381c6_dirty1.jpg"
+      },
+      {
+        "source": "synthetic",
+        "family": "johndeere",
+        "path": "data\\dirty_clean\\test\\johndeere\\dirty\\751ebd8b04c91c1d_dirty0.jpg",
+        "pred_state": "clean",
+        "family_conf": 0.6049,
+        "copied_as": "pred_clean_conf0.60_751ebd8b04c91c1d_dirty0.jpg"
+      },
+      {
+        "source": "synthetic",
+        "family": "johndeere",
+        "path": "data\\dirty_clean\\test\\johndeere\\dirty\\a43bdf74b1f0cd79_dirty1.jpg",
+        "pred_state": "clean",
+        "family_conf": 0.9197,
+        "copied_as": "pred_clean_conf0.92_a43bdf74b1f0cd79_dirty1.jpg"
+      },
+      {
+        "source": "synthetic",
+        "family": "mtz_belarus",
+        "path": "data\\dirty_clean\\test\\mtz_belarus\\dirty\\0d6cd8f21f6c8f60_dirty1.jpg",
+        "pred_state": "clean",
+        "family_conf": 0.8969,
+        "copied_as": "pred_clean_conf0.90_0d6cd8f21f6c8f60_dirty1.jpg"
+      },
+      {
+        "source": "synthetic",
+        "family": "mtz_belarus",
+        "path": "data\\dirty_clean\\test\\mtz_belarus\\dirty\\1071c244cd81ad2c_dirty0.jpg",
+        "pred_state": "clean",
+        "family_conf": 0.8913,
+        "copied_as": "pred_clean_conf0.89_1071c244cd81ad2c_dirty0.jpg"
+      },
+      {
+        "source": "synthetic",
+        "family": "mtz_belarus",
+        "path": "data\\dirty_clean\\test\\mtz_belarus\\dirty\\4b55a2f8e7b4e368_dirty0.jpg",
+        "pred_state": "clean",
+        "family_conf": 0.9494,
+        "copied_as": "pred_clean_conf0.95_4b55a2f8e7b4e368_dirty0.jpg"
+      },
+      {
+        "source": "synthetic",
+        "family": "mtz_belarus",
+        "path": "data\\dirty_clean\\test\\mtz_belarus\\dirty\\5918d75011caa281_dirty1.jpg",
+        "pred_state": "clean",
+        "family_conf": 0.9335,
+        "copied_as": "pred_clean_conf0.93_5918d75011caa281_dirty1.jpg"
+      },
+      {
+        "source": "real_dirty_val",
+        "family": "chtz",
+        "path": "data\\real_dirty_val\\chtz\\real_e6518ca380e69dce.jpg",
+        "pred_state": "clean",
+        "family_conf": 0.9659,
+        "copied_as": "pred_clean_conf0.97_real_e6518ca380e69dce.jpg"
+      },
+      {
+        "source": "real_dirty_val",
+        "family": "johndeere",
+        "path": "data\\real_dirty_val\\johndeere\\real_6ccaa800825bf72e.jpg",
+        "pred_state": "clean",
+        "family_conf": 0.9126,
+        "copied_as": "pred_clean_conf0.91_real_6ccaa800825bf72e.jpg"
+      },
+      {
+        "source": "real_dirty_val",
+        "family": "mtz_belarus",
+        "path": "data\\real_dirty_val\\mtz_belarus\\real_f9297b12bd99dfeb.jpg",
+        "pred_state": "clean",
+        "family_conf": 0.9348,
+        "copied_as": "pred_clean_conf0.93_real_f9297b12bd99dfeb.jpg"
+      }
+    ]
+  }
+}

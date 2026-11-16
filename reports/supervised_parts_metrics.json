@@ -1,0 +1,1160 @@
+{
+  "summary": {
+    "legacy": {
+      "baseline": {
+        "correct": 61,
+        "total": 89,
+        "by_class": {
+          "claas_axion_800": {
+            "correct": 12,
+            "total": 13
+          },
+          "mtz_1221": {
+            "correct": 10,
+            "total": 12
+          },
+          "mtz_80": {
+            "correct": 8,
+            "total": 18
+          },
+          "mtz_82": {
+            "correct": 12,
+            "total": 18
+          },
+          "mtz_820": {
+            "correct": 6,
+            "total": 11
+          },
+          "nh_t5000": {
+            "correct": 13,
+            "total": 17
+          }
+        },
+        "outside_rejected": 1
+      },
+      "full": {
+        "correct": 60,
+        "total": 89,
+        "by_class": {
+          "claas_axion_800": {
+            "correct": 12,
+            "total": 13
+          },
+          "mtz_1221": {
+            "correct": 9,
+            "total": 12
+          },
+          "mtz_80": {
+            "correct": 8,
+            "total": 18
+          },
+          "mtz_82": {
+            "correct": 12,
+            "total": 18
+          },
+          "mtz_820": {
+            "correct": 5,
+            "total": 11
+          },
+          "nh_t5000": {
+            "correct": 14,
+            "total": 17
+          }
+        },
+        "outside_rejected": 1
+      },
+      "full_tractor": {
+        "correct": 67,
+        "total": 89,
+        "by_class": {
+          "claas_axion_800": {
+            "correct": 13,
+            "total": 13
+          },
+          "mtz_1221": {
+            "correct": 11,
+            "total": 12
+          },
+          "mtz_80": {
+            "correct": 7,
+            "total": 18
+          },
+          "mtz_82": {
+            "correct": 14,
+            "total": 18
+          },
+          "mtz_820": {
+            "correct": 6,
+            "total": 11
+          },
+          "nh_t5000": {
+            "correct": 16,
+            "total": 17
+          }
+        },
+        "outside_rejected": 1
+      },
+      "full_tractor_axle": {
+        "correct": 65,
+        "total": 89,
+        "by_class": {
+          "claas_axion_800": {
+            "correct": 13,
+            "total": 13
+          },
+          "mtz_1221": {
+            "correct": 11,
+            "total": 12
+          },
+          "mtz_80": {
+            "correct": 8,
+            "total": 18
+          },
+          "mtz_82": {
+            "correct": 13,
+            "total": 18
+          },
+          "mtz_820": {
+            "correct": 5,
+            "total": 11
+          },
+          "nh_t5000": {
+            "correct": 15,
+            "total": 17
+          }
+        },
+        "outside_rejected": 1
+      },
+      "full_tractor_marking": {
+        "correct": 67,
+        "total": 89,
+        "by_class": {
+          "claas_axion_800": {
+            "correct": 13,
+            "total": 13
+          },
+          "mtz_1221": {
+            "correct": 11,
+            "total": 12
+          },
+          "mtz_80": {
+            "correct": 7,
+            "total": 18
+          },
+          "mtz_82": {
+            "correct": 14,
+            "total": 18
+          },
+          "mtz_820": {
+            "correct": 6,
+            "total": 11
+          },
+          "nh_t5000": {
+            "correct": 16,
+            "total": 17
+          }
+        },
+        "outside_rejected": 1
+      },
+      "full_tractor_parts": {
+        "correct": 65,
+        "total": 89,
+        "by_class": {
+          "claas_axion_800": {
+            "correct": 13,
+            "total": 13
+          },
+          "mtz_1221": {
+            "correct": 11,
+            "total": 12
+          },
+          "mtz_80": {
+            "correct": 8,
+            "total": 18
+          },
+          "mtz_82": {
+            "correct": 13,
+            "total": 18
+          },
+          "mtz_820": {
+            "correct": 5,
+            "total": 11
+          },
+          "nh_t5000": {
+            "correct": 15,
+            "total": 17
+          }
+        },
+        "outside_rejected": 1
+      }
+    },
+    "new": {
+      "baseline": {
+        "correct": 6,
+        "total": 11,
+        "by_class": {
+          "claas_axion_800": {
+            "correct": 0,
+            "total": 0
+          },
+          "mtz_1221": {
+            "correct": 0,
+            "total": 0
+          },
+          "mtz_80": {
+            "correct": 3,
+            "total": 7
+          },
+          "mtz_82": {
+            "correct": 0,
+            "total": 0
+          },
+          "mtz_820": {
+            "correct": 3,
+            "total": 4
+          },
+          "nh_t5000": {
+            "correct": 0,
+            "total": 0
+          }
+        },
+        "outside_rejected": 0
+      },
+      "full": {
+        "correct": 6,
+        "total": 11,
+        "by_class": {
+          "claas_axion_800": {
+            "correct": 0,
+            "total": 0
+          },
+          "mtz_1221": {
+            "correct": 0,
+            "total": 0
+          },
+          "mtz_80": {
+            "correct": 3,
+            "total": 7
+          },
+          "mtz_82": {
+            "correct": 0,
+            "total": 0
+          },
+          "mtz_820": {
+            "correct": 3,
+            "total": 4
+          },
+          "nh_t5000": {
+            "correct": 0,
+            "total": 0
+          }
+        },
+        "outside_rejected": 0
+      },
+      "full_tractor": {
+        "correct": 6,
+        "total": 11,
+        "by_class": {
+          "claas_axion_800": {
+            "correct": 0,
+            "total": 0
+          },
+          "mtz_1221": {
+            "correct": 0,
+            "total": 0
+          },
+          "mtz_80": {
+            "correct": 3,
+            "total": 7
+          },
+          "mtz_82": {
+            "correct": 0,
+            "total": 0
+          },
+          "mtz_820": {
+            "correct": 3,
+            "total": 4
+          },
+          "nh_t5000": {
+            "correct": 0,
+            "total": 0
+          }
+        },
+        "outside_rejected": 0
+      },
+      "full_tractor_axle": {
+        "correct": 6,
+        "total": 11,
+        "by_class": {
+          "claas_axion_800": {
+            "correct": 0,
+            "total": 0
+          },
+          "mtz_1221": {
+            "correct": 0,
+            "total": 0
+          },
+          "mtz_80": {
+            "correct": 4,
+            "total": 7
+          },
+          "mtz_82": {
+            "correct": 0,
+            "total": 0
+          },
+          "mtz_820": {
+            "correct": 2,
+            "total": 4
+          },
+          "nh_t5000": {
+            "correct": 0,
+            "total": 0
+          }
+        },
+        "outside_rejected": 0
+      },
+      "full_tractor_marking": {
+        "correct": 6,
+        "total": 11,
+        "by_class": {
+          "claas_axion_800": {
+            "correct": 0,
+            "total": 0
+          },
+          "mtz_1221": {
+            "correct": 0,
+            "total": 0
+          },
+          "mtz_80": {
+            "correct": 3,
+            "total": 7
+          },
+          "mtz_82": {
+            "correct": 0,
+            "total": 0
+          },
+          "mtz_820": {
+            "correct": 3,
+            "total": 4
+          },
+          "nh_t5000": {
+            "correct": 0,
+            "total": 0
+          }
+        },
+        "outside_rejected": 0
+      },
+      "full_tractor_parts": {
+        "correct": 6,
+        "total": 11,
+        "by_class": {
+          "claas_axion_800": {
+            "correct": 0,
+            "total": 0
+          },
+          "mtz_1221": {
+            "correct": 0,
+            "total": 0
+          },
+          "mtz_80": {
+            "correct": 4,
+            "total": 7
+          },
+          "mtz_82": {
+            "correct": 0,
+            "total": 0
+          },
+          "mtz_820": {
+            "correct": 2,
+            "total": 4
+          },
+          "nh_t5000": {
+            "correct": 0,
+            "total": 0
+          }
+        },
+        "outside_rejected": 0
+      }
+    }
+  },
+  "training": 343,
+  "control": 115,
+  "localization": [
+    {
+      "key": "mtz_model_pilot/other-mtz-231749",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "mtz_model_pilot/other-mtz-231749",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "mtz_model_pilot/other-mtz-991140",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 1,
+      "predicted": 1,
+      "best_iou": 0.3192453531538534,
+      "hit": false
+    },
+    {
+      "key": "mtz_model_pilot/other-mtz-991140",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "mtz_model_pilot/other-mtz-991141",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 1,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "mtz_model_pilot/other-mtz-991141",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "mtz_model_pilot/other-mtz-991142",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 1,
+      "predicted": 1,
+      "best_iou": 0.4375589275121781,
+      "hit": false
+    },
+    {
+      "key": "mtz_model_pilot/other-mtz-991142",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "mtz_model_pilot/other-mtz-991143",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "mtz_model_pilot/other-mtz-991143",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "mtz_model_pilot/other-mtz-991144",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 0,
+      "predicted": 1,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "mtz_model_pilot/other-mtz-991144",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "mtz_model_pilot/tractorbg-53874",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 1,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "mtz_model_pilot/tractorbg-53874",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 1,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "mtz_model_pilot/tractorbg-847612",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 1,
+      "predicted": 3,
+      "best_iou": 0.6950795287965256,
+      "hit": true
+    },
+    {
+      "key": "mtz_model_pilot/tractorbg-847612",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 1,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "mtz_model_pilot/commons-159869516",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "mtz_model_pilot/commons-159869516",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "mtz_model_pilot/commons-31163057",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "mtz_model_pilot/commons-31163057",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "mtz_model_pilot/commons-11881224",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "mtz_model_pilot/commons-11881224",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "mtz_model_pilot/tractorbg-190808",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 1,
+      "predicted": 3,
+      "best_iou": 0.6908372534696474,
+      "hit": true
+    },
+    {
+      "key": "mtz_model_pilot/tractorbg-190808",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "mtz_model_pilot/tractorbg-190809",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 0,
+      "predicted": 1,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "mtz_model_pilot/tractorbg-190809",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "model_wave2/tractorbg-434471",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 1,
+      "predicted": 1,
+      "best_iou": 0.6616355372383306,
+      "hit": true
+    },
+    {
+      "key": "model_wave2/tractorbg-434471",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "model_wave2/tractorbg-434472",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 1,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "model_wave2/tractorbg-434472",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "model_wave2/tractorbg-434473",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "model_wave2/tractorbg-434473",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "weather_expansion/resumable-photo-603251",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 1,
+      "predicted": 2,
+      "best_iou": 0.6918648714752029,
+      "hit": true
+    },
+    {
+      "key": "weather_expansion/resumable-photo-603251",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "weather_expansion/resumable-photo-603252",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 1,
+      "predicted": 1,
+      "best_iou": 0.5707426753302901,
+      "hit": true
+    },
+    {
+      "key": "weather_expansion/resumable-photo-603252",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "weather_expansion/resumable-photo-603253",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "weather_expansion/resumable-photo-603253",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "weather_expansion/resumable-photo-195462",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "weather_expansion/resumable-photo-195462",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "weather_expansion/resumable-photo-195466",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 1,
+      "predicted": 1,
+      "best_iou": 0.1618206060656886,
+      "hit": false
+    },
+    {
+      "key": "weather_expansion/resumable-photo-195466",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "weather_expansion/resumable-photo-47167",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "weather_expansion/resumable-photo-47167",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "weather_expansion/resumable-photo-47168",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "weather_expansion/resumable-photo-47168",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "weather_expansion/wave3-photo-53875",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 1,
+      "predicted": 1,
+      "best_iou": 0.2506944452682582,
+      "hit": false
+    },
+    {
+      "key": "weather_expansion/wave3-photo-53875",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 1,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "weather_expansion/engine-snow80-4",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 1,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "weather_expansion/engine-snow80-4",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "weather_expansion/engine-snow80-11",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 1,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "weather_expansion/engine-snow80-11",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "weather_expansion/engine-snow820-1",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "weather_expansion/engine-snow820-1",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 1,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "weather_expansion/engine-rain80-11",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "weather_expansion/engine-rain80-11",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "weather_expansion/engine-rain820-9",
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "weather_expansion/engine-rain820-9",
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "axle_round2/axle2-1-0",
+      "cohort": "new",
+      "label": "front_axle",
+      "annotated": 1,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "axle_round2/axle2-1-0",
+      "cohort": "new",
+      "label": "model_marking",
+      "annotated": 1,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "axle_round2/axle2-2-0",
+      "cohort": "new",
+      "label": "front_axle",
+      "annotated": 0,
+      "predicted": 1,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "axle_round2/axle2-2-0",
+      "cohort": "new",
+      "label": "model_marking",
+      "annotated": 1,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "axle_round2/axle2-2-1",
+      "cohort": "new",
+      "label": "front_axle",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "axle_round2/axle2-2-1",
+      "cohort": "new",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "axle_round2/axle2-3-0",
+      "cohort": "new",
+      "label": "front_axle",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "axle_round2/axle2-3-0",
+      "cohort": "new",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "axle_round2/axle2-3-1",
+      "cohort": "new",
+      "label": "front_axle",
+      "annotated": 1,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "axle_round2/axle2-3-1",
+      "cohort": "new",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "axle_round2/axle2-4-0",
+      "cohort": "new",
+      "label": "front_axle",
+      "annotated": 1,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "axle_round2/axle2-4-0",
+      "cohort": "new",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "axle_round2/axle2-4-3",
+      "cohort": "new",
+      "label": "front_axle",
+      "annotated": 1,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "axle_round2/axle2-4-3",
+      "cohort": "new",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "axle_round2/axle2-4-4",
+      "cohort": "new",
+      "label": "front_axle",
+      "annotated": 0,
+      "predicted": 1,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "axle_round2/axle2-4-4",
+      "cohort": "new",
+      "label": "model_marking",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "axle_round2/axle2-extra-0",
+      "cohort": "new",
+      "label": "front_axle",
+      "annotated": 0,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "axle_round2/axle2-extra-0",
+      "cohort": "new",
+      "label": "model_marking",
+      "annotated": 1,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "axle_round2/axle2-extra-5",
+      "cohort": "new",
+      "label": "front_axle",
+      "annotated": 1,
+      "predicted": 2,
+      "best_iou": 0.8365756623027338,
+      "hit": true
+    },
+    {
+      "key": "axle_round2/axle2-extra-5",
+      "cohort": "new",
+      "label": "model_marking",
+      "annotated": 1,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "axle_round2/axle2-extra-7",
+      "cohort": "new",
+      "label": "front_axle",
+      "annotated": 1,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    },
+    {
+      "key": "axle_round2/axle2-extra-7",
+      "cohort": "new",
+      "label": "model_marking",
+      "annotated": 1,
+      "predicted": 0,
+      "best_iou": 0.0,
+      "hit": false
+    }
+  ],
+  "weights_sha256": "137408b328ada4ec8142c20cffb7198a6eccbf136abd40900557424c6f8d75da",
+  "annotations_sha256": "0a9f889b89b5318c70b4af595449da03497036d40574b299835a3ba577faebaa",
+  "note": "Exploratory fixed-epoch last.pt detector. No exact MTZ upgrades. New control never trained.",
+  "operational": {
+    "previous_parts_exact": {
+      "correct": 21,
+      "wrong": 0,
+      "accepted": 21
+    },
+    "supervised_agreement_exact": {
+      "correct": 21,
+      "wrong": 0,
+      "accepted": 21
+    }
+  },
+  "localization_summary": [
+    {
+      "cohort": "legacy",
+      "label": "front_axle",
+      "annotated": 14,
+      "hit_iou50": 5,
+      "unboxed_with_detection": 2
+    },
+    {
+      "cohort": "legacy",
+      "label": "model_marking",
+      "annotated": 4,
+      "hit_iou50": 0,
+      "unboxed_with_detection": 0
+    },
+    {
+      "cohort": "new",
+      "label": "front_axle",
+      "annotated": 6,
+      "hit_iou50": 1,
+      "unboxed_with_detection": 2
+    },
+    {
+      "cohort": "new",
+      "label": "model_marking",
+      "annotated": 5,
+      "hit_iou50": 0,
+      "unboxed_with_detection": 0
+    }
+  ],
+  "annotations_images": 70,
+  "annotation_counts": {
+    "front_axle": 39,
+    "model_marking": 16
+  },
+  "verification": {
+    "pytest_passed": 114,
+    "flake8": "passed",
+    "git_diff_check": "passed",
+    "work_stopped_at_user_request": true
+  }
+}

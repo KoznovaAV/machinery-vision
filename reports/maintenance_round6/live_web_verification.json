@@ -1,0 +1,55 @@
+{
+  "tanker": {
+    "source": "D:\\machinery-vision\\project\\output\\continuation_round5\\photos\\r5b-103.jpg",
+    "result": "D:\\machinery-vision\\project\\output\\hierarchy_review\\e339ee2613b5484ea1e7b3bde5ba668e\\prediction.json",
+    "objects": 1,
+    "uncertain": 0,
+    "ignored": [
+      "semantic_trailer",
+      "composite_duplicate"
+    ],
+    "http": 200
+  },
+  "uncertain_trailer": {
+    "source": "D:\\machinery-vision\\project\\output\\weather_expansion\\photos\\resumable-photo-627531.jpg",
+    "result": "D:\\machinery-vision\\project\\output\\hierarchy_review\\0ada9a8f261f459ba54e74f9094af3af\\prediction.json",
+    "objects": 1,
+    "uncertain": 1,
+    "ignored": [
+      "ambiguous_powered_or_attachment"
+    ],
+    "http": 200
+  },
+  "real_combine": {
+    "source": "D:\\machinery-vision\\project\\output\\open_set\\candidates\\tractorbg-293984.jpg",
+    "result": "D:\\machinery-vision\\project\\output\\hierarchy_review\\e7095bccfaf0458a9de17c1903c40301\\prediction.json",
+    "objects": 3,
+    "uncertain": 0,
+    "ignored": [],
+    "http": 200
+  },
+  "multiple": {
+    "source": "D:\\machinery-vision\\project\\output\\continuation_round6\\web_verification\\6345b13e171f419ab19301aed4892993\\input.jpg",
+    "result": "D:\\machinery-vision\\project\\output\\hierarchy_review\\c47682d09941481db869ebc815683a31\\prediction.json",
+    "objects": 3,
+    "uncertain": 0,
+    "ignored": [],
+    "http": 200
+  },
+  "mud": {
+    "source": "D:\\machinery-vision\\project\\output\\hierarchy_review\\c7f689a77538495b893703dd765ca5b8\\input.jpg",
+    "result": "D:\\machinery-vision\\project\\output\\hierarchy_review\\691b7ac1c97b40b2827d4e662d5c6250\\prediction.json",
+    "objects": 1,
+    "uncertain": 0,
+    "ignored": [],
+    "http": 200
+  },
+  "night": {
+    "source": "D:\\machinery-vision\\project\\output\\mvp\\photos\\m004.jpg",
+    "result": "D:\\machinery-vision\\project\\output\\hierarchy_review\\3c0c860c0e7d41528223e66fc5b45deb\\prediction.json",
+    "objects": 1,
+    "uncertain": 0,
+    "ignored": [],
+    "http": 200
+  }
+}

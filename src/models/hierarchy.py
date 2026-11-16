@@ -67,6 +67,100 @@ def visible_marking(evidence):
     return next(iter(tokens)) if len(tokens) == 1 else None
 
 
+def branded_marking_family(marking):
+    """Offer a family hint only for model digits corroborated near a readable brand."""
+    if not marking or marking.get("status") != "consistent_marking":
+        return None
+    label = marking.get("suggestion")
+    token = visible_marking(marking)
+    size = marking.get("image_size", [])
+    if label not in LABELS or token is None or len(size) != 2 or min(size) <= 0:
+        return None
+    family = family_of(label)
+    patterns = {
+        "mtz_80_family": r"(?<![A-ZА-Я])(?:MTZ|МТЗ|BELARUS|БЕЛАРУС)(?![A-ZА-Я])",
+        "nh_t5000_family": r"NEW\s*HOLLAND",
+    }
+    if family == "mtz_80_family" and not re.fullmatch(r"(?:80|82|820)(?:\.1)?", token):
+        return None
+    if family == "nh_t5000_family" and not re.fullmatch(r"T50[3-7]0", token):
+        return None
+    pattern = patterns.get(family)
+    if pattern is None:
+        return None
+    width, height = size
+    lines = marking.get("full", []) + marking.get("body", [])
+    for pair in marking.get("pairs", []):
+        box = pair.get("full_box")
+        if not box or len(box) != 4:
+            continue
+        x, y = (box[0] + box[2]) / 2, (box[1] + box[3]) / 2
+        if not 0.20 <= y / height <= 0.75:
+            continue
+        for line in lines:
+            if line.get("confidence", 0) < 0.95 or not re.search(pattern, line.get("text", "").upper()):
+                continue
+            brand = line.get("box", [])
+            if len(brand) != 4:
+                continue
+            dx = ((brand[0] + brand[2]) / 2 - x) / width
+            dy = ((brand[1] + brand[3]) / 2 - y) / height
+            if dx * dx + dy * dy <= 0.20 ** 2:
+                return family
+    return None
+
+
+def unsupported_nh_marking(marking):
+    """Recognize corroborated NH M/TM/TS markings outside the trained catalogue."""
+    if not marking or marking.get("status") == "consistent_marking":
+        return None
+    size = marking.get("image_size", [])
+    if len(size) != 2 or min(size) <= 0:
+        return None
+    width, height = size
+    pattern = r"(?<![A-Z0-9])(?:TM|TS|M)[- ]?\d{2,3}(?![A-Z0-9])"
+
+    def tokens(line):
+        if line.get("confidence", 0) < 0.95:
+            return set()
+        text = line.get("text", "").upper().translate(str.maketrans({"М": "M", "Т": "T"}))
+        return {re.sub(r"[- ]", "", token) for token in re.findall(pattern, text)}
+
+    def overlaps(a, b):
+        if len(a) != 4 or len(b) != 4:
+            return False
+        intersection = max(0, min(a[2], b[2]) - max(a[0], b[0])) * max(0, min(a[3], b[3]) - max(a[1], b[1]))
+        union = (a[2]-a[0])*(a[3]-a[1]) + (b[2]-b[0])*(b[3]-b[1]) - intersection
+        return union > 0 and intersection / union >= 0.05
+
+    full, body = marking.get("full", []), marking.get("body", [])
+    brands = []
+    for a in full:
+        for b in body:
+            if (min(a.get("confidence", 0), b.get("confidence", 0)) >= 0.95
+                    and all(re.search(r"NEW\s*HOLLAND", line.get("text", "").upper()) for line in (a, b))
+                    and overlaps(a.get("box", []), b.get("box", []))):
+                brands.append(a["box"])
+    candidates = set()
+    for a in full:
+        for b in body:
+            common = tokens(a) & tokens(b)
+            if not common or not overlaps(a.get("box", []), b.get("box", [])):
+                continue
+            box = a["box"]
+            x, y = (box[0]+box[2])/2, (box[1]+box[3])/2
+            if not 0.20 <= y / height <= 0.75:
+                continue
+            for brand in brands:
+                dx = ((brand[0]+brand[2])/2-x)/width
+                dy = ((brand[1]+brand[3])/2-y)/height
+                if dx*dx+dy*dy <= 0.20**2:
+                    candidates.update(common)
+    trained = {item.get("evidence_token") for item in CATALOG["models"].values()}
+    candidates -= trained
+    return next(iter(candidates)) if len(candidates) == 1 else None
+
+
 def predict_hierarchy(bundle, vector, marking=None, detected_type=None):
     if (
         bundle.get("taxonomy_version") != TAXONOMY_VERSION
@@ -76,6 +170,26 @@ def predict_hierarchy(bundle, vector, marking=None, detected_type=None):
         raise ValueError("Unsupported hierarchy bundle")
     vehicle, vehicle_score, _ = vote(bundle["heads"]["type"], vector)
     family, score, _ = vote(bundle["heads"]["family"], vector)
+    family_calibration = bundle["calibration"]["family"]
+    nh_specialist = bundle["heads"].get("nh_specialist")
+    if nh_specialist is not None:
+        nh_label, nh_score, _ = vote(nh_specialist, vector)
+        if nh_label == "nh_t5000_family" and qualified(
+            bundle["calibration"].get("nh_specialist", {}), nh_label, nh_score
+        ):
+            family, score = nh_label, nh_score
+            family_calibration = bundle["calibration"]["nh_specialist"]
+    unknown_gate = bundle["heads"].get("unknown_gate")
+    if unknown_gate is not None:
+        novelty, novelty_score, _ = vote(unknown_gate, vector)
+        if novelty == "unknown" and qualified(
+            bundle["calibration"].get("unknown_gate", {}), novelty, novelty_score
+        ):
+            family, score = "unknown", novelty_score
+    classifier_family = family
+    unsupported_marking = unsupported_nh_marking(marking)
+    if unsupported_marking:
+        family = "unknown"
     eligible = [k for k, v in LABELS.items() if v["family"] == family]
     if family == "mtz_80_family":
         candidate, _, alternatives = vote(bundle["heads"]["mtz_specialist"], vector)
@@ -90,7 +204,12 @@ def predict_hierarchy(bundle, vector, marking=None, detected_type=None):
     conflict = bool(
         marking_label and (marking_label not in LABELS or family_of(marking_label) != family)
     )
-    if marking_label and not conflict:
+    marking_hint = branded_marking_family(marking) if conflict else None
+    if marking_hint is not None:
+        family = marking_hint
+        candidate = marking_label
+        alternatives = [k for k, value in LABELS.items() if value["family"] == family]
+    elif marking_label and not conflict:
         candidate = marking_label
     expected_type = next((v["type"] for v in LABELS.values() if v["family"] == family), None)
     type_conflict = bool(expected_type and vehicle != expected_type) or bool(
@@ -98,7 +217,7 @@ def predict_hierarchy(bundle, vector, marking=None, detected_type=None):
     )
     known = (
         family != "unknown"
-        and qualified(bundle["calibration"]["family"], family, score)
+        and qualified(family_calibration, family, score)
         and not conflict
         and not type_conflict
     )
@@ -106,7 +225,7 @@ def predict_hierarchy(bundle, vector, marking=None, detected_type=None):
         qualified(bundle["calibration"]["type"], vehicle, vehicle_score) and not type_conflict
     )
     resolution = LABELS.get(candidate, {}).get("resolution", "unknown")
-    visible = visible_marking(marking) if marking_label and not conflict else None
+    visible = unsupported_marking or (visible_marking(marking) if marking_label else None)
     exact_candidates = [
         k
         for k, v in CATALOG["models"].items()
@@ -117,6 +236,11 @@ def predict_hierarchy(bundle, vector, marking=None, detected_type=None):
         if len(exact_candidates) == 1
         else candidate if resolution == "model" else None
     )
+    model_candidate_name = CATALOG["models"].get(fine_candidate, {}).get("name")
+    if visible and family in {"mtz_1221_family", "mtz_1523_family"}:
+        prefix = "1221" if family == "mtz_1221_family" else "1523"
+        if re.fullmatch(re.escape(prefix) + r"\.\d+", visible):
+            model_candidate_name = "БЕЛАРУС " + visible
     return dict(
         schema_version="hierarchical-response-v1",
         experimental=True,
@@ -125,12 +249,16 @@ def predict_hierarchy(bundle, vector, marking=None, detected_type=None):
         vehicle_type_candidate=detected_type or vehicle,
         family=family if known else None,
         family_candidate=family,
+        classifier_family_candidate=classifier_family,
+        candidate_source="unsupported_marking" if unsupported_marking else "branded_marking" if marking_hint else "visual_classifiers",
+        unsupported_model_marking=unsupported_marking,
         family_name=FAMILY_NAMES.get(family) if known else None,
         family_candidate_name=FAMILY_NAMES.get(family),
         model=None,
         exact_model=None,
         label_candidate=candidate if candidate != "other" and not type_conflict else None,
         model_candidate=fine_candidate if not type_conflict else None,
+        model_candidate_name=model_candidate_name if not type_conflict else None,
         candidate_resolution=resolution,
         alternatives=alternatives,
         marking_candidate=marking_label,
@@ -138,9 +266,11 @@ def predict_hierarchy(bundle, vector, marking=None, detected_type=None):
         marking_conflict=conflict,
         type_conflict=type_conflict,
         reason=(
-            "Семейство определено; точная модель не подтверждена."
+            f"Видна маркировка New Holland {unsupported_marking}; эта серия отсутствует в обученном справочнике."
+            if unsupported_marking else "Семейство определено; точная модель не подтверждена."
             if known
-            else "Недостаточно согласованных подтверждений семейства и точной модели."
+            else "Маркировка и классификатор расходятся; кандидат указан по маркировке, нужна проверка человеком."
+            if marking_hint else "Недостаточно согласованных подтверждений семейства и точной модели."
         ),
         requested_photos=required_details(family),
         details=dict(
